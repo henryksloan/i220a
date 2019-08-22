@@ -1,0 +1,117 @@
+hsloan1@g7-26:~/lab1$ ls
+dir  results.txt  t1.c	T1.s  v1.s  v.c  x.c
+
+hsloan1@g7-26:~/lab1$ ls -l
+total 0
+drwxr-xr-x 2 hsloan1 hsloan1 54 Aug 22 11:55 dir
+-rw-r--r-- 1 hsloan1 hsloan1  0 Aug 22 11:54 results.txt
+-rw-r--r-- 1 hsloan1 hsloan1  0 Aug 22 11:55 t1.c
+-rw-r--r-- 1 hsloan1 hsloan1  0 Aug 22 11:55 T1.s
+-rw-r--r-- 1 hsloan1 hsloan1  0 Aug 22 11:55 v1.s
+-rw-r--r-- 1 hsloan1 hsloan1  0 Aug 22 11:55 v.c
+-rw-r--r-- 1 hsloan1 hsloan1  0 Aug 22 11:55 x.c
+
+hsloan1@g7-26:~/lab1$ ls -tl
+total 0
+drwxr-xr-x 2 hsloan1 hsloan1 54 Aug 22 11:55 dir
+-rw-r--r-- 1 hsloan1 hsloan1  0 Aug 22 11:55 x.c
+-rw-r--r-- 1 hsloan1 hsloan1  0 Aug 22 11:55 v1.s
+-rw-r--r-- 1 hsloan1 hsloan1  0 Aug 22 11:55 v.c
+-rw-r--r-- 1 hsloan1 hsloan1  0 Aug 22 11:55 T1.s
+-rw-r--r-- 1 hsloan1 hsloan1  0 Aug 22 11:55 t1.c
+-rw-r--r-- 1 hsloan1 hsloan1  0 Aug 22 11:54 results.txt
+
+hsloan1@g7-26:~/lab1$ ls T*
+T1.s
+
+hsloan1@g7-26:~/lab1$ ls dir/*.?
+dir/t2.c
+
+hsloan1@g7-26:~/lab1$ ls [t-v]*.c
+t1.c  v.c
+
+hsloan1@g7-26:~/lab1$ ls /bin/?[p-s]*
+/bin/cp    /bin/grep  /bin/lsblk   /bin/ps    /bin/ypdomainname
+/bin/cpio  /bin/ip    /bin/lsmod   /bin/ss    /bin/zsh
+/bin/csh   /bin/ls    /bin/openvt  /bin/true  /bin/zsh5
+
+hsloan1@g7-26:~/lab1$ ls /etc/*rc
+/etc/bash.bashrc    /etc/gnashthumbnailrc  /etc/Muttrc	       /etc/screenrc
+/etc/chktexrc	    /etc/inputrc	   /etc/nanorc	       /etc/slsh.rc
+/etc/csh.cshrc	    /etc/lintianrc	   /etc/pbuilderrc     /etc/wgetrc
+/etc/gnashpluginrc  /etc/mail.rc	   /etc/quilt.quiltrc
+/etc/gnashrc	    /etc/matplotlibrc	   /etc/sbclrc
+
+hsloan1@g7-26:~/lab1$ ls /bin/???
+/bin/cat  /bin/csh  /bin/dir  /bin/pwd	/bin/red  /bin/sed  /bin/tar  /bin/zsh
+
+hsloan1@g7-26:~/lab1$ ls > ls.log
+hsloan1@g7-26:~/lab1$ cat > cat.log
+fdasadgdas
+dsagsad
+hsloan1@g7-26:~/lab1$ cat cat.log 
+fdasadgdas
+dsagsad
+hsloan1@g7-26:~/lab1$ ls dir >> ls.log
+hsloan1@g7-26:~/lab1$ cat ls.log 
+dir
+ls.log
+results.txt
+t1.c
+T1.s
+v1.s
+v.c
+x.c
+t2.c
+T2.s1
+t3
+hsloan1@g7-26:~/lab1$ cat < ls.log
+dir
+ls.log
+results.txt
+t1.c
+T1.s
+v1.s
+v.c
+x.c
+t2.c
+T2.s1
+t3
+hsloan1@g7-26:~/lab1$ cat ls.log 
+dir
+ls.log
+results.txt
+t1.c
+T1.s
+v1.s
+v.c
+x.c
+t2.c
+T2.s1
+t3
+hsloan1@g7-26:~/lab1$ ls | wc -l
+9
+
+hsloan1@g7-26:~/lab1$ ls /bin/???? | wc -l
+24
+hsloan1@g7-26:~/lab1$ ls /bin/c* | bin-c.log
+bash: bin-c.log: command not found
+hsloan1@g7-26:~/lab1$ ls /bin/c* > bin-c.log
+hsloan1@g7-26:~/lab1$ cat bin-c.log | wc -l
+9
+
+ls -R /etc/* | wc -l
+4970
+
+hsloan1@g7-26:~/lab1$ ls | tr [:upper:] [:lower:]
+bin-c.log
+cat.log
+dir
+ls.log
+results.txt
+t1.c
+t1.s
+v1.s
+v.c
+x.c
+
