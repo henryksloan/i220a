@@ -1,0 +1,616 @@
+hsloan1@g7-14:/import/linux/home1/hsloan1$ pwd
+/import/linux/home1/hsloan1
+hsloan1@g7-14:/import/linux/home1/hsloan1$ ls
+Arduino    builds  Desktop  Documents  git-repos  Music     Public     tmp
+bin-c.log  cs220   dev	    Downloads  i220a	  Pictures  Templates  Videos
+hsloan1@g7-14:/import/linux/home1/hsloan1$ cd cs220
+hsloan1@g7-14:/import/linux/home1/hsloan1/cs220$ ls
+announce.html  bin   exams-quizzes  index.umt  misc	  slides
+announce.umt   docs  hws	    labs       projects
+assets	       ex    index.html     Makefile   README.md
+hsloan1@g7-14:/import/linux/home1/hsloan1/cs220$ ls
+announce.html  bin   exams-quizzes  index.umt  misc	  slides
+announce.umt   docs  hws	    labs       projects
+assets	       ex    index.html     Makefile   README.md
+hsloan1@g7-14:/import/linux/home1/hsloan1/cs220$ ^C w
+hsloan1@g7-14:/import/linux/home1/hsloan1/cs220$ cd labs/^C
+hsloan1@g7-14:/import/linux/home1/hsloan1/cs220$ cd..
+bash: cd..: command not found
+hsloan1@g7-14:/import/linux/home1/hsloan1/cs220$ cd ..
+hsloan1@g7-14:/import/linux/home1/hsloan1$ ls
+Arduino    builds  Desktop  Documents  git-repos  Music     Public     tmp
+bin-c.log  cs220   dev	    Downloads  i220a	  Pictures  Templates  Videos
+hsloan1@g7-14:/import/linux/home1/hsloan1$ cd dev/
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev$ ls
+CS120  moore_CS140
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev$ mkdir cs220
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev$ cd cs220/
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev/cs220$ ls
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev/cs220$ mkdir lab2
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev/cs220$ cd lab2/
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev/cs220/lab2$ cp -r ~/cs220/labs/lab2/files/*
+cp: missing destination file operand after '/home/hsloan1/cs220/labs/lab2/files/*'
+Try 'cp --help' for more information.
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev/cs220/lab2$ cp -r ~/cs220/labs/lab2/files/* .
+cp: cannot stat '/home/hsloan1/cs220/labs/lab2/files/*': No such file or directory
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev/cs220/lab2$ cp -r ~/cs220/labs/
+index.html  index.umt   lab1/       lab-tips/   Makefile    
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev/cs220/lab2$ cp -r ~/cs220/labs/
+index.html  index.umt   lab1/       lab-tips/   Makefile    
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev/cs220/lab2$ cp -r ~/cs220/labs/
+index.html  index.umt   lab1/       lab-tips/   Makefile    
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev/cs220/lab2$ cp -r ~/cs220/labs/^C
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev/cs220/lab2$ ls ~
+Arduino    builds  Desktop  Documents  git-repos  Music     Public     tmp
+bin-c.log  cs220   dev	    Downloads  i220a	  Pictures  Templates  Videos
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev/cs220/lab2$ ls ~/cs220/
+announce.html  docs/          .gitignore     labs/          README.md
+announce.umt   ex/            hws/           Makefile       slides/
+assets/        exams-quizzes/ index.html     misc/          
+bin/           .git/          index.umt      projects/      
+hsloan1@g7-14:/import/linux/home1/hsloan1/dev/cs220/lab2$ cd ~/cs220/
+hsloan1@g7-14:~/cs220$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+
+hsloan1@g7-14:~/cs220$ g^C clone origin master
+hsloan1@g7-14:~/cs220$ git pull
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.206' to the list of known hosts.
+hsloan1@remote.cs.binghamton.edu's password: 
+remote: Enumerating objects: 217, done.
+remote: Counting objects: 100% (217/217), done.
+remote: Compressing objects: 100% (178/178), done.
+remote: Total 188 (delta 89), reused 0 (delta 0)
+Receiving objects: 100% (188/188), 531.50 KiB | 5.42 MiB/s, done.
+Resolving deltas: 100% (89/89), completed with 21 local objects.
+From ssh://remote.cs.binghamton.edu/~umrigar/git-repos/cs220
+   7a1e2a0..9868958  master     -> origin/master
+Updating 7a1e2a0..9868958
+Fast-forward
+ index.html                                  |   20 +-
+ index.umt                                   |   16 +
+ labs/index.html                             |   28 +-
+ labs/index.umt                              |    6 +-
+ labs/lab-tips/lab-tips.html                 |   10 +-
+ labs/lab-tips/lab-tips.pdf                  |  Bin 35169 -> 35175 bytes
+ labs/lab-tips/lab-tips.umt                  |    2 +-
+ labs/lab2/.gitignore                        |    1 +
+ labs/lab2/Makefile                          |   22 +
+ labs/lab2/files/Makefile                    |    2 +
+ labs/lab2/files/ex1/hello.c                 |    8 +
+ labs/lab2/files/ex2/Makefile                |    2 +
+ labs/lab2/files/ex3/Makefile                |   11 +
+ labs/lab2/files/ex3/README                  |    2 +
+ labs/lab2/files/ex3/main.c                  |   52 +
+ labs/lab2/files/ex3/quadr.c                 |   14 +
+ labs/lab2/files/ex3/quadr.h                 |   11 +
+ labs/lab2/files/ex3/test.data               |    4 +
+ labs/lab2/files/ex4/README                  |   33 +
+ labs/lab2/files/ex4/key-value.c             |   93 +
+ labs/lab2/files/ex4/key-value.h             |   20 +
+ labs/lab2/files/ex4/main.c                  |   28 +
+ labs/lab2/files/ex4/process-file.c          |   53 +
+ labs/lab2/files/ex4/process-file.h          |   11 +
+ labs/lab2/lab2.html                         |  359 ++++
+ labs/lab2/lab2.pdf                          |  Bin 0 -> 102661 bytes
+ labs/lab2/lab2.umt                          |  476 +++++
+ misc/cs-account-setup/cs-account-setup.html |  119 +-
+ misc/cs-account-setup/cs-account-setup.pdf  |  Bin 60438 -> 61799 bytes
+ misc/cs-account-setup/cs-account-setup.umt  |  123 +-
+ projects/index.html                         |    3 +-
+ projects/index.umt                          |    3 +
+ projects/prj1/Makefile                      |   22 +
+ projects/prj1/aux-files/test1.LOG           |   75 +
+ projects/prj1/prj1-sol/.gitignore           |    1 +
+ projects/prj1/prj1-sol/Makefile             |   20 +
+ projects/prj1/prj1-sol/bits-to-ints.c       |   53 +
+ projects/prj1/prj1-sol/bits-to-ints.h       |   47 +
+ projects/prj1/prj1-sol/errors.c             |   30 +
+ projects/prj1/prj1-sol/errors.h             |   14 +
+ projects/prj1/prj1-sol/main.c               |   52 +
+ projects/prj1/prj1-sol/test1.txt            |    8 +
+ projects/prj1/prj1.html                     |  213 +++
+ projects/prj1/prj1.pdf                      |  Bin 0 -> 88917 bytes
+ projects/prj1/prj1.umt                      |  310 ++++
+ slides/c-intro/Makefile                     |   22 +
+ slides/c-intro/c-intro.html                 |  439 +++++
+ slides/c-intro/c-intro.pdf                  |  Bin 0 -> 181922 bytes
+ slides/c-intro/c-intro.umt                  | 2508 +++++++++++++++++++++++++++
+ slides/c-intro/c-intro/hl-fine_blue.css     |   19 +
+ slides/c-intro/c-intro/hl-fine_blue.sty     |   19 +
+ slides/c-intro/code/Makefile                |    1 +
+ slides/c-intro/code/bases.c                 |   23 +
+ slides/c-intro/code/count-1s-1.c            |   20 +
+ slides/c-intro/code/count-1s-2.c            |   21 +
+ slides/c-intro/code/endian.c                |   15 +
+ slides/c-intro/code/float8.rb               |   80 +
+ slides/c-intro/code/integer-sizes.c         |   11 +
+ slides/c-intro/code/kilo-powers.c           |   55 +
+ slides/c-intro/code/out-bits.c              |   32 +
+ slides/c-intro/code/ptr-sum.c               |   24 +
+ slides/c-intro/code/robust-sum.c            |   22 +
+ slides/c-intro/code/sum-args.c              |   14 +
+ slides/c-intro/code/sum.c                   |   14 +
+ slides/c-intro/code/wc.c                    |   62 +
+ slides/c-intro/figs/fp-cases.gif            |  Bin 0 -> 10441 bytes
+ slides/c-intro/figs/fp-formats.gif          |  Bin 0 -> 8791 bytes
+ slides/index.html                           |    3 +
+ slides/index.umt                            |    1 +
+ slides/intro/intro.html                     |    2 +-
+ slides/intro/intro.pdf                      |  Bin 350817 -> 350820 bytes
+ slides/intro/intro.umt                      |    2 +-
+ slides/syllabus/syllabus.html               |  154 +-
+ slides/syllabus/syllabus.pdf                |  Bin 112426 -> 114341 bytes
+ slides/syllabus/syllabus.umt                |   30 +-
+ 75 files changed, 5752 insertions(+), 218 deletions(-)
+ create mode 100644 labs/lab2/.gitignore
+ create mode 100755 labs/lab2/Makefile
+ create mode 100644 labs/lab2/files/Makefile
+ create mode 100644 labs/lab2/files/ex1/hello.c
+ create mode 100644 labs/lab2/files/ex2/Makefile
+ create mode 100644 labs/lab2/files/ex3/Makefile
+ create mode 100644 labs/lab2/files/ex3/README
+ create mode 100644 labs/lab2/files/ex3/main.c
+ create mode 100644 labs/lab2/files/ex3/quadr.c
+ create mode 100644 labs/lab2/files/ex3/quadr.h
+ create mode 100644 labs/lab2/files/ex3/test.data
+ create mode 100644 labs/lab2/files/ex4/README
+ create mode 100644 labs/lab2/files/ex4/key-value.c
+ create mode 100644 labs/lab2/files/ex4/key-value.h
+ create mode 100644 labs/lab2/files/ex4/main.c
+ create mode 100644 labs/lab2/files/ex4/process-file.c
+ create mode 100644 labs/lab2/files/ex4/process-file.h
+ create mode 100644 labs/lab2/lab2.html
+ create mode 100644 labs/lab2/lab2.pdf
+ create mode 100644 labs/lab2/lab2.umt
+ create mode 100755 projects/prj1/Makefile
+ create mode 100644 projects/prj1/aux-files/test1.LOG
+ create mode 100644 projects/prj1/prj1-sol/.gitignore
+ create mode 100644 projects/prj1/prj1-sol/Makefile
+ create mode 100644 projects/prj1/prj1-sol/bits-to-ints.c
+ create mode 100644 projects/prj1/prj1-sol/bits-to-ints.h
+ create mode 100644 projects/prj1/prj1-sol/errors.c
+ create mode 100644 projects/prj1/prj1-sol/errors.h
+ create mode 100644 projects/prj1/prj1-sol/main.c
+ create mode 100644 projects/prj1/prj1-sol/test1.txt
+ create mode 100644 projects/prj1/prj1.html
+ create mode 100644 projects/prj1/prj1.pdf
+ create mode 100644 projects/prj1/prj1.umt
+ create mode 100644 slides/c-intro/Makefile
+ create mode 100644 slides/c-intro/c-intro.html
+ create mode 100644 slides/c-intro/c-intro.pdf
+ create mode 100644 slides/c-intro/c-intro.umt
+ create mode 100644 slides/c-intro/c-intro/hl-fine_blue.css
+ create mode 100644 slides/c-intro/c-intro/hl-fine_blue.sty
+ create mode 100644 slides/c-intro/code/Makefile
+ create mode 100644 slides/c-intro/code/bases.c
+ create mode 100644 slides/c-intro/code/count-1s-1.c
+ create mode 100644 slides/c-intro/code/count-1s-2.c
+ create mode 100644 slides/c-intro/code/endian.c
+ create mode 100755 slides/c-intro/code/float8.rb
+ create mode 100644 slides/c-intro/code/integer-sizes.c
+ create mode 100644 slides/c-intro/code/kilo-powers.c
+ create mode 100644 slides/c-intro/code/out-bits.c
+ create mode 100644 slides/c-intro/code/ptr-sum.c
+ create mode 100644 slides/c-intro/code/robust-sum.c
+ create mode 100644 slides/c-intro/code/sum-args.c
+ create mode 100644 slides/c-intro/code/sum.c
+ create mode 100644 slides/c-intro/code/wc.c
+ create mode 100644 slides/c-intro/figs/fp-cases.gif
+ create mode 100644 slides/c-intro/figs/fp-formats.gif
+hsloan1@g7-14:~/cs220$ ls
+announce.html  bin   exams-quizzes  index.umt  misc	  slides
+announce.umt   docs  hws	    labs       projects
+assets	       ex    index.html     Makefile   README.md
+hsloan1@g7-14:~/cs220$ cd ~/dev/cs220/lab2/
+hsloan1@g7-14:~/dev/cs220/lab2$ ls
+hsloan1@g7-14:~/dev/cs220/lab2$ cp -r ~/cs220/labs/lab2/files/* .
+hsloan1@g7-14:~/dev/cs220/lab2$ cd ex1/
+hsloan1@g7-14:~/dev/cs220/lab2/ex1$ ls -l
+total 4
+-rw-r--r-- 1 hsloan1 hsloan1 75 Aug 29 11:47 hello.c
+hsloan1@g7-14:~/dev/cs220/lab2/ex1$ make
+make: *** No targets specified and no makefile found.  Stop.
+hsloan1@g7-14:~/dev/cs220/lab2/ex1$ make^C
+hsloan1@g7-14:~/dev/cs220/lab2/ex1$ file hello
+hello: cannot open `hello' (No such file or directory)
+hsloan1@g7-14:~/dev/cs220/lab2/ex1$ ls
+hello.c
+hsloan1@g7-14:~/dev/cs220/lab2/ex1$ make
+make: *** No targets specified and no makefile found.  Stop.
+hsloan1@g7-14:~/dev/cs220/lab2/ex1$ make hello
+cc     hello.c   -o hello
+hsloan1@g7-14:~/dev/cs220/lab2/ex1$ ls
+hello  hello.c
+hsloan1@g7-14:~/dev/cs220/lab2/ex1$ file hello
+hello: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=a9500b0c7cccf0bba863e8a1dced42b7d7806988, not stripped
+hsloan1@g7-14:~/dev/cs220/lab2/ex1$ ./hello
+hello world
+hsloan1@g7-14:~/dev/cs220/lab2/ex1$ make -p | less
+make: *** No targets specified and no makefile found.  Stop.
+hsloan1@g7-14:~/dev/cs220/lab2/ex1$ cd ../ex2
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ make
+Makefile:2: *** missing separator.  Stop.
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ vim
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ vim Makefile 
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ make
+Makefile:2: *** missing separator.  Stop.
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ fg
+bash: fg: current: no such job
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ vim Makefile 
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ fg
+bash: fg: current: no such job
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ make
+Makefile:2: *** missing separator.  Stop.
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ fg
+bash: fg: current: no such job
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ vim Makefile 
+
+[1]+  Stopped                 vim Makefile
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ $USER
+bash: hsloan1: command not found
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ fg
+vim Makefile
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ make
+echo "hello $USER"
+hello hsloan1
+hsloan1@g7-14:~/dev/cs220/lab2/ex2$ cd ..
+hsloan1@g7-14:~/dev/cs220/lab2$ cd ex3
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ make
+cc -g -Wall -std=c11   -c -o quadr.o quadr.c
+cc -g -Wall -std=c11   -c -o main.o main.c
+cc  quadr.o main.o -o quadr
+/usr/bin/ld: quadr.o: in function `quadratic_roots':
+/home/hsloan1/dev/cs220/lab2/ex3/quadr.c:10: undefined reference to `sqrt'
+/usr/bin/ld: /home/hsloan1/dev/cs220/lab2/ex3/quadr.c:11: undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:7: quadr] Error 1
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ vim Makefile 
+
+[1]+  Stopped                 vim Makefile
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ make
+cc quadr.o main.o -lm -o quadr
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ fg
+vim Makefile
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ ./quadr 
+4
+<stdin>:1: must have 3 doubles: bad input line 4
+123
+<stdin>:2: must have 3 doubles: bad input line 123
+2 1 4
+a = 2, b = 1, c = 4, root1 = -nan, root2 = -nan
+1 2 3
+a = 1, b = 2, c = 3, root1 = -nan, root2 = -nan
+5 2 3
+a = 5, b = 2, c = 3, root1 = -nan, root2 = -nan
+2 3 5
+a = 2, b = 3, c = 5, root1 = -nan, root2 = -nan
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ ./quadr < 
+main.c     Makefile   quadr.c    quadr.o    test.data  
+main.o     quadr      quadr.h    README     
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ ./quadr < test.data 
+a = 2, b = 6, c = 4, root1 = -1, root2 = -2
+a = 1, b = 5, c = -2, root1 = 0.372281, root2 = -5.37228
+a = 2, b = 3, c = 4, root1 = -nan, root2 = -nan
+<stdin>:4: must have 3 doubles: bad input line 1 2+ 3
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ cat test.data 
+2 6 4
+1 5 -2
+2 3 4 5
+1 2+ 3
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ touch quadr.h
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ make
+make: 'quadr' is up to date.
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ cat quadr.h
+#ifndef _QUADR_H
+#define _QUADR_H
+
+typedef struct {
+  double root1;
+  double root2;
+} Roots;
+
+Roots quadratic_roots(double a, double b, double c);
+
+#endif
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ cat ~/cs220/labs/lab2/
+files/      .gitignore  lab2.html   lab2.pdf    lab2.umt    Makefile
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ cat ~/cs220/labs/lab2/files/ex3/
+cat: /home/hsloan1/cs220/labs/lab2/files/ex3/: Is a directory
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ cat ~/cs220/labs/lab2/files/ex3/quadr.h
+#ifndef _QUADR_H
+#define _QUADR_H
+
+typedef struct {
+  double root1;
+  double root2;
+} Roots;
+
+Roots quadratic_roots(double a, double b, double c);
+
+#endif
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ man touch
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ vim Makefile 
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ make depend
+cc -MM  *.c
+main.o: main.c quadr.h
+quadr.o: quadr.c quadr.h
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ ^C
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ fg
+bash: fg: current: no such job
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ vim Makefile 
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ make
+Makefile:17: *** missing separator.  Stop.
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ fg
+bash: fg: current: no such job
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ vim Makefile 
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ fg
+bash: fg: current: no such job
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ make
+cc -g -Wall -std=c11   -c -o quadr.o quadr.c
+cc -g -Wall -std=c11   -c -o main.o main.c
+cc quadr.o main.o -lm -o quadr
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ vim Makefile 
+
+[No write since last change]
+main.c	main.o	Makefile  quadr  quadr.c  quadr.h  quadr.o  README  test.data
+
+Press ENTER or type command to continue
+[No write since last change]
+main.c	main.o	Makefile  quadr  quadr.c  quadr.h  quadr.o  README  test.data
+
+Press ENTER or type command to continue
+[No write since last change]
+main.c	main.o	Makefile  quadr  quadr.c  quadr.h  quadr.o  README  test.data
+
+Press ENTER or type command to continue
+[No write since last change]
+kk^[No manual entry for 				gzip -f $(PROJECT).tar
+
+shell returned 16
+
+Press ENTER or type command to continue
+[1]+  Stopped                 vim Makefile
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ make dist
+Makefile:21: *** missing separator.  Stop.
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ fg
+vim Makefile
+
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ make dist
+Makefile:21: *** missing separator.  Stop.
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ vim Makefile 
+
+[1]+  Stopped                 vim Makefile
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ fg
+vim Makefile
+
+[1]+  Stopped                 vim Makefile
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ vim Makefile 
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ make dist
+tar -cf quadr.tar main.c quadr.c quadr.h test.data Makefile README
+gzip -f quadr.tar
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ mkdir temp
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ cd te
+bash: cd: te: No such file or directory
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ cd te
+temp/      test.data  
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ cd temp/
+hsloan1@g7-14:~/dev/cs220/lab2/ex3/temp$ tar -xzf ../
+main.c         .Makefile.swp  quadr.h        README         
+main.o         quadr          quadr.o        temp/          
+Makefile       quadr.c        quadr.tar.gz   test.data      
+hsloan1@g7-14:~/dev/cs220/lab2/ex3/temp$ tar -xzf ../quadr.tar.gz 
+hsloan1@g7-14:~/dev/cs220/lab2/ex3/temp$ ls
+main.c	Makefile  quadr.c  quadr.h  README  test.data
+hsloan1@g7-14:~/dev/cs220/lab2/ex3/temp$ make
+cc -g -Wall -std=c11   -c -o quadr.o quadr.c
+cc -g -Wall -std=c11   -c -o main.o main.c
+cc quadr.o main.o -lm -o quadr
+hsloan1@g7-14:~/dev/cs220/lab2/ex3/temp$ cd ..
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ cat Makefile 
+PROJECT = quadr
+
+CFLAGS = -g -Wall -std=c11
+LDFLAGS = -lm
+
+SRC_FILES = main.c \
+	    quadr.c quadr.h \
+	    test.data \
+	    Makefile \
+	    README
+
+$(PROJECT):	quadr.o main.o
+		$(CC) quadr.o main.o $(LDFLAGS) -o $@
+
+clean:
+		rm -f *.o $(PROJECT) $(PROJECT).tar.gz
+
+dist:			$(PROJECT).tar.gz
+
+$(PROJECT).tar.gz: $(SRC_FILES)
+	tar -cf $(PROJECT).tar $(SRC_FILES)
+	gzip -f $(PROJECT).tar
+
+depend:
+		$(CC) -MM $(CPPFLAGS) *.c
+
+# Auto-generated dependencies
+main.o: main.c quadr.h
+quadr.o: quadr.c quadr.h
+hsloan1@g7-14:~/dev/cs220/lab2/ex3$ cd ../ex4/
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ ls
+key-value.c  key-value.h  main.c  process-file.c  process-file.h  README
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ cp ../ex3/Makefile .
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ vim Makefile 
+
+key-value.c  main.c    process-file.c  README
+key-value.h  Makefile  process-file.h
+
+Press ENTER or type command to continue
+[No write since last change]
+key-value.c  main.c    process-file.c  README
+key-value.h  Makefile  process-file.h
+
+Press ENTER or type command to continue
+[No write since last change]
+key-value.c  main.c    process-file.c  README
+key-value.h  Makefile  process-file.h
+
+Press ENTER or type command to continue
+[2]+  Stopped                 vim Makefile
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ make
+make: *** No rule to make target 'quadr.o', needed by 'key-value'.  Stop.
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ fg
+vim Makefile
+
+[2]+  Stopped                 vim Makefile
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ make
+cc -g -Wall -std=c11   -c -o main.o main.c
+cc -g -Wall -std=c11   -c -o key-value.o key-value.c
+cc -g -Wall -std=c11   -c -o process-file.o process-file.c
+cc quadr.o main.o  -o key-value
+cc: error: quadr.o: No such file or directory
+make: *** [Makefile:13: key-value] Error 1
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ fg
+vim Makefile
+
+[2]+  Stopped                 vim Makefile
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ make
+cc  key-value.o process-file.o main.o  -o key-value
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ ./key-value 
+4
+<stdin>:1: bad input
+2 3
+<stdin>:2: bad input
+add 1 2
+<stdin>:3: bad input
+^C
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ vim key-value.
+key-value.c  key-value.h  key-value.o  
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ vim key-value.^C
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ vim main.
+main.c  main.o  
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ vim main.c
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ fg
+vim Makefile
+
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ ./key-value < 
+key-value       key-value.o     Makefile        process-file.o
+key-value.c     main.c          process-file.c  README
+key-value.h     main.o          process-file.h  
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ ./key-value 
+1+2
+<stdin>:1: bad input
+1=2
+-1
+^C
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ ls
+key-value    key-value.h  main.c  Makefile	  process-file.h  README
+key-value.c  key-value.o  main.o  process-file.c  process-file.o
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ cat Makefile 
+PROJECT = key-value
+
+CFLAGS = -g -Wall -std=c11
+LDFLAGS =
+
+SRC_FILES = main.c \
+	    key-value.c key-value.h \
+	    process-file.c process-file.h \
+	    Makefile \
+	    README
+
+$(PROJECT):	main.o key-value.o process-file.o
+		$(CC)  key-value.o process-file.o main.o $(LDFLAGS) -o $@
+
+clean:
+		rm -f *.o $(PROJECT) $(PROJECT).tar.gz
+
+dist:			$(PROJECT).tar.gz
+
+$(PROJECT).tar.gz: $(SRC_FILES)
+	tar -cf $(PROJECT).tar $(SRC_FILES)
+	gzip -f $(PROJECT).tar
+
+depend:
+		$(CC) -MM $(CPPFLAGS) *.c
+
+# Auto-generated dependencies
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ make depend
+cc -MM  *.c
+key-value.o: key-value.c key-value.h
+main.o: main.c process-file.h
+process-file.o: process-file.c key-value.h process-file.h
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ vim Makefile 
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ cat Makefile 
+PROJECT = key-value
+
+CFLAGS = -g -Wall -std=c11
+LDFLAGS =
+
+SRC_FILES = main.c \
+	    key-value.c key-value.h \
+	    process-file.c process-file.h \
+	    Makefile \
+	    README
+
+$(PROJECT):	main.o key-value.o process-file.o
+		$(CC)  key-value.o process-file.o main.o $(LDFLAGS) -o $@
+
+clean:
+		rm -f *.o $(PROJECT) $(PROJECT).tar.gz
+
+dist:			$(PROJECT).tar.gz
+
+$(PROJECT).tar.gz: $(SRC_FILES)
+	tar -cf $(PROJECT).tar $(SRC_FILES)
+	gzip -f $(PROJECT).tar
+
+depend:
+		$(CC) -MM $(CPPFLAGS) *.c
+
+# Auto-generated dependencies
+key-value.o: key-value.c key-value.h
+main.o: main.c process-file.h
+process-file.o: process-file.c key-value.h process-file.h
+hsloan1@g7-14:~/dev/cs220/lab2/ex4$ 
+
