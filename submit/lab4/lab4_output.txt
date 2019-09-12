@@ -1,0 +1,196 @@
+Script started on 2019-09-12 12:17:15-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="190" LINES="52"]
+hsloan1@g7-14:~/dev/cs220/lab4$ cd [Khsloan1@g7-14:~/dev/cs220/lab4$ cd [Khsloan1@g7-14:~/dev/cs220/lab4$ cd [Khsloan1@g7-14:~/dev/cs220/lab4$ cd [Khsloan1@g7-14:~/dev/cs220/lab4$ cd [Khsloan1@g7-14:~/dev/cs220/lab4$ cd [Khsloan1@g7-14:~/dev/cs220/lab4$ cd [Khsloan1@g7-14:~/dev/cs220/lab4$ cd [Khsloan1@g7-14:~/dev/cs220/lab4$ cd ex1
+bash: cd: ex1: No such file or directory
+hsloan1@g7-14:~/dev/cs220/lab4$ cd files/ex1
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex1$ make
+make: 'uints' is up to date.
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex1$ ./uints 
+4294967296
+uint = 0 (0x0); ushort = 0 (0x0)
+4294967297
+uint = 1 (0x1); ushort = 1 (0x1)
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex1$ cd ,,.[K[K[K,,[K[K../ex2
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex2$ ls
+ints  ints.c  Makefile
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex2$ make
+make: 'ints' is up to date.
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex2$ ./ints 
+2147483647
+int = 2147483647 (0x7fffffff); short = -1 (0xffffffff)
+2147483648
+int = -2147483648 (0x80000000); short = 0 (0x0)
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex2$ cd ../ex3
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex3$ make
+make: 'identify' is up to date.
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex3$ ./identify 
+0
+mystery = 0 (0x0)
+100000000
+mystery = 0 (0x0)
+999999999
+mystery = 1677721 (0x199999)
+9999999999
+mystery = 1677721 (0x199999)
+fff
+mystery = 4095 (0xfff)
+ffffff
+mystery = 8388607 (0x7fffff)
+ffffffff
+mystery = 8388607 (0x7fffff)
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex3$ $[K^ [K[K# sro[K[K[KLast 18[K6*5 + 3 bits[C[1P[1P[1@4[C[C[C[C[C[C[C[C[C[C[C = 23 bt[Kits
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex3$ cd ../ex4
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex4$ ls
+Makefile  negeq  negeq.c
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex4$ make
+make: 'negeq' is up to date.
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex4$ ./negeq 
+0
+0 == -0
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex4$ cd ../ex5
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex5$ ls
+lab4.py
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex5$ python p[Klab4.py 
+2147483648
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex5$ irb
+irb(main):001:0> 10**1000 - 1.0
+=> Infinity
+irb(main):002:0> 
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex5$ cd. ./ [K[K[K[K[K ../ex6
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex6$ ls
+0.1  0.1.c  Makefile
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex6$ make
+make: '0.1' is up to date.
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex6$ ./0.1 
+0.99999999999999988898 0
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex6$ cd ../ex6[K7
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex7$ ls
+Makefile  nan  nan.c
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex7$ make
+make: 'nan' is up to date.
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex7$ ./nan 
+0
+x = -nan
+^C
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex7$ cd //e[K[K[K../ex89[K
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex8$ make
+make: 'ulp' is up to date.
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex8$ ./ulp\[K
+usage ./ulp data|lg-data|verbose
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex8$ ./ulp verbose
+v = 0x1 (1), ulp = 1.1920928955078e-07
+v = 0x2 (2), ulp = 2.3841857910156e-07
+v = 0x4 (4), ulp = 4.7683715820312e-07
+v = 0x8 (8), ulp = 9.5367431640625e-07
+v = 0x10 (16), ulp = 1.9073486328125e-06
+v = 0x20 (32), ulp = 3.814697265625e-06
+v = 0x40 (64), ulp = 7.62939453125e-06
+v = 0x80 (128), ulp = 1.52587890625e-05
+v = 0x100 (256), ulp = 3.0517578125e-05
+v = 0x200 (512), ulp = 6.103515625e-05
+v = 0x400 (1024), ulp = 0.0001220703125
+v = 0x800 (2048), ulp = 0.000244140625
+v = 0x1000 (4096), ulp = 0.00048828125
+v = 0x2000 (8192), ulp = 0.0009765625
+v = 0x4000 (16384), ulp = 0.001953125
+v = 0x8000 (32768), ulp = 0.00390625
+v = 0x10000 (65536), ulp = 0.0078125
+v = 0x20000 (131072), ulp = 0.015625
+v = 0x40000 (262144), ulp = 0.03125
+v = 0x80000 (524288), ulp = 0.0625
+v = 0x100000 (1.04858e+06), ulp = 0.125
+v = 0x200000 (2.09715e+06), ulp = 0.25
+v = 0x400000 (4.1943e+06), ulp = 0.5
+v = 0x800000 (8.38861e+06), ulp = 1
+v = 0x1000000 (1.67772e+07), ulp = 2
+v = 0x2000000 (3.35544e+07), ulp = 4
+v = 0x4000000 (6.71089e+07), ulp = 8
+v = 0x8000000 (1.34218e+08), ulp = 16
+v = 0x10000000 (2.68435e+08), ulp = 32
+v = 0x20000000 (5.36871e+08), ulp = 64
+v = 0x40000000 (1.07374e+09), ulp = 128
+v = 0x80000000 (2.14748e+09), ulp = 256
+v = 0x100000000 (4.29497e+09), ulp = 512
+v = 0x200000000 (8.58993e+09), ulp = 1024
+v = 0x400000000 (1.71799e+10), ulp = 2048
+v = 0x800000000 (3.43597e+10), ulp = 4096
+v = 0x1000000000 (6.87195e+10), ulp = 8192
+v = 0x2000000000 (1.37439e+11), ulp = 16384
+v = 0x4000000000 (2.74878e+11), ulp = 32768
+v = 0x8000000000 (5.49756e+11), ulp = 65536
+v = 0x10000000000 (1.09951e+12), ulp = 131072
+v = 0x20000000000 (2.19902e+12), ulp = 262144
+v = 0x40000000000 (4.39805e+12), ulp = 524288
+v = 0x80000000000 (8.79609e+12), ulp = 1048576
+v = 0x100000000000 (1.75922e+13), ulp = 2097152
+v = 0x200000000000 (3.51844e+13), ulp = 4194304
+v = 0x400000000000 (7.03687e+13), ulp = 8388608
+v = 0x800000000000 (1.40737e+14), ulp = 16777216
+v = 0x1000000000000 (2.81475e+14), ulp = 33554432
+v = 0x2000000000000 (5.6295e+14), ulp = 67108864
+v = 0x4000000000000 (1.1259e+15), ulp = 134217728
+v = 0x8000000000000 (2.2518e+15), ulp = 268435456
+v = 0x10000000000000 (4.5036e+15), ulp = 536870912
+v = 0x20000000000000 (9.0072e+15), ulp = 1073741824
+v = 0x40000000000000 (1.80144e+16), ulp = 2147483648
+v = 0x80000000000000 (3.60288e+16), ulp = 4294967296
+v = 0x100000000000000 (7.20576e+16), ulp = 8589934592
+v = 0x200000000000000 (1.44115e+17), ulp = 17179869184
+v = 0x400000000000000 (2.8823e+17), ulp = 34359738368
+v = 0x800000000000000 (5.76461e+17), ulp = 68719476736
+v = 0x1000000000000000 (1.15292e+18), ulp = 137438953472
+v = 0x2000000000000000 (2.30584e+18), ulp = 274877906944
+v = 0x4000000000000000 (4.61169e+18), ulp = 549755813888
+v = 0x8000000000000000 (9.22337e+18), ulp = 1099511627776
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex8$ ./ulp verbose[K[K[K[K[K[K[Kdata > ult[Kp.data
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex8$ gnuplot -p ulp.gp
+
+** (gnuplot:12801): [1;33mWARNING[0m **: [34m12:22:01.214[0m: AT-SPI: Could not obtain desktop path or name
+
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex8$ gnuplot -p ulp.gp./ulp data > ulp.data[C[1@l[1@g[1@-[C[C[C[C[C[C[C[C[C[C[C[C[C-.datal.datag.data
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex8$ ./ulp lg-data > ulp-lg.data[10Pgnuplot -p ulp.gp[K[K
+.gitignore   ulp          ulp.data     ulp-lg.data  
+Makefile     ulp.c        ulp.gp       ulp-lg.gp    
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex8$ gnuplot -p ulp-lg.gp 
+
+** (gnuplot:12869): [1;33mWARNING[0m **: [34m12:22:24.955[0m: AT-SPI: Could not obtain desktop path or name
+
+
+** (gnuplot:12869): [1;33mWARNING[0m **: [34m12:22:25.072[0m: atk-bridge: get_device_events_reply: unknown signature
+
+** (gnuplot:12869): [1;33mWARNING[0m **: [34m12:22:25.072[0m: atk-bridge: get_device_events_reply: unknown signature
+
+** (gnuplot:12869): [1;33mWARNING[0m **: [34m12:22:25.073[0m: atk-bridge: GetRegisteredEvents returned message with unknown signature
+
+** (gnuplot:12869): [1;33mWARNING[0m **: [34m12:22:25.111[0m: AT-SPI: Could not obtain desktop path or name
+
+
+** (gnuplot:12869): [1;33mWARNING[0m **: [34m12:22:25.139[0m: AT-SPI: Could not obtain desktop path or name
+
+
+** (gnuplot:12869): [1;33mWARNING[0m **: [34m12:22:25.139[0m: AT-SPI: Could not obtain desktop path or name
+
+
+** (gnuplot:12869): [1;33mWARNING[0m **: [34m12:22:25.139[0m: AT-SPI: Could not obtain desktop path or name
+
+
+** (gnuplot:12869): [1;33mWARNING[0m **: [34m12:22:25.153[0m: AT-SPI: Could not obtain desktop path or name
+
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex8$ cd ../ex9
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex9$ ls
+loop  loop.c  Makefile
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex9$ .[Kmake
+make: 'loop' is up to date.
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex9$ ./loop 
+2147483648
+loop exited with x = 2147484672
+17179869184
+^C
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex9$ sc[K[Kls
+loop  loop.c  Makefile
+hsloan1@g7-14:~/dev/cs220/lab4/files/ex9$ cd ..
+hsloan1@g7-14:~/dev/cs220/lab4/files$ cd ..
+hsloan1@g7-14:~/dev/cs220/lab4$ ls
+files  lab4.html  lab4_output.txt  lab4.pdf  lab4.umt  Makefile
+hsloan1@g7-14:~/dev/cs220/lab4$ exit
+
+Script done on 2019-09-12 12:22:58-04:00 [COMMAND_EXIT_CODE="0"]
