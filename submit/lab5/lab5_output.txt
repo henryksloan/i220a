@@ -1,0 +1,782 @@
+Script started on 2019-09-19 11:19:35-04:00 [TERM="linux" TTY="/dev/pts/0" COLUMNS="148" LINES="34"]
+[01;31m  __   __                  _   _   // ____ 
+[01;31m |  | |  |                | | | | // / ___|
+[01;31m |  |_|  | ___ _ ___  ____| |_| |   | |___ 
+[01;31m |   _   |/ _ \| '_ \/ /\_\__,  |    \___ \
+[01;31m |  | |  |  __/| | | | |   __/  |     ___| |
+[01;31m |__| |__|\___||_| |_| |   \___/     |____/
+
+[01;31m  ______    _ [34m        user: hsloan1
+[01;31m |___  /   | | [34m             @remote07
+[01;31m    / / ___| |__
+[01;31m   / / / __| '_ \ [34m    time: 11:19
+[01;31m  / /__\__ \ | | |
+[01;31m /_____|___/_| |_|
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5 [49m[34m[39m [K[?2004hggit    ccd ~/i220a[1m/[m[m [?2004l
+[1m[7m%[27m[1m[m                                                                                                                                                    git [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/i220a [42m[34m[30m  master [49m[32m[39m [K[?2004hggit clo   pull[?2004l
+Already up to date.
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/i220a [42m[34m[30m  master [49m[32m[39m [K[?2004hccp 
+[J[01;34msubmit[0m/  [J[01;34mwork[0m/  [J[A[m[27m[24m[m[39m[49m[41Ccp[K[m[39m[49m[1Cwork[1m/[m
+[J[A[49C[m [8D       ccd ~/cs220[1m/[m[m [?2004l
+[J[1m[7m%[27m[1m[m                                                                                                                                                    git pu[m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/cs220 [42m[34m[30m  master [49m[32m[39m [K[?2004hggit pull[?2004l
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.207' to the list of known hosts.
+hsloan1@remote.cs.binghamton.edu's password: 
+remote: Enumerating objects: 355, done.[K
+remote: Counting objects:   0% (1/328)   [Kremote: Counting objects:   1% (4/328)   [Kremote: Counting objects:   2% (7/328)   [Kremote: Counting objects:   3% (10/328)   [Kremote: Counting objects:   4% (14/328)   [Kremote: Counting objects:   5% (17/328)   [Kremote: Counting objects:   6% (20/328)   [Kremote: Counting objects:   7% (23/328)   [Kremote: Counting objects:   8% (27/328)   [Kremote: Counting objects:   9% (30/328)   [Kremote: Counting objects:  10% (33/328)   [Kremote: Counting objects:  11% (37/328)   [Kremote: Counting objects:  12% (40/328)   [Kremote: Counting objects:  13% (43/328)   [Kremote: Counting objects:  14% (46/328)   [Kremote: Counting objects:  15% (50/328)   [Kremote: Counting objects:  16% (53/328)   [Kremote: Counting objects:  17% (56/328)   [Kremote: Counting objects:  18% (60/328)   [Kremote: Counting objects:  19% (63/328)   [Kremote: Counting objects:  20% (66/328)   [Kremote: Counting objects:  21% (69/328)   [Kremote: Counting objects:  22% (73/328)   [Kremote: Counting objects:  23% (76/328)   [Kremote: Counting objects:  24% (79/328)   [Kremote: Counting objects:  25% (82/328)   [Kremote: Counting objects:  26% (86/328)   [Kremote: Counting objects:  27% (89/328)   [Kremote: Counting objects:  28% (92/328)   [Kremote: Counting objects:  29% (96/328)   [Kremote: Counting objects:  30% (99/328)   [Kremote: Counting objects:  31% (102/328)   [Kremote: Counting objects:  32% (105/328)   [Kremote: Counting objects:  33% (109/328)   [Kremote: Counting objects:  34% (112/328)   [Kremote: Counting objects:  35% (115/328)   [Kremote: Counting objects:  36% (119/328)   [Kremote: Counting objects:  37% (122/328)   [Kremote: Counting objects:  38% (125/328)   [Kremote: Counting objects:  39% (128/328)   [Kremote: Counting objects:  40% (132/328)   [Kremote: Counting objects:  41% (135/328)   [Kremote: Counting objects:  42% (138/328)   [Kremote: Counting objects:  43% (142/328)   [Kremote: Counting objects:  44% (145/328)   [Kremote: Counting objects:  45% (148/328)   [Kremote: Counting objects:  46% (151/328)   [Kremote: Counting objects:  47% (155/328)   [Kremote: Counting objects:  48% (158/328)   [Kremote: Counting objects:  49% (161/328)   [Kremote: Counting objects:  50% (164/328)   [Kremote: Counting objects:  51% (168/328)   [Kremote: Counting objects:  52% (171/328)   [Kremote: Counting objects:  53% (174/328)   [Kremote: Counting objects:  54% (178/328)   [Kremote: Counting objects:  55% (181/328)   [Kremote: Counting objects:  56% (184/328)   [Kremote: Counting objects:  57% (187/328)   [Kremote: Counting objects:  58% (191/328)   [Kremote: Counting objects:  59% (194/328)   [Kremote: Counting objects:  60% (197/328)   [Kremote: Counting objects:  61% (201/328)   [Kremote: Counting objects:  62% (204/328)   [Kremote: Counting objects:  63% (207/328)   [Kremote: Counting objects:  64% (210/328)   [Kremote: Counting objects:  65% (214/328)   [Kremote: Counting objects:  66% (217/328)   [Kremote: Counting objects:  67% (220/328)   [Kremote: Counting objects:  68% (224/328)   [Kremote: Counting objects:  69% (227/328)   [Kremote: Counting objects:  70% (230/328)   [Kremote: Counting objects:  71% (233/328)   [Kremote: Counting objects:  72% (237/328)   [Kremote: Counting objects:  73% (240/328)   [Kremote: Counting objects:  74% (243/328)   [Kremote: Counting objects:  75% (246/328)   [Kremote: Counting objects:  76% (250/328)   [Kremote: Counting objects:  77% (253/328)   [Kremote: Counting objects:  78% (256/328)   [Kremote: Counting objects:  79% (260/328)   [Kremote: Counting objects:  80% (263/328)   [Kremote: Counting objects:  81% (266/328)   [Kremote: Counting objects:  82% (269/328)   [Kremote: Counting objects:  83% (273/328)   [Kremote: Counting objects:  84% (276/328)   [Kremote: Counting objects:  85% (279/328)   [Kremote: Counting objects:  86% (283/328)   [Kremote: Counting objects:  87% (286/328)   [Kremote: Counting objects:  88% (289/328)   [Kremote: Counting objects:  89% (292/328)   [Kremote: Counting objects:  90% (296/328)   [Kremote: Counting objects:  91% (299/328)   [Kremote: Counting objects:  92% (302/328)   [Kremote: Counting objects:  93% (306/328)   [Kremote: Counting objects:  94% (309/328)   [Kremote: Counting objects:  95% (312/328)   [Kremote: Counting objects:  96% (315/328)   [Kremote: Counting objects:  97% (319/328)   [Kremote: Counting objects:  98% (322/328)   [Kremote: Counting objects:  99% (325/328)   [Kremote: Counting objects: 100% (328/328)   [Kremote: Counting objects: 100% (328/328), done.[K
+remote: Compressing objects:   0% (1/244)   [Kremote: Compressing objects:   1% (3/244)   [Kremote: Compressing objects:   2% (5/244)   [Kremote: Compressing objects:   3% (8/244)   [Kremote: Compressing objects:   4% (10/244)   [Kremote: Compressing objects:   5% (13/244)   [Kremote: Compressing objects:   6% (15/244)   [Kremote: Compressing objects:   7% (18/244)   [Kremote: Compressing objects:   8% (20/244)   [Kremote: Compressing objects:   9% (22/244)   [Kremote: Compressing objects:  10% (25/244)   [Kremote: Compressing objects:  11% (27/244)   [Kremote: Compressing objects:  12% (30/244)   [Kremote: Compressing objects:  13% (32/244)   [Kremote: Compressing objects:  14% (35/244)   [Kremote: Compressing objects:  15% (37/244)   [Kremote: Compressing objects:  16% (40/244)   [Kremote: Compressing objects:  17% (42/244)   [Kremote: Compressing objects:  18% (44/244)   [Kremote: Compressing objects:  19% (47/244)   [Kremote: Compressing objects:  20% (49/244)   [Kremote: Compressing objects:  21% (52/244)   [Kremote: Compressing objects:  22% (54/244)   [Kremote: Compressing objects:  23% (57/244)   [Kremote: Compressing objects:  24% (59/244)   [Kremote: Compressing objects:  25% (61/244)   [Kremote: Compressing objects:  26% (64/244)   [Kremote: Compressing objects:  27% (66/244)   [Kremote: Compressing objects:  28% (69/244)   [Kremote: Compressing objects:  29% (71/244)   [Kremote: Compressing objects:  30% (74/244)   [Kremote: Compressing objects:  31% (76/244)   [Kremote: Compressing objects:  32% (79/244)   [Kremote: Compressing objects:  33% (81/244)   [Kremote: Compressing objects:  34% (83/244)   [Kremote: Compressing objects:  35% (86/244)   [Kremote: Compressing objects:  36% (88/244)   [Kremote: Compressing objects:  37% (91/244)   [Kremote: Compressing objects:  38% (93/244)   [Kremote: Compressing objects:  39% (96/244)   [Kremote: Compressing objects:  40% (98/244)   [Kremote: Compressing objects:  41% (101/244)   [Kremote: Compressing objects:  42% (103/244)   [Kremote: Compressing objects:  43% (105/244)   [Kremote: Compressing objects:  44% (108/244)   [Kremote: Compressing objects:  45% (110/244)   [Kremote: Compressing objects:  46% (113/244)   [Kremote: Compressing objects:  47% (115/244)   [Kremote: Compressing objects:  48% (118/244)   [Kremote: Compressing objects:  49% (120/244)   [Kremote: Compressing objects:  50% (122/244)   [Kremote: Compressing objects:  51% (125/244)   [Kremote: Compressing objects:  52% (127/244)   [Kremote: Compressing objects:  53% (130/244)   [Kremote: Compressing objects:  54% (132/244)   [Kremote: Compressing objects:  55% (135/244)   [Kremote: Compressing objects:  56% (137/244)   [Kremote: Compressing objects:  57% (140/244)   [Kremote: Compressing objects:  58% (142/244)   [Kremote: Compressing objects:  59% (144/244)   [Kremote: Compressing objects:  60% (147/244)   [Kremote: Compressing objects:  61% (149/244)   [Kremote: Compressing objects:  62% (152/244)   [Kremote: Compressing objects:  63% (154/244)   [Kremote: Compressing objects:  64% (157/244)   [Kremote: Compressing objects:  65% (159/244)   [Kremote: Compressing objects:  66% (162/244)   [Kremote: Compressing objects:  67% (164/244)   [Kremote: Compressing objects:  68% (166/244)   [Kremote: Compressing objects:  69% (169/244)   [Kremote: Compressing objects:  70% (171/244)   [Kremote: Compressing objects:  71% (174/244)   [Kremote: Compressing objects:  72% (176/244)   [Kremote: Compressing objects:  73% (179/244)   [Kremote: Compressing objects:  74% (181/244)   [Kremote: Compressing objects:  75% (183/244)   [Kremote: Compressing objects:  76% (186/244)   [Kremote: Compressing objects:  77% (188/244)   [Kremote: Compressing objects:  78% (191/244)   [Kremote: Compressing objects:  79% (193/244)   [Kremote: Compressing objects:  80% (196/244)   [Kremote: Compressing objects:  81% (198/244)   [Kremote: Compressing objects:  82% (201/244)   [Kremote: Compressing objects:  83% (203/244)   [Kremote: Compressing objects:  84% (205/244)   [Kremote: Compressing objects:  85% (208/244)   [Kremote: Compressing objects:  86% (210/244)   [Kremote: Compressing objects:  87% (213/244)   [Kremote: Compressing objects:  88% (215/244)   [Kremote: Compressing objects:  89% (218/244)   [Kremote: Compressing objects:  90% (220/244)   [Kremote: Compressing objects:  91% (223/244)   [Kremote: Compressing objects:  92% (225/244)   [Kremote: Compressing objects:  93% (227/244)   [Kremote: Compressing objects:  94% (230/244)   [Kremote: Compressing objects:  95% (232/244)   [Kremote: Compressing objects:  96% (235/244)   [Kremote: Compressing objects:  97% (237/244)   [Kremote: Compressing objects:  98% (240/244)   [Kremote: Compressing objects:  99% (242/244)   [Kremote: Compressing objects: 100% (244/244)   [Kremote: Compressing objects: 100% (244/244), done.[K
+Receiving objects:   0% (1/266)   Receiving objects:   1% (3/266)   Receiving objects:   2% (6/266)   Receiving objects:   3% (8/266)   Receiving objects:   4% (11/266)   Receiving objects:   5% (14/266)   Receiving objects:   6% (16/266)   Receiving objects:   7% (19/266)   Receiving objects:   8% (22/266)   Receiving objects:   9% (24/266)   Receiving objects:  10% (27/266)   Receiving objects:  11% (30/266)   Receiving objects:  12% (32/266)   Receiving objects:  13% (35/266)   Receiving objects:  14% (38/266)   Receiving objects:  15% (40/266)   Receiving objects:  16% (43/266)   Receiving objects:  17% (46/266)   Receiving objects:  18% (48/266)   Receiving objects:  19% (51/266)   Receiving objects:  20% (54/266)   Receiving objects:  21% (56/266)   Receiving objects:  22% (59/266)   Receiving objects:  23% (62/266)   Receiving objects:  24% (64/266)   Receiving objects:  25% (67/266)   Receiving objects:  26% (70/266)   Receiving objects:  27% (72/266)   Receiving objects:  28% (75/266)   Receiving objects:  29% (78/266)   Receiving objects:  30% (80/266)   Receiving objects:  31% (83/266)   Receiving objects:  32% (86/266)   Receiving objects:  33% (88/266)   Receiving objects:  34% (91/266)   Receiving objects:  35% (94/266)   Receiving objects:  36% (96/266)   Receiving objects:  37% (99/266)   Receiving objects:  38% (102/266)   Receiving objects:  39% (104/266)   Receiving objects:  40% (107/266)   Receiving objects:  41% (110/266)   Receiving objects:  42% (112/266)   Receiving objects:  43% (115/266)   Receiving objects:  44% (118/266)   Receiving objects:  45% (120/266)   Receiving objects:  46% (123/266)   Receiving objects:  47% (126/266)   Receiving objects:  48% (128/266)   Receiving objects:  49% (131/266)   Receiving objects:  50% (133/266)   Receiving objects:  51% (136/266)   Receiving objects:  52% (139/266)   Receiving objects:  53% (141/266)   Receiving objects:  54% (144/266)   Receiving objects:  55% (147/266)   Receiving objects:  56% (149/266)   Receiving objects:  57% (152/266)   Receiving objects:  58% (155/266)   Receiving objects:  59% (157/266)   Receiving objects:  60% (160/266)   Receiving objects:  61% (163/266)   Receiving objects:  62% (165/266)   Receiving objects:  63% (168/266)   Receiving objects:  64% (171/266)   Receiving objects:  65% (173/266)   Receiving objects:  66% (176/266)   Receiving objects:  67% (179/266)   Receiving objects:  68% (181/266)   Receiving objects:  69% (184/266)   Receiving objects:  70% (187/266)   Receiving objects:  71% (189/266)   Receiving objects:  72% (192/266)   Receiving objects:  73% (195/266)   Receiving objects:  74% (197/266)   Receiving objects:  75% (200/266)   Receiving objects:  76% (203/266)   Receiving objects:  77% (205/266)   Receiving objects:  78% (208/266)   Receiving objects:  79% (211/266)   Receiving objects:  80% (213/266)   Receiving objects:  81% (216/266)   Receiving objects:  82% (219/266)   Receiving objects:  83% (221/266)   Receiving objects:  84% (224/266)   Receiving objects:  85% (227/266)   Receiving objects:  86% (229/266)   Receiving objects:  87% (232/266)   remote: Total 266 (delta 124), reused 0 (delta 0)[K
+Receiving objects:  88% (235/266)   Receiving objects:  89% (237/266)   Receiving objects:  90% (240/266)   Receiving objects:  91% (243/266)   Receiving objects:  92% (245/266)   Receiving objects:  93% (248/266)   Receiving objects:  94% (251/266)   Receiving objects:  95% (253/266)   Receiving objects:  96% (256/266)   Receiving objects:  97% (259/266)   Receiving objects:  98% (261/266)   Receiving objects:  99% (264/266)   Receiving objects: 100% (266/266)   Receiving objects: 100% (266/266), 536.10 KiB | 4.50 MiB/s, done.
+Resolving deltas:   0% (0/124)   Resolving deltas:   1% (2/124)   Resolving deltas:   2% (3/124)   Resolving deltas:   3% (4/124)   Resolving deltas:   4% (5/124)   Resolving deltas:   5% (7/124)   Resolving deltas:   7% (9/124)   Resolving deltas:   8% (11/124)   Resolving deltas:  10% (13/124)   Resolving deltas:  12% (15/124)   Resolving deltas:  13% (17/124)   Resolving deltas:  14% (18/124)   Resolving deltas:  16% (21/124)   Resolving deltas:  18% (23/124)   Resolving deltas:  20% (26/124)   Resolving deltas:  23% (29/124)   Resolving deltas:  24% (30/124)   Resolving deltas:  25% (31/124)   Resolving deltas:  26% (33/124)   Resolving deltas:  27% (34/124)   Resolving deltas:  29% (36/124)   Resolving deltas:  31% (39/124)   Resolving deltas:  33% (42/124)   Resolving deltas:  37% (47/124)   Resolving deltas:  38% (48/124)   Resolving deltas:  40% (50/124)   Resolving deltas:  41% (51/124)   Resolving deltas:  54% (67/124)   Resolving deltas:  55% (69/124)   Resolving deltas:  57% (71/124)   Resolving deltas:  58% (73/124)   Resolving deltas:  59% (74/124)   Resolving deltas:  61% (76/124)   Resolving deltas:  62% (78/124)   Resolving deltas:  64% (80/124)   Resolving deltas:  66% (83/124)   Resolving deltas:  71% (89/124)   Resolving deltas:  76% (95/124)   Resolving deltas:  79% (99/124)   Resolving deltas:  80% (100/124)   Resolving deltas:  81% (101/124)   Resolving deltas:  83% (104/124)   Resolving deltas:  86% (107/124)   Resolving deltas:  88% (110/124)   Resolving deltas:  89% (111/124)   Resolving deltas:  90% (112/124)   Resolving deltas:  91% (113/124)   Resolving deltas:  94% (117/124)   Resolving deltas:  95% (119/124)   Resolving deltas: 100% (124/124)   Resolving deltas: 100% (124/124), completed with 24 local objects.
+From ssh://remote.cs.binghamton.edu/~umrigar/git-repos/cs220
+   51d0e18..e036866  master     -> origin/master
+Updating 51d0e18..e036866
+Fast-forward
+ exercises/questions/src/programming/bit-sets.js  |  88 [32m++++++++++++++[m
+ exercises/questions/src/programming/float-exp.js |  78 [32m++++++++++++[m
+ exercises/questions/src/programming/meta.js      |   2 [32m+[m
+ hws/hw1/hw1.html                                 | 144 [32m+++++++++++[m[31m-----------[m
+ hws/hw1/hw1.pdf                                  | Bin [31m82333[m -> [32m85414[m bytes
+ hws/hw1/hw1.umt                                  |   9 [32m+[m[31m-[m
+ hws/index.html                                   |   3 [32m+[m[31m-[m
+ index.html                                       |  37 [32m++++[m[31m--[m
+ index.umt                                        |  25 [32m++++[m
+ labs/index.html                                  |  21 [32m++[m[31m--[m
+ labs/index.umt                                   |   3 [32m+[m[31m-[m
+ labs/lab5/Makefile                               |  22 [32m++++[m
+ labs/lab5/files/ex1/.gitignore                   |   1 [32m+[m
+ labs/lab5/files/ex1/Makefile                     |   8 [32m++[m
+ labs/lab5/files/ex1/pointers.c                   |  18 [32m+++[m
+ labs/lab5/files/ex2/.gitignore                   |   1 [32m+[m
+ labs/lab5/files/ex2/Makefile                     |   8 [32m++[m
+ labs/lab5/files/ex2/in-pointers.c                |  30 [32m+++++[m
+ labs/lab5/files/ex3/.gitignore                   |   1 [32m+[m
+ labs/lab5/files/ex3/Makefile                     |   8 [32m++[m
+ labs/lab5/files/ex3/bad-types.c                  |  18 [32m+++[m
+ labs/lab5/files/ex4/.gitignore                   |   1 [32m+[m
+ labs/lab5/files/ex4/Makefile                     |   8 [32m++[m
+ labs/lab5/files/ex4/cast-types.c                 |  18 [32m+++[m
+ labs/lab5/files/ex5/.gitignore                   |   1 [32m+[m
+ labs/lab5/files/ex5/Makefile                     |   8 [32m++[m
+ labs/lab5/files/ex5/void-pointers.c              |  17 [32m+++[m
+ labs/lab5/files/ex6/.gitignore                   |   1 [32m+[m
+ labs/lab5/files/ex6/Makefile                     |   8 [32m++[m
+ labs/lab5/files/ex6/in-voids.c                   |  48 [32m++++++++[m
+ labs/lab5/lab5.html                              | 154 [32m++++++++++++++++++++++++[m
+ labs/lab5/lab5.pdf                               | Bin [31m0[m -> [32m83320[m bytes
+ labs/lab5/lab5.umt                               | 215 [32m+++++++++++++++++++++++++++++++++[m
+ labs/lab5/lab5/hl-fine_blue.css                  |  19 [32m+++[m
+ labs/lab5/lab5/hl-fine_blue.sty                  |  19 [32m+++[m
+ projects/index.html                              |   6 [32m+[m[31m-[m
+ projects/index.umt                               |   9 [32m+[m[31m-[m
+ projects/prj1-sol/.gitignore                     |   2 [32m+[m
+ projects/prj1-sol/Makefile                       |  32 [32m+++++[m
+ projects/prj1-sol/README                         |   8 [32m++[m
+ projects/prj1-sol/bits-to-ints.c                 | 178 [32m+++++++++++++++++++++++++++[m
+ projects/prj1-sol/bits-to-ints.h                 |  46 [32m+++++++[m
+ projects/prj1-sol/errors.c                       |  30 [32m+++++[m
+ projects/prj1-sol/errors.h                       |  14 [32m+++[m
+ projects/prj1-sol/main.c                         |  58 [32m+++++++++[m
+ projects/prj1-sol/test1.LOG                      |  69 [32m+++++++++++[m
+ projects/prj1-sol/test1.txt                      |   8 [32m++[m
+ projects/prj2/Makefile                           |  22 [32m++++[m
+ projects/prj2/aux-files/big-bits.LOG             |  31 [32m+++++[m
+ projects/prj2/aux-files/big-bits_test1.in        |   6 [32m+[m
+ projects/prj2/aux-files/big-bits_test1.out       |   6 [32m+[m
+ projects/prj2/prj2-sol/.gitignore                |   4 [32m+[m
+ projects/prj2/prj2-sol/Makefile                  |  27 [32m+++++[m
+ projects/prj2/prj2-sol/README                    |   6 [32m+[m
+ projects/prj2/prj2-sol/big-bits.c                |  87 [32m++++++++++++++[m
+ projects/prj2/prj2-sol/big-bits.h                |  61 [32m++++++++++[m
+ projects/prj2/prj2-sol/errors.c                  |  30 [32m+++++[m
+ projects/prj2/prj2-sol/errors.h                  |  14 [32m+++[m
+ projects/prj2/prj2-sol/hex-util.c                |  49 [32m++++++++[m
+ projects/prj2/prj2-sol/hex-util.h                |  18 [32m+++[m
+ projects/prj2/prj2-sol/main.c                    | 302 [32m++++++++++++++++++++++++++++++++++++++++++++++[m
+ projects/prj2/prj2-sol/stack.c                   |  74 [32m++++++++++++[m
+ projects/prj2/prj2-sol/stack.h                   |  52 [32m++++++++[m
+ projects/prj2/prj2.html                          | 349 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ projects/prj2/prj2.pdf                           | Bin [31m0[m -> [32m139980[m bytes
+ projects/prj2/prj2.umt                           | 489 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ slides/adts/Makefile                             |  22 [32m++++[m
+ slides/adts/adts.html                            | 207 [32m++++++++++++++++++++++++++++++++[m
+ slides/adts/adts.pdf                             | Bin [31m0[m -> [32m103573[m bytes
+ slides/adts/adts.umt                             | 285 [32m+++++++++++++++++++++++++++++++++++++++++++[m
+ slides/adts/adts/hl-fine_blue.css                |  19 [32m+++[m
+ slides/adts/adts/hl-fine_blue.sty                |  19 [32m+++[m
+ slides/adts/code/stack.c                         |  74 [32m++++++++++++[m
+ slides/adts/code/stack.h                         |  52 [32m++++++++[m
+ slides/adts/figs/rtimage.gif                     | Bin [31m0[m -> [32m35279[m bytes
+ slides/c-intro/c-intro.html                      | 598 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++[m[31m--------------------------------------[m
+ slides/c-intro/c-intro.pdf                       | Bin [31m470831[m -> [32m500448[m bytes
+ slides/c-intro/c-intro.umt                       | 381 [32m+++++++++++++++++++++++++++++++++++++++++[m[31m-----------------[m
+ slides/c-intro/code/wc.c                         |   9 [32m+[m[31m-[m
+ slides/index.html                                |   3 [32m+[m
+ slides/index.umt                                 |   1 [32m+[m
+ 81 files changed, 4341 insertions(+), 458 deletions(-)
+ create mode 100644 exercises/questions/src/programming/bit-sets.js
+ create mode 100644 exercises/questions/src/programming/float-exp.js
+ create mode 100755 labs/lab5/Makefile
+ create mode 100644 labs/lab5/files/ex1/.gitignore
+ create mode 100644 labs/lab5/files/ex1/Makefile
+ create mode 100644 labs/lab5/files/ex1/pointers.c
+ create mode 100644 labs/lab5/files/ex2/.gitignore
+ create mode 100644 labs/lab5/files/ex2/Makefile
+ create mode 100644 labs/lab5/files/ex2/in-pointers.c
+ create mode 100644 labs/lab5/files/ex3/.gitignore
+ create mode 100644 labs/lab5/files/ex3/Makefile
+ create mode 100644 labs/lab5/files/ex3/bad-types.c
+ create mode 100644 labs/lab5/files/ex4/.gitignore
+ create mode 100644 labs/lab5/files/ex4/Makefile
+ create mode 100644 labs/lab5/files/ex4/cast-types.c
+ create mode 100644 labs/lab5/files/ex5/.gitignore
+ create mode 100644 labs/lab5/files/ex5/Makefile
+ create mode 100644 labs/lab5/files/ex5/void-pointers.c
+ create mode 100644 labs/lab5/files/ex6/.gitignore
+ create mode 100644 labs/lab5/files/ex6/Makefile
+ create mode 100644 labs/lab5/files/ex6/in-voids.c
+ create mode 100644 labs/lab5/lab5.html
+ create mode 100644 labs/lab5/lab5.pdf
+ create mode 100644 labs/lab5/lab5.umt
+ create mode 100644 labs/lab5/lab5/hl-fine_blue.css
+ create mode 100644 labs/lab5/lab5/hl-fine_blue.sty
+ create mode 100644 projects/prj1-sol/.gitignore
+ create mode 100644 projects/prj1-sol/Makefile
+ create mode 100644 projects/prj1-sol/README
+ create mode 100644 projects/prj1-sol/bits-to-ints.c
+ create mode 100644 projects/prj1-sol/bits-to-ints.h
+ create mode 100644 projects/prj1-sol/errors.c
+ create mode 100644 projects/prj1-sol/errors.h
+ create mode 100644 projects/prj1-sol/main.c
+ create mode 100644 projects/prj1-sol/test1.LOG
+ create mode 100644 projects/prj1-sol/test1.txt
+ create mode 100755 projects/prj2/Makefile
+ create mode 100644 projects/prj2/aux-files/big-bits.LOG
+ create mode 100644 projects/prj2/aux-files/big-bits_test1.in
+ create mode 100644 projects/prj2/aux-files/big-bits_test1.out
+ create mode 100644 projects/prj2/prj2-sol/.gitignore
+ create mode 100644 projects/prj2/prj2-sol/Makefile
+ create mode 100644 projects/prj2/prj2-sol/README
+ create mode 100644 projects/prj2/prj2-sol/big-bits.c
+ create mode 100644 projects/prj2/prj2-sol/big-bits.h
+ create mode 100644 projects/prj2/prj2-sol/errors.c
+ create mode 100644 projects/prj2/prj2-sol/errors.h
+ create mode 100644 projects/prj2/prj2-sol/hex-util.c
+ create mode 100644 projects/prj2/prj2-sol/hex-util.h
+ create mode 100644 projects/prj2/prj2-sol/main.c
+ create mode 100644 projects/prj2/prj2-sol/stack.c
+ create mode 100644 projects/prj2/prj2-sol/stack.h
+ create mode 100644 projects/prj2/prj2.html
+ create mode 100644 projects/prj2/prj2.pdf
+ create mode 100644 projects/prj2/prj2.umt
+ create mode 100644 slides/adts/Makefile
+ create mode 100644 slides/adts/adts.html
+ create mode 100644 slides/adts/adts.pdf
+ create mode 100644 slides/adts/adts.umt
+ create mode 100644 slides/adts/adts/hl-fine_blue.css
+ create mode 100644 slides/adts/adts/hl-fine_blue.sty
+ create mode 100644 slides/adts/code/stack.c
+ create mode 100644 slides/adts/code/stack.h
+ create mode 100644 slides/adts/figs/rtimage.gif
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/cs220 [42m[34m[30m  master [49m[32m[39m [K[?2004hl llsl  cccc cp -r 
+[0mannounce.html   [01;34massets[0m/         [01;34mdocs[0m/           [01;34mexercises[0m/      index.html      [01;34mlabs[0m/           [01;34mmisc[0m/           README.md                     
+[Jannounce.umt    [J[01;34mbin[0m/            [J[01;34mexams-quizzes[0m/  [J[01;34mhws[0m/            [Jindex.umt       [JMakefile        [J[01;34mprojects[0m/       [J[01;34mslides[0m/         [J              [A[A[m[27m[24m[m[39m[49m[41Ccp -r[K[m[39m[49m[1Clabs[1m/[m[m/
+[J[J[0mindex.html  [Jindex.umt   [J[01;34mlab1[0m/       [J[01;34mlab2[0m/       [J[01;34mlab3[0m/       [J[01;34mlab4[0m/       [J[01;34mlab5[0m/       [J[01;34mlab-tips[0m/   [JMakefile  [J[A[m[27m[24m[m[39m[49m[41Ccp -r labs/[K[m[39m[49mlab5[1m/[m[m/
+[J[J[01;34mfiles[0m/     [J[01;34mlab5[0m/      [Jlab5.html  [Jlab5.pdf   [Jlab5.umt   [J[01;32mMakefile[0m*[J[A[m[27m[24m[m[39m[49m[41Ccp -r labs/lab5/[K[m[39m[49m la
+[J[A[59Cb55 
+[J[J[01;34mlab5[0m/      [Jlab5.html  [Jlab5.pdf   [Jlab5.umt [J[A[m[27m[24m[m[39m[49m[41Ccp -r labs/lab5/lab5[K[m[39m[49m[1m/[m
+[J[7mlab5/    [0m  [Jlab5.html  [Jlab5.pdf   [Jlab5.umt [J[A[m[27m[24m[m[39m[49m[41Ccp -r labs/lab5/lab5[1m/[m[K[m[39m[49m
+[7mlab5/    [0m  [7mlab5/    [0m  [A[m[27m[24m[m[39m[49m[41Ccp -r labs/lab5/lab5[1m/[m[K[m[39m[49m
+[J[A[62C[m 
+[J[J[01;34mlab5[0m/      [Jlab5.html  [Jlab5.pdf   [Jlab5.umt [J[A[m[27m[24m[m[39m[49m[41Ccp -r labs/lab5/lab5[K[m[39m[49m    
+[J[J[01;34mfiles[0m/     [J[01;34mlab5[0m/      [Jlab5.html  [Jlab5.pdf   [Jlab5.umt   [J[01;32mMakefile[0m*[J[A[m[27m[24m[m[39m[49m[41Ccp -r labs/lab5/[K[m[39m[49mlab
+[J[A[60C5
+[J[J[01;34mlab5[0m/      [Jlab5.html  [Jlab5.pdf   [Jlab5.umt [J[A[m[27m[24m[m[39m[49m[41Ccp -r labs/lab5/lab5[K[m[39m[49m/
+[J[A[62Chl-fine_blue.             hl-fine_blue.                  
+[J[J[01;34mfiles[0m/     [J[01;34mlab5[0m/      [Jlab5.html  [Jlab5.pdf   [Jlab5.umt   [J[01;32mMakefile[0m*[J[A[m[27m[24m[m[39m[49m[41Ccp -r labs/lab5/[K[m[39m[49mfiles[1m/[m
+[J[A[63C[m/ex
+[J[J[01;34mex1[0m/  [J[01;34mex2[0m/  [J[01;34mex3[0m/  [J[01;34mex4[0m/  [J[01;34mex5[0m/  [J[01;34mex6[0m/[J[A[m[27m[24m[m[39m[49m[41Ccp -r labs/lab5/files/ex[K[m[39m[49m        
+[J[J[01;34mfiles[0m/     [J[01;34mlab5[0m/      [Jlab5.html  [Jlab5.pdf   [Jlab5.umt   [J[01;32mMakefile[0m*[J[A[m[27m[24m[m[39m[49m[41Ccp -r labs/lab5/[K[m[39m[49mlab   files[1m/[m
+[J[A[63C[m/ex  * ~/dev/cs220[1m/[m[m/
+[J[J[01;34mlab2[0m/   [J[01;34mlab3[0m/   [J[01;34mlab4[0m/   [J[01;34mlab5[0m/   [J[01;34mproj1[0m/[J[A[m[27m[24m[m[39m[49m[41Ccp -r labs/lab5/files/* ~/dev/cs220/[K[m[39m[49mlab5[1m/[m[m [?2004l
+[J[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/cs220 [42m[34m[30m  master [49m[32m[39m [K[?2004hccd ~/l de
+[J[01;34mDesktop[0m/  [J[01;34mdev[0m/    [J[A[m[27m[24m[m[39m[49m[41Ccd ~/de[K[m[39m[49mc v[1m/[m[m/cs220[1m/[m[m/la
+[J[A[58Cb5[?2004l
+[J[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5 [49m[34m[39m [K[?2004hccd ex1[?2004l
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex1 [49m[34m[39m [K[?2004hvvim pointers.c[1m [m[m [?2004l
+[H[J[?2004h[1;34r[1;1H[m[H[J[?112c[?25h[?25l[H[J[?112c[?112c[?25h[?25l[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m                                                                                                                              
+[38;5;130m  2 
+  3 [m[32mint[m main() {
+[38;5;130m  4 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };
+[38;5;130m  5 [m  [32mchar[m *cp = cs;
+[38;5;130m  6 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m; i < [38;5;130msizeof[m(cs)/[38;5;130msizeof[m(cs[[31m0[m]); i++) {
+[38;5;130m  7 [m    printf([31m"char pointer cp = [m[35m%p[m[31m, pointing at char [m[35m%c\n[m[31m"[m, cp, *cp);
+[38;5;130m  8 [m    cp++;
+[38;5;130m  9 [m  }
+[38;5;130m 10 
+ 11 [m  [32mint[m is[] = { [31m1[m, [31m2[m, [31m3[m, [31m4[m, [31m5[m };
+[38;5;130m 12 [m  [32mint[m *ip = is;
+[38;5;130m 13 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m; i < [38;5;130msizeof[m(is)/[38;5;130msizeof[m(is[[31m0[m]); i++) {
+[38;5;130m 14 [m    printf([31m"int pointer ip = [m[35m%p[m[31m, pointing at int [m[35m%d\n[m[31m"[m, ip, *ip);
+[38;5;130m 15 [m    ip++;
+[38;5;130m 16 [m  }
+[38;5;130m 17 [m  [38;5;130mreturn[m [31m0[m;
+[38;5;130m 18 [m}
+[94m~[K[H[19B~[K[H[20B~[K[H[21B~[K[H[22B~[K[H[23B~[K[H[24B~[K[H[25B~[K[H[26B~[K[H[27B~[K[H[28B~[K[H[29B~[K[H[30B~[K[H[31B~[K[H[32B[0;10;7;1mpointers.c                                                                                                                        [H[33;131H1,1            All[?25h[?25l[1;5H[?25h[?25l[?1004h[?25h[?25l[34;138H[m:[1;5H[?25h[?25l[34;138H [1;5H[33B:[?112c[?25h[?25lq[?25h[?25l[34;1H[?25h[?25l[?112c[m[?25h[?2004l[?1004l[?25h[1m[7m%[27m[1m[m                                                                                                                                                    ma[m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex1 [49m[34m[39m [K[?2004hmmake[?2004l
+cc -g -Wall -std=c11 -m32    pointers.c   -o pointers
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex1 [49m[34m[39m [K[?2004h../pointers[1m [m[m [?2004l
+char pointer cp = 0xfff7a29b, pointing at char a
+char pointer cp = 0xfff7a29c, pointing at char b
+char pointer cp = 0xfff7a29d, pointing at char c
+char pointer cp = 0xfff7a29e, pointing at char d
+char pointer cp = 0xfff7a29f, pointing at char e
+int pointer ip = 0xfff7a284, pointing at int 1
+int pointer ip = 0xfff7a288, pointing at int 2
+int pointer ip = 0xfff7a28c, pointing at int 3
+int pointer ip = 0xfff7a290, pointing at int 4
+int pointer ip = 0xfff7a294, pointing at int 5
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex1 [49m[34m[39m [K[?2004h./pointers[?2004l
+char pointer cp = 0xfff1da3b, pointing at char a
+char pointer cp = 0xfff1da3c, pointing at char b
+char pointer cp = 0xfff1da3d, pointing at char c
+char pointer cp = 0xfff1da3e, pointing at char d
+char pointer cp = 0xfff1da3f, pointing at char e
+int pointer ip = 0xfff1da24, pointing at int 1
+int pointer ip = 0xfff1da28, pointing at int 2
+int pointer ip = 0xfff1da2c, pointing at int 3
+int pointer ip = 0xfff1da30, pointing at int 4
+int pointer ip = 0xfff1da34, pointing at int 5
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex1 [49m[34m[39m [K[?2004hccxd c cd ../ex2[?2004l
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex2 [49m[34m[39m [K[?2004hvvim ba      lls[?2004l
+in-pointers.c  Makefile
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex2 [49m[34m[39m [K[?2004hvvim in-pointers.c[1m [m[m [?2004l
+[H[J[?2004h[1;34r[1;1H[m[H[J[?112c[?25h[?25l[H[J[?112c[?112c[?25h[?25l[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m                                                                                                                              
+[38;5;130m  2 
+  3 [m[32mint[m main() {
+[38;5;130m  4 [m  [32menum[m { N = [31m5[m };
+[38;5;130m  5 
+  6 [m  [32mint[m is[N];
+[38;5;130m  7 [m  [32mint[m indexes[] = { [31m1[m, [31m3[m, [31m2[m, [31m4[m, [31m0[m, [31m3[m };
+[38;5;130m  8 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m; i < [38;5;130msizeof[m(indexes)/[38;5;130msizeof[m(indexes[[31m0[m]); i++) {
+[38;5;130m  9 [m    [32mint[m n = indexes[i];
+[38;5;130m 10 [m    [32mint[m isOk = [31m0[m;
+[38;5;130m 11 [m    [38;5;130mdo[m {
+[38;5;130m 12 [m      printf([31m"is[] is at [m[35m%p\n[m[31m"[m, is);
+[38;5;130m 13 [m      printf([31m"enter pointer to is[[m[35m%d[m[31m]: "[m, n);
+[38;5;130m 14 [m      fflush([31mstdout[m);
+[38;5;130m 15 [m      [32mint[m *p;
+[38;5;130m 16 [m      [38;5;130mif[m (scanf([31m"[m[35m%p[m[31m"[m, &p) == [31m1[m) {
+[38;5;130m 17 [m        isOk = (*p == is[n]);
+[38;5;130m 18 [m        printf([31m"[m[35m%s\n[m[31m"[m, isOk ? [31m"ok"[m : [31m"not ok"[m);
+[38;5;130m 19 [m      }
+[38;5;130m 20 [m      [38;5;130melse[m {
+[38;5;130m 21 [m        printf([31m"bad input: enter hex pointer value[m[35m\n[m[31m"[m);
+[38;5;130m 22 [m      }
+[38;5;130m 23 [m      [32mint[m c = getchar();
+[38;5;130m 24 [m      [38;5;130mwhile[m (c != [35m'\n'[m && c != [31mEOF[m) { [34m//waste line
+[m[38;5;130m 25 [m        c = getchar();
+[38;5;130m 26 [m      }
+[38;5;130m 27 [m    } [38;5;130mwhile[m (!isOk);
+[38;5;130m 28 [m  }
+[38;5;130m 29 [m  [38;5;130mreturn[m [31m0[m;
+[38;5;130m 30 [m}
+[94m~[K[H[31B~[K[H[32B[0;10;7;1min-pointers.c                                                                                                                     [H[33;131H1,1            All[?25h[?25l[1;5H[?25h[?25l[?1004h[?25h[?25l[34;138H[m:[1;5H[?25h[?25l[34;138H [1;5H[33B:[?112c[?25h[?25lq[?25h[?25l[34;1H[?25h[?25l[?112c[m[?25h[?2004l[?1004l[?25h[1m[7m%[27m[1m[m                                                                                                                                                    ma[m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex2 [49m[34m[39m [K[?2004hmmake[?2004l
+cc -g -Wall -std=c11 -m32    in-pointers.c   -o in-pointers
+[1m[7m%[27m[1m[m                                                                                                                                                    .[m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex2 [49m[34m[39m [K[?2004h../in-pointers[1m [m[m [?2004l
+is[] is at 0xffedf5dc
+enter pointer to is[1]: 0xffedf6dd
+not ok
+is[] is at 0xffedf5dc
+enter pointer to is[1]: 0xffedf6dc
+not ok
+is[] is at 0xffedf5dc
+enter pointer to is[1]: 0 ffedf6dd
+not ok
+is[] is at 0xffedf5dc
+enter pointer to is[1]: ^C
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m [31m✘[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex2 [49m[34m[39m [K[?2004hvvim 
+[J[01;32min-pointers[0m*   [Jin-pointers.c  [JMakefile     [J[A[m[27m[24m[m[39m[49m[45Cvim[K[m[39m[49m[1Cin-pointers
+[J[7min-pointers* [0m  [Jin-pointers.c  [JMakefile     [J[A[m[27m[24m[m[39m[49m[45Cvim in-pointers[K[m[39m[49m
+[7min-pointers* [0m  [7min-pointers* [0m  [A[m[27m[24m[m[39m[49m[45Cvim in-pointers[K[m[39m[49m.c
+[15C[7min-pointers.c[0m  [01;32min-pointers[0m*   [A[m[27m[24m[m[39m[49m[45Cvim in-pointers.c[K[m[39m[49m[13DMakefile     
+[30C[7mMakefile     [0m[15Cin-pointers.c  [A[m[27m[24m[m[39m[49m[45Cvim Makefile[K[m[39m[49m[8Din-pointers
+[7min-pointers* [0m  [30CMakefile     [A[m[27m[24m[m[39m[49m[45Cvim in-pointers[K[m[39m[49m.c
+[15C[7min-pointers.c[0m  [01;32min-pointers[0m*   [A[m[27m[24m[m[39m[49m[45Cvim in-pointers.c[K[m[39m[49m
+[J[A[62C[1m [m[m [?2004l
+[J[H[J[?2004h[1;34r[1;1H[m[H[J[?112c[?25h[?25l[H[J[?112c[?112c[?25h[?25l[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m                                                                                                                              
+[38;5;130m  2 
+  3 [m[32mint[m main() {
+[38;5;130m  4 [m  [32menum[m { N = [31m5[m };
+[38;5;130m  5 
+  6 [m  [32mint[m is[N];
+[38;5;130m  7 [m  [32mint[m indexes[] = { [31m1[m, [31m3[m, [31m2[m, [31m4[m, [31m0[m, [31m3[m };
+[38;5;130m  8 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m; i < [38;5;130msizeof[m(indexes)/[38;5;130msizeof[m(indexes[[31m0[m]); i++) {
+[38;5;130m  9 [m    [32mint[m n = indexes[i];
+[38;5;130m 10 [m    [32mint[m isOk = [31m0[m;
+[38;5;130m 11 [m    [38;5;130mdo[m {
+[38;5;130m 12 [m      printf([31m"is[] is at [m[35m%p\n[m[31m"[m, is);
+[38;5;130m 13 [m      printf([31m"enter pointer to is[[m[35m%d[m[31m]: "[m, n);
+[38;5;130m 14 [m      fflush([31mstdout[m);
+[38;5;130m 15 [m      [32mint[m *p;
+[38;5;130m 16 [m      [38;5;130mif[m (scanf([31m"[m[35m%p[m[31m"[m, &p) == [31m1[m) {
+[38;5;130m 17 [m        isOk = (*p == is[n]);
+[38;5;130m 18 [m        printf([31m"[m[35m%s\n[m[31m"[m, isOk ? [31m"ok"[m : [31m"not ok"[m);
+[38;5;130m 19 [m      }
+[38;5;130m 20 [m      [38;5;130melse[m {
+[38;5;130m 21 [m        printf([31m"bad input: enter hex pointer value[m[35m\n[m[31m"[m);
+[38;5;130m 22 [m      }
+[38;5;130m 23 [m      [32mint[m c = getchar();
+[38;5;130m 24 [m      [38;5;130mwhile[m (c != [35m'\n'[m && c != [31mEOF[m) { [34m//waste line
+[m[38;5;130m 25 [m        c = getchar();
+[38;5;130m 26 [m      }
+[38;5;130m 27 [m    } [38;5;130mwhile[m (!isOk);
+[38;5;130m 28 [m  }
+[38;5;130m 29 [m  [38;5;130mreturn[m [31m0[m;
+[38;5;130m 30 [m}
+[94m~[K[H[31B~[K[H[32B[0;10;7;1min-pointers.c                                                                                                                     [H[33;131H1,1            All[?25h[?25l[1;5H[?25h[?25l[?1004h[?25h[?25l[34;138H[mj[1;5H[?25h[?25l[34;138H [H[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m[K[18D
+[38;5;130m  2 [m                                                                                                                                                [33;131H[0;10;7;1m2,0-1[2;5H[?25h[?25l[34;138H[mj[2;5H[?25h[?25l[34;138H [32A[38;5;130m  2 [m[K
+[38;5;130m  3 [m[32mint[m main() {                                                                                                                                    [33;131H[0;10;7;1m3,1  [3;5H[?25h[?25l[34;138H[mj[3;5H[?25h[?25l[34;138H [31A[38;5;130m  3 [m[32mint[m main() {[K[12D
+[38;5;130m  4 [m  [32menum[m { N = [31m5[m };                                                                                                                               [33;131H[0;10;7;1m4[4;5H[?25h[?25l[34;138H[mj[4;5H[?25h[?25l[34;138H [30A[38;5;130m  4 [m  [32menum[m { N = [31m5[m };[K[17D
+[38;5;130m  5 [m                                                                                                                                                [33;131H[0;10;7;1m5,0-1[5;5H[?25h[?25l[34;138H[mj[5;5H[?25h[?25l[34;138H [29A[38;5;130m  5 [m[K
+[38;5;130m  6 [m  [32mint[m is[N];                                                                                                                                    [33;131H[0;10;7;1m6,1  [6;5H[?25h[?25l[34;138H[mj[6;5H[?25h[?25l[34;138H [28A[38;5;130m  6 [m  [32mint[m is[N];[K[12D
+[38;5;130m  7 [m  [32mint[m indexes[] = { [31m1[m, [31m3[m, [31m2[m, [31m4[m, [31m0[m, [31m3[m };                                                                                                         [33;131H[0;10;7;1m7[7;5H[?25h[?25l[34;138H[mj[7;5H[?25h[?25l[34;138H [27A[38;5;130m  7 [m  [32mint[m indexes[] = { [31m1[m, [31m3[m, [31m2[m, [31m4[m, [31m0[m, [31m3[m };[K[39D
+[38;5;130m  8 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m; i < [38;5;130msizeof[m(indexes)/[38;5;130msizeof[m(indexes[[31m0[m]); i++) {                                                                                [33;131H[0;10;7;1m8[8;5H[?25h[?25l[34;138H[mj[8;5H[?25h[?25l[34;138H [26A[38;5;130m  8 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m; i < [38;5;130msizeof[m(indexes)/[38;5;130msizeof[m(indexes[[31m0[m]); i++) {[K[64D
+[38;5;130m  9 [m    [32mint[m n = indexes[i];                                                                                                                         [33;131H[0;10;7;1m9[9;5H[?25h[?25l[34;138H[mj[9;5H[?25h[?25l[34;138H [25A[38;5;130m  9 [m    [32mint[m n = indexes[i];[K[23D
+[38;5;130m 10 [m    [32mint[m isOk = [31m0[m;                                                                                                                               [33;131H[0;10;7;1m10,1[10;5H[?25h[?25l[34;138H[mj[10;5H[?25h[?25l[34;138H [24A[38;5;130m 10 [m    [32mint[m isOk = [31m0[m;[K[17D
+[38;5;130m 11 [m    [38;5;130mdo[m {                                                                                                                                        [33;132H[0;10;7;1m1[11;5H[?25h[?25l[34;138H[mj[11;5H[?25h[?25l[34;138H [23A[38;5;130m 11 [m    [38;5;130mdo[m {[K[8D
+[38;5;130m 12 [m      printf([31m"is[] is at [m[35m%p\n[m[31m"[m, is);                                                                                                            [33;132H[0;10;7;1m2[12;5H[?25h[?25l[34;138H[mj[12;5H[?25h[?25l[34;138H [22A[38;5;130m 12 [m      printf([31m"is[] is at [m[35m%p\n[m[31m"[m, is);[K[36D
+[38;5;130m 13 [m      printf([31m"enter pointer to is[[m[35m%d[m[31m]: "[m, n);                                                                                                   [33;132H[0;10;7;1m3[13;5H[?25h[?25l[34;138H[mj[13;5H[?25h[?25l[34;138H [21A[38;5;130m 13 [m      printf([31m"enter pointer to is[[m[35m%d[m[31m]: "[m, n);[K[45D
+[38;5;130m 14 [m      fflush([31mstdout[m);                                                                                                                           [33;132H[0;10;7;1m4[14;5H[?25h[?25l[34;138H[mj[14;5H[?25h[?25l[34;138H [20A[38;5;130m 14 [m      fflush([31mstdout[m);[K[21D
+[38;5;130m 15 [m      [32mint[m *p;                                                                                                                                   [33;132H[0;10;7;1m5[15;5H[?25h[?25l[34;138H[mj[15;5H[?25h[?25l[34;138H [19A[38;5;130m 15 [m      [32mint[m *p;[K[13D
+[38;5;130m 16 [m      [38;5;130mif[m (scanf([31m"[m[35m%p[m[31m"[m, &p) == [31m1[m) {                                                                                                               [33;132H[0;10;7;1m6[16;5H[?25h[?25l[34;138H[mj[16;5H[?25h[?25l[34;138H [18A[38;5;130m 16 [m      [38;5;130mif[m (scanf([31m"[m[35m%p[m[31m"[m, &p) == [31m1[m) {[K[33D
+[38;5;130m 17 [m        isOk = (*p == is[n]);                                                                                                                   [33;132H[0;10;7;1m7[17;5H[?25h[?25l[34;138H[mj[17;5H[?25h[?25l[34;138H [17A[38;5;130m 17 [m        isOk = (*p == is[n]);[K[29D
+[38;5;130m 18 [m        printf([31m"[m[35m%s\n[m[31m"[m, isOk ? [31m"ok"[m : [31m"not ok"[m);                                                                                                 [33;132H[0;10;7;1m8[18;5H[?25h[?25l[34;138H[mj[18;5H[?25h[?25l[34;138H [16A[38;5;130m 18 [m        printf([31m"[m[35m%s\n[m[31m"[m, isOk ? [31m"ok"[m : [31m"not ok"[m);[K[47D
+[38;5;130m 19 [m      }                                                                                                                                         [33;132H[0;10;7;1m9[19;5H[?25h[?25l[34;138H[mj[19;5H[?25h[?25l[34;138H [15A[38;5;130m 19 [m      }[K[7D
+[38;5;130m 20 [m      [38;5;130melse[m {                                                                                                                                    [33;131H[0;10;7;1m20[20;5H[?25h[?25l[34;138H[mj[20;5H[?25h[?25l[34;138H [14A[38;5;130m 20 [m      [38;5;130melse[m {[K[12D
+[38;5;130m 21 [m        printf([31m"bad input: enter hex pointer value[m[35m\n[m[31m"[m);                                                                                         [33;132H[0;10;7;1m1[21;5H[?25h[?25l[34;138H[mk[21;5H[?25h[?25l[34;138H [14A[38;5;130m 20 [m      [38;5;130melse[m {                                                                                                                                    
+[38;5;130m 21 [m        printf([31m"bad input: enter hex pointer value[m[35m\n[m[31m"[m);[K[55D[33;132H[0;10;7;1m0[20;5H[?25h[?25l[34;138H[mk[20;5H[?25h[?25l[34;138H [15A[38;5;130m 19 [m      }                                                                                                                                         
+[38;5;130m 20 [m      [38;5;130melse[m {[K[12D[33;131H[0;10;7;1m19[19;5H[?25h[?25l[34;138H[mk[19;5H[?25h[?25l[34;138H [16A[38;5;130m 18 [m        printf([31m"[m[35m%s\n[m[31m"[m, isOk ? [31m"ok"[m : [31m"not ok"[m);                                                                                                 
+[38;5;130m 19 [m      }[K[7D[33;132H[0;10;7;1m8[18;5H[?25h[?25l[34;138H[ml[18;5H[?25h[?25l[34;138H [33;134H[0;10;7;1m2[18;6H[?25h[?25l[34;138H[ml[18;6H[?25h[?25l[34;138H [33;134H[0;10;7;1m3[18;7H[?25h[?25l[34;138H[ml[18;7H[?25h[?25l[34;138H [33;134H[0;10;7;1m4[18;8H[?25h[?25l[34;138H[ml[18;8H[?25h[?25l[34;138H [33;134H[0;10;7;1m5[18;9H[?25h[?25l[34;138H[ml[18;9H[?25h[?25l[34;138H [33;134H[0;10;7;1m6[18;10H[?25h[?25l[34;138H[ml[18;10H[?25h[?25l[34;138H [33;134H[0;10;7;1m7[18;11H[?25h[?25l[34;138H[ml[18;11H[?25h[?25l[34;138H [33;134H[0;10;7;1m8[18;12H[?25h[?25l[34;138H[ml[18;12H[?25h[?25l[34;138H [33;134H[0;10;7;1m9[18;13H[?25h[?25l[34;138H[ml[18;13H[?25h[?25l[34;138H [33;134H[0;10;7;1m10[18;14H[?25h[?25l[34;138H[ml[18;14H[?25h[?25l[34;138H [33;135H[0;10;7;1m1[18;15H[?25h[?25l[34;138H[ml[18;15H[?25h[?25l[34;138H [33;135H[0;10;7;1m2[18;16H[?25h[?25l[34;138H[ml[18;16H[?25h[?25l[34;138H [33;135H[0;10;7;1m3[18;17H[?25h[?25l[34;138H[ml[18;17H[?25h[?25l[34;138H [33;135H[0;10;7;1m4[18;18H[?25h[?25l[34;138H[ml[18;18H[?25h[?25l[34;138H [18;19H[106m([m[31m"[m[35m%s\n[m[31m"[m, isOk ? [31m"ok"[m : [31m"not ok"[m[106m)[33;135H[0;10;7;1m5[18;19H[?25h[?25l[34;138H[ml[18;19H[?25h[?25l[34;138H [18;19H([31m"[m[35m%s\n[m[31m"[m, isOk ? [31m"ok"[m : [31m"not ok"[m)[33;135H[0;10;7;1m6[18;20H[?25h[?25l[34;138H[ml[18;20H[?25h[?25l[34;138H [33;135H[0;10;7;1m7[18;21H[?25h[?25l[34;138H[ml[18;21H[?25h[?25l[34;138H [33;135H[0;10;7;1m8[18;22H[?25h[?25l[34;138H[ml[18;22H[?25h[?25l[34;138H [33;135H[0;10;7;1m9[18;23H[?25h[?25l[34;138H[ml[18;23H[?25h[?25l[34;138H [33;134H[0;10;7;1m20[18;24H[?25h[?25l[34;138H[ml[18;24H[?25h[?25l[34;138H [33;135H[0;10;7;1m1[18;25H[?25h[?25l[34;138H[ml[18;25H[?25h[?25l[34;138H [33;135H[0;10;7;1m2[18;26H[?25h[?25l[34;138H[ml[18;26H[?25h[?25l[34;138H [33;135H[0;10;7;1m3[18;27H[?25h[?25l[34;138H[ml[18;27H[?25h[?25l[34;138H [33;135H[0;10;7;1m4[18;28H[?25h[?25l[34;138H[ml[18;28H[?25h[?25l[34;138H [33;135H[0;10;7;1m5[18;29H[?25h[?25l[34;138H[ml[18;29H[?25h[?25l[34;138H [33;135H[0;10;7;1m6[18;30H[?25h[?25l[34;138H[ml[18;30H[?25h[?25l[34;138H [33;135H[0;10;7;1m7[18;31H[?25h[?25l[34;138H[ml[18;31H[?25h[?25l[34;138H [33;135H[0;10;7;1m8[18;32H[?25h[?25l[34;138H[ml[18;32H[?25h[?25l[34;138H [33;135H[0;10;7;1m9[18;33H[?25h[?25l[34;138H[mk[18;33H[?25h[?25l[34;138H [17A[38;5;130m 17 [m        isOk = (*p == is[n]);                                                                                                                   
+[38;5;130m 18 [m        printf([31m"[m[35m%s\n[m[31m"[m, isOk ? [31m"ok"[m : [31m"not ok"[m);[K[19D[33;132H[0;10;7;1m7[17;33H[?25h[?25l[34;138H[mk[17;33H[?25h[?25l[34;138H [18A[38;5;130m 16 [m      [38;5;130mif[m (scanf([31m"[m[35m%p[m[31m"[m, &p) == [31m1[m) {                                                                                                               
+[38;5;130m 17 [m        isOk = (*p == is[n]);[K[33;132H[0;10;7;1m6[16;33H[?25h[?25l[34;138H[mk[16;33H[?25h[?25l[34;138H [19A[38;5;130m 15 [m      [32mint[m *p;                                                                                                                                   
+[38;5;130m 16 [m      [38;5;130mif[m (scanf([31m"[m[35m%p[m[31m"[m, &p) == [31m1[m) {[K[5D[33;132H[0;10;7;1m5,13[15;17H[?25h[?25l[34;138H[mk[15;17H[?25h[?25l[34;138H [20A[38;5;130m 14 [m      fflush([31mstdout[m);                                                                                                                           
+[38;5;130m 15 [m      [32mint[m *p;[K[33;132H[0;10;7;1m4,21[14;25H[?25h[?25l[34;138H[mj[14;25H[?25h[?25l[34;138H [20A[38;5;130m 14 [m      fflush([31mstdout[m);[K
+[38;5;130m 15 [m      [32mint[m *p;                                                                                                                                   [33;132H[0;10;7;1m5,13[15;17H[?25h[?25l[34;138H[mj[15;17H[?25h[?25l[34;138H [19A[38;5;130m 15 [m      [32mint[m *p;[K
+[38;5;130m 16 [m      [38;5;130mif[m (scanf([31m"[m[35m%p[m[31m"[m, &p) == [31m1[m) {                                                                                                               [33;132H[0;10;7;1m6,29[16;33H[?25h[?25l[34;138H[mb[16;33H[?25h[?25l[34;138H [33;135H[0;10;7;1m7[16;31H[?25h[?25l[34;138H[mb[16;31H[?25h[?25l[34;138H [16;20H[106m([m[31m"[m[35m%p[m[31m"[m, &p[106m)[33;135H[0;10;7;1m5[16;29H[?25h[?25l[34;138H[mh[16;29H[?25h[?25l[34;138H [16;20H([31m"[m[35m%p[m[31m"[m, &p)[33;135H[0;10;7;1m4[16;28H[?25h[?25l[34;138H[mh[16;28H[?25h[?25l[34;138H [33;135H[0;10;7;1m3[16;27H[?25h[?25l[34;138H[m:[16;27H[?25h[?25l[34;138H [16;27H[18B:[?112c[?25h[?25lq[?25h[?25l[34;1H[?25h[?25l[?112c[m[?25h[?2004l[?1004l[?25h[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex2 [49m[34m[39m [K[?2004hvim in-pointers.c[17D./[P[P[11C    [?2004l
+is[] is at 0xff87054c
+enter pointer to is[1]: ff87054d
+not ok
+is[] is at 0xff87054c
+enter pointer to is[1]: ^[[A    ff876 054e c
+not ok
+is[] is at 0xff87054c
+enter pointer to is[1]: ff8707 54c b
+not ok
+is[] is at 0xff87054c
+enter pointer to is[1]: 0xff87054c^[[D^[[5~          ^[[D             ff87054 50
+ok
+is[] is at 0xff87054c
+enter pointer to is[3]: ff870558
+ok
+is[] is at 0xff87054c
+enter pointer to is[2]: ff870554
+ok
+is[] is at 0xff87054c
+enter pointer to is[4]: ff87055C c
+ok
+is[] is at 0xff87054c
+enter pointer to is[0]: ff86 7054c
+ok
+is[] is at 0xff87054c
+enter pointer to is[3]: ff87054 4 58
+ok
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex2 [49m[34m[39m [K[?2004hccd ../ex x3[?2004l
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex3 [49m[34m[39m [K[?2004hmmake[?2004l
+cc -g -Wall -std=c11 -m32    bad-types.c   -o bad-types
+[01m[Kbad-types.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kbad-types.c:6:14:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kchar *[m[K’ from incompatible pointer type ‘[01m[Kint *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+   char *cp = [01;35m[Kis[m[K;
+              [01;35m[K^~[m[K
+[01m[Kbad-types.c:7:13:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kint *[m[K’ from incompatible pointer type ‘[01m[Kchar *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+   int *ip = [01;35m[Kcs[m[K;
+             [01;35m[K^~[m[K
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex3 [49m[34m[39m [K[?2004h../bad-types[1m [m[m [?2004l
+char pointer cp = 0xffbe0724, pointing at char '' (0x1)
+char pointer cp = 0xffbe0725, pointing at char ' ' (0x0)
+char pointer cp = 0xffbe0726, pointing at char ' ' (0x0)
+char pointer cp = 0xffbe0727, pointing at char ' ' (0x0)
+char pointer cp = 0xffbe0728, pointing at char '' (0x2)
+int pointer ip = 0xffbe073b, pointing at int 1684234849 (0x64636261)
+int pointer ip = 0xffbe073f, pointing at int 357 (0x165)
+int pointer ip = 0xffbe0743, pointing at int 1280 (0x500)
+int pointer ip = 0xffbe0747, pointing at int -1106819328 (0xbe074700)
+int pointer ip = 0xffbe074b, pointing at int -1106826753 (0xbe0729ff)
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex3 [49m[34m[39m [K[?2004hccd ../ex4[?2004l
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex4 [49m[34m[39m [K[?2004hmmake[?2004l
+cc -g -Wall -std=c11 -m32    cast-types.c   -o cast-types
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex4 [49m[34m[39m [K[?2004h../cast-types[1m [m[m [?2004l
+char pointer cp = 0xfff0bf34, pointing at int 1 (0x1)
+char pointer cp = 0xfff0bf38, pointing at int 2 (0x2)
+char pointer cp = 0xfff0bf3c, pointing at int 3 (0x3)
+char pointer cp = 0xfff0bf40, pointing at int 4 (0x4)
+char pointer cp = 0xfff0bf44, pointing at int 5 (0x5)
+int pointer ip = 0xfff0bf4b, pointing at char 'a' (0x64636261)
+int pointer ip = 0xfff0bf4c, pointing at char 'b' (0x65646362)
+int pointer ip = 0xfff0bf4d, pointing at char 'c' (0x2656463)
+int pointer ip = 0xfff0bf4e, pointing at char 'd' (0x36564)
+int pointer ip = 0xfff0bf4f, pointing at char 'e' (0x465)
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex4 [49m[34m[39m [K[?2004hccd ../ex6 5[?2004l
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex5 [49m[34m[39m [K[?2004hvvim void-pointers.c[1m [m[m [?2004l
+[H[J[?2004h[1;34r[1;1H[m[H[J[?112c[?25h[?25l[H[J[?112c[?112c[?25h[?25l[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m                                                                                                                              
+[38;5;130m  2 
+  3 [m[32mint[m main() {
+[38;5;130m  4 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };
+[38;5;130m  5 [m  [32mint[m is[] = { [31m1[m, [31m2[m, [31m3[m, [31m4[m, [31m5[m };
+[38;5;130m  6 [m  [32mvoid[m *p = cs;
+[38;5;130m  7 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m; i < [38;5;130msizeof[m(cs)/[38;5;130msizeof[m(cs[[31m0[m]); i++) {
+[38;5;130m  8 [m    printf([31m"void pointer p = [m[35m%p[m[31m, pointing at char [m[35m%c\n[m[31m"[m, p, *([32mchar[m *)p);
+[38;5;130m  9 [m    p = ([32mchar[m *)p + [31m1[m;
+[38;5;130m 10 [m  }
+[38;5;130m 11 [m  p = is;
+[38;5;130m 12 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m; i < [38;5;130msizeof[m(is)/[38;5;130msizeof[m(is[[31m0[m]); i++) {
+[38;5;130m 13 [m    printf([31m"void pointer p = [m[35m%p[m[31m, pointing at int [m[35m%d\n[m[31m"[m, p, *([32mint[m *)p);
+[38;5;130m 14 [m    p = ([32mint[m *)p + [31m1[m;
+[38;5;130m 15 [m  }
+[38;5;130m 16 [m  [38;5;130mreturn[m [31m0[m;
+[38;5;130m 17 [m}
+[94m~[K[H[18B~[K[H[19B~[K[H[20B~[K[H[21B~[K[H[22B~[K[H[23B~[K[H[24B~[K[H[25B~[K[H[26B~[K[H[27B~[K[H[28B~[K[H[29B~[K[H[30B~[K[H[31B~[K[H[32B[0;10;7;1mvoid-pointers.c                                                                                                                   [H[33;131H1,1            All[?25h[?25l[1;5H[?25h[?25l[?1004h[?25h[?25l[34;138H[m:[1;5H[?25h[?25l[34;138H [1;5H[33B:[?112c[?25h[?25lq[?25h[?25l[34;1H[?25h[?25l[?112c[m[?25h[?2004l[?1004l[?25h[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex5 [49m[34m[39m [K[?2004hmmake[?2004l
+cc -g -Wall -std=c11 -m32    void-pointers.c   -o void-pointers
+[1m[7m%[27m[1m[m                                                                                                                                                    .[m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex5 [49m[34m[39m [K[?2004h../void-pointers[1m [m[m [?2004l
+void pointer p = 0xffcd8b5f, pointing at char a
+void pointer p = 0xffcd8b60, pointing at char b
+void pointer p = 0xffcd8b61, pointing at char c
+void pointer p = 0xffcd8b62, pointing at char d
+void pointer p = 0xffcd8b63, pointing at char e
+void pointer p = 0xffcd8b48, pointing at int 1
+void pointer p = 0xffcd8b4c, pointing at int 2
+void pointer p = 0xffcd8b50, pointing at int 3
+void pointer p = 0xffcd8b54, pointing at int 4
+void pointer p = 0xffcd8b58, pointing at int 5
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex5 [49m[34m[39m [K[?2004hccd ../ex6[?2004l
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex6 [49m[34m[39m [K[?2004hvvim in-voids.c[1m [m[m [?2004l
+[H[J[?2004h[1;34r[1;1H[m[H[J[?112c[?25h[?25l[H[J[?112c[?112c[?25h[?25l[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m                                                                                                                              
+[38;5;130m  2 
+  3 [m[32mtypedef[m [32mstruct[m {
+[38;5;130m  4 [m  [32mconst[m [32mchar[m *exp;
+[38;5;130m  5 [m  [32mvoid[m *p;
+[38;5;130m  6 [m} ExpPointer;
+[38;5;130m  7 
+  8 [m[32mint[m main() {
+[38;5;130m  9 
+ 10 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };
+[38;5;130m 11 [m  [32mint[m is[] = { [31m1[m, [31m2[m, [31m3[m, [31m4[m, [31m5[m };
+[38;5;130m 12 [m  ExpPointer questions[] = {
+[38;5;130m 13 [m    { [31m"is[2]"[m, &is[[31m2[m] },
+[38;5;130m 14 [m    { [31m"cs[3]"[m, &cs[[31m3[m] },
+[38;5;130m 15 [m    { [31m"is[4]"[m, &is[[31m4[m] },
+[38;5;130m 16 [m    { [31m"cs[1]"[m, &cs[[31m1[m] },
+[38;5;130m 17 [m    { [31m"cs[4]"[m, &cs[[31m4[m] },
+[38;5;130m 18 [m    { [31m"is[1]"[m, &is[[31m1[m] },
+[38;5;130m 19 [m  };
+[38;5;130m 20 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m;
+[38;5;130m 21 [m       !feof([31mstdin[m) && i < [38;5;130msizeof[m(questions)/[38;5;130msizeof[m(questions[[31m0[m]);
+[38;5;130m 22 [m       i++) {
+[38;5;130m 23 [m    ExpPointer q = questions[i];
+[38;5;130m 24 [m    [32mint[m isOk = [31m0[m;
+[38;5;130m 25 [m    [38;5;130mdo[m {
+[38;5;130m 26 [m      printf([31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is);
+[38;5;130m 27 [m      printf([31m"enter pointer to [m[35m%s[m[31m: "[m, q.exp);
+[38;5;130m 28 [m      fflush([31mstdout[m);
+[38;5;130m 29 [m      [32mvoid[m *p;
+[38;5;130m 30 [m      [32mint[m nOk = scanf([31m"[m[35m%p[m[31m"[m, &p);
+[38;5;130m 31 [m      [38;5;130mif[m (nOk == [31m1[m) {
+[38;5;130m 32 [m        isOk = (p == q.p);
+[0;10;7;1min-voids.c                                                                                                                        [H[33;131H1,1            Top[?25h[?25l[1;5H[?25h[?25l[?1004h[?25h[?25l[34;138H[mj[1;5H[?25h[?25l[34;138H [H[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m[K[18D
+[38;5;130m  2 [m                                                                                                                                                [33;131H[0;10;7;1m2,0-1[2;5H[?25h[?25l[34;138H[m:[2;5H[?25h[?25l[34;138H [2;5H[32B:[?112c[?25h[?25lq[?25h[?25l[34;1H[?25h[?25l[?112c[m[?25h[?2004l[?1004l[?25h[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex6 [49m[34m[39m [K[?2004hmmake[?2004l
+cc -g -Wall -std=c11 -m32    in-voids.c   -o in-voids
+[1m[7m%[27m[1m[m                                                                                                                                                    .[m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex6 [49m[34m[39m [K[?2004h../e in-voids[1m [m[m [?2004l
+cs[] is at 0xffa2aadb; is[] is at 0xffa2aac4
+enter pointer to is[2]: ffa2aacC c
+ok
+cs[] is at 0xffa2aadb; is[] is at 0xffa2aac4
+enter pointer to cs[3]: ffa2aadb  e3
+not ok
+cs[] is at 0xffa2aadb; is[] is at 0xffa2aac4
+enter pointer to cs[3]: ffa2aadb c
+not ok
+cs[] is at 0xffa2aadb; is[] is at 0xffa2aac4
+enter pointer to cs[3]: [1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex6 [49m[34m[39m [K[?2004h./in-voids[10Dmake      vim in-voids.c[?2004l
+[H[J[?2004h[1;34r[1;1H[m[H[J[?112c[?25h[?25l[H[J[?112c[?112c[?25h[?25l[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m                                                                                                                              
+[38;5;130m  2 
+  3 [m[32mtypedef[m [32mstruct[m {
+[38;5;130m  4 [m  [32mconst[m [32mchar[m *exp;
+[38;5;130m  5 [m  [32mvoid[m *p;
+[38;5;130m  6 [m} ExpPointer;
+[38;5;130m  7 
+  8 [m[32mint[m main() {
+[38;5;130m  9 
+ 10 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };
+[38;5;130m 11 [m  [32mint[m is[] = { [31m1[m, [31m2[m, [31m3[m, [31m4[m, [31m5[m };
+[38;5;130m 12 [m  ExpPointer questions[] = {
+[38;5;130m 13 [m    { [31m"is[2]"[m, &is[[31m2[m] },
+[38;5;130m 14 [m    { [31m"cs[3]"[m, &cs[[31m3[m] },
+[38;5;130m 15 [m    { [31m"is[4]"[m, &is[[31m4[m] },
+[38;5;130m 16 [m    { [31m"cs[1]"[m, &cs[[31m1[m] },
+[38;5;130m 17 [m    { [31m"cs[4]"[m, &cs[[31m4[m] },
+[38;5;130m 18 [m    { [31m"is[1]"[m, &is[[31m1[m] },
+[38;5;130m 19 [m  };
+[38;5;130m 20 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m;
+[38;5;130m 21 [m       !feof([31mstdin[m) && i < [38;5;130msizeof[m(questions)/[38;5;130msizeof[m(questions[[31m0[m]);
+[38;5;130m 22 [m       i++) {
+[38;5;130m 23 [m    ExpPointer q = questions[i];
+[38;5;130m 24 [m    [32mint[m isOk = [31m0[m;
+[38;5;130m 25 [m    [38;5;130mdo[m {
+[38;5;130m 26 [m      printf([31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is);
+[38;5;130m 27 [m      printf([31m"enter pointer to [m[35m%s[m[31m: "[m, q.exp);
+[38;5;130m 28 [m      fflush([31mstdout[m);
+[38;5;130m 29 [m      [32mvoid[m *p;
+[38;5;130m 30 [m      [32mint[m nOk = scanf([31m"[m[35m%p[m[31m"[m, &p);
+[38;5;130m 31 [m      [38;5;130mif[m (nOk == [31m1[m) {
+[38;5;130m 32 [m        isOk = (p == q.p);
+[0;10;7;1min-voids.c                                                                                                                        [H[33;131H1,1            Top[?25h[?25l[1;5H[?25h[?25l[?1004h[?25h[?25l[34;138H[mj[1;5H[?25h[?25l[34;138H [H[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m[K[18D
+[38;5;130m  2 [m                                                                                                                                                [33;131H[0;10;7;1m2,0-1[2;5H[?25h[?25l[34;138H[mj[2;5H[?25h[?25l[34;138H [32A[38;5;130m  2 [m[K
+[38;5;130m  3 [m[32mtypedef[m [32mstruct[m {                                                                                                                                [33;131H[0;10;7;1m3,1  [3;5H[?25h[?25l[34;138H[mj[3;5H[?25h[?25l[34;138H [31A[38;5;130m  3 [m[32mtypedef[m [32mstruct[m {[K[16D
+[38;5;130m  4 [m  [32mconst[m [32mchar[m *exp;                                                                                                                              [33;131H[0;10;7;1m4[4;5H[?25h[?25l[34;138H[mj[4;5H[?25h[?25l[34;138H [30A[38;5;130m  4 [m  [32mconst[m [32mchar[m *exp;[K[18D
+[38;5;130m  5 [m  [32mvoid[m *p;                                                                                                                                      [33;131H[0;10;7;1m5[5;5H[?25h[?25l[34;138H[mj[5;5H[?25h[?25l[34;138H [3;20H[106m{
+
+[m[38;5;130m  5 [m  [32mvoid[m *p;[K[10D
+[38;5;130m  6 [m[106m}[m ExpPointer;                                                                                                                                   [33;131H[0;10;7;1m6[6;5H[?25h[?25l[34;138H[mj[6;5H[?25h[?25l[34;138H [3;20H{
+
+
+[38;5;130m  6 [m} ExpPointer;[K[13D
+[38;5;130m  7 [m                                                                                                                                                [33;131H[0;10;7;1m7,0-1[7;5H[?25h[?25l[34;138H[mj[7;5H[?25h[?25l[34;138H [27A[38;5;130m  7 [m[K
+[38;5;130m  8 [m[32mint[m main() {                                                                                                                                    [33;131H[0;10;7;1m8,1  [8;5H[?25h[?25l[34;138H[mj[8;5H[?25h[?25l[34;138H [26A[38;5;130m  8 [m[32mint[m main() {[K[12D
+[38;5;130m  9 [m                                                                                                                                                [33;131H[0;10;7;1m9,0-1[9;5H[?25h[?25l[34;138H[mj[9;5H[?25h[?25l[34;138H [25A[38;5;130m  9 [m[K
+[38;5;130m 10 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };                                                                                                      [33;131H[0;10;7;1m10,1 [10;5H[?25h[?25l[34;138H[mj[10;5H[?25h[?25l[34;138H [24A[38;5;130m 10 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };[K[42D
+[38;5;130m 11 [m  [32mint[m is[] = { [31m1[m, [31m2[m, [31m3[m, [31m4[m, [31m5[m };                                                                                                                 [33;132H[0;10;7;1m1[11;5H[?25h[?25l[34;138H[mj[11;5H[?25h[?25l[34;138H [23A[38;5;130m 11 [m  [32mint[m is[] = { [31m1[m, [31m2[m, [31m3[m, [31m4[m, [31m5[m };[K[31D
+[38;5;130m 12 [m  ExpPointer questions[] = {                                                                                                                    [33;132H[0;10;7;1m2[12;5H[?25h[?25l[34;138H[mj[12;5H[?25h[?25l[34;138H [22A[38;5;130m 12 [m  ExpPointer questions[] = {[K[28D
+[38;5;130m 13 [m    { [31m"is[2]"[m, &is[[31m2[m] },                                                                                                                        [33;132H[0;10;7;1m3[13;5H[?25h[?25l[34;138H[mj[13;5H[?25h[?25l[34;138H [21A[38;5;130m 13 [m    { [31m"is[2]"[m, &is[[31m2[m] },[K[24D
+[38;5;130m 14 [m    { [31m"cs[3]"[m, &cs[[31m3[m] },                                                                                                                        [33;132H[0;10;7;1m4[14;5H[?25h[?25l[34;138H[mj[14;5H[?25h[?25l[34;138H [20A[38;5;130m 14 [m    { [31m"cs[3]"[m, &cs[[31m3[m] },[K[24D
+[38;5;130m 15 [m    { [31m"is[4]"[m, &is[[31m4[m] },                                                                                                                        [33;132H[0;10;7;1m5[15;5H[?25h[?25l[34;138H[mj[15;5H[?25h[?25l[34;138H [19A[38;5;130m 15 [m    { [31m"is[4]"[m, &is[[31m4[m] },[K[24D
+[38;5;130m 16 [m    { [31m"cs[1]"[m, &cs[[31m1[m] },                                                                                                                        [33;132H[0;10;7;1m6[16;5H[?25h[?25l[34;138H[mj[16;5H[?25h[?25l[34;138H [18A[38;5;130m 16 [m    { [31m"cs[1]"[m, &cs[[31m1[m] },[K[24D
+[38;5;130m 17 [m    { [31m"cs[4]"[m, &cs[[31m4[m] },                                                                                                                        [33;132H[0;10;7;1m7[17;5H[?25h[?25l[34;138H[mj[17;5H[?25h[?25l[34;138H [17A[38;5;130m 17 [m    { [31m"cs[4]"[m, &cs[[31m4[m] },[K[24D
+[38;5;130m 18 [m    { [31m"is[1]"[m, &is[[31m1[m] },                                                                                                                        [33;132H[0;10;7;1m8[18;5H[?25h[?25l[34;138H[mj[18;5H[?25h[?25l[34;138H [16A[38;5;130m 18 [m    { [31m"is[1]"[m, &is[[31m1[m] },[K[24D
+[38;5;130m 19 [m  };                                                                                                                                            [33;132H[0;10;7;1m9[19;5H[?25h[?25l[34;138H[mj[19;5H[?25h[?25l[34;138H [15A[38;5;130m 19 [m  };[K
+[38;5;130m 20 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m;                                                                                                                               [33;131H[0;10;7;1m20[20;5H[?25h[?25l[34;138H[mj[20;5H[?25h[?25l[34;138H [14A[38;5;130m 20 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m;[K[17D
+[38;5;130m 21 [m       !feof([31mstdin[m) && i < [38;5;130msizeof[m(questions)/[38;5;130msizeof[m(questions[[31m0[m]);                                                                              [33;132H[0;10;7;1m1[21;5H[?25h[?25l[34;138H[mj[21;5H[?25h[?25l[34;138H [13A[38;5;130m 21 [m       !feof([31mstdin[m) && i < [38;5;130msizeof[m(questions)/[38;5;130msizeof[m(questions[[31m0[m]);[K[66D
+[38;5;130m 22 [m       i++) {                                                                                                                                   [33;132H[0;10;7;1m2[22;5H[?25h[?25l[34;138H[mj[22;5H[?25h[?25l[34;138H [12A[38;5;130m 22 [m       i++) {[K[13D
+[38;5;130m 23 [m    ExpPointer q = questions[i];                                                                                                                [33;132H[0;10;7;1m3[23;5H[?25h[?25l[34;138H[mj[23;5H[?25h[?25l[34;138H [11A[38;5;130m 23 [m    ExpPointer q = questions[i];[K[32D
+[38;5;130m 24 [m    [32mint[m isOk = [31m0[m;                                                                                                                               [33;132H[0;10;7;1m4[24;5H[?25h[?25l[34;138H[mG[24;5H[?25h[?25l[34;138H [1;32r[34;139H[H[16M[1;34r[1;1H[24;5H[16A[38;5;130m 24 [m    [32mint[m isOk = [31m0[m;[K[24;5H[7A[38;5;130m 33 [m        printf([31m"[m[35m%s\n[m[31m"[m, isOk ? [31m"ok"[m : [31m"not ok"[m);
+[38;5;130m 34 [m      }
+[38;5;130m 35 [m      [38;5;130melse[m [38;5;130mif[m (nOk == [31mEOF[m) {
+[38;5;130m 36 [m        [38;5;130mbreak[m;
+[38;5;130m 37 [m      }
+[38;5;130m 38 [m      [38;5;130melse[m {
+[38;5;130m 39 [m        printf([31m"bad input: enter hex pointer value[m[35m\n[m[31m"[m);
+[38;5;130m 40 [m      }
+[38;5;130m 41 [m      [32mint[m c = getchar();
+[38;5;130m 42 [m      [38;5;130mwhile[m (c != [35m'\n'[m && c != [31mEOF[m) { [34m//waste line
+[m[38;5;130m 43 [m        c = getchar();
+[38;5;130m 44 [m      }
+[38;5;130m 45 [m    } [38;5;130mwhile[m (!isOk);
+[38;5;130m 46 [m  }
+[38;5;130m 47 [m  [38;5;130mreturn[m [31m0[m;
+[38;5;130m 48 [m}                                                                                                                                               [33;131H[0;10;7;1m48,1           Bot[32;5H[?25h[?25l[34;138H[mg[32;5H[?25h[?25l[34;138H [32;5H[?25h[?25l[34;138Hgg[32;5H[?25h[?25l[34;138H  [1;32r[34;140H[H[16L[1;34r[1;1H[32;5H[H[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m                                                                                                                              
+[38;5;130m  2 
+  3 [m[32mtypedef[m [32mstruct[m {
+[38;5;130m  4 [m  [32mconst[m [32mchar[m *exp;
+[38;5;130m  5 [m  [32mvoid[m *p;
+[38;5;130m  6 [m} ExpPointer;
+[38;5;130m  7 
+  8 [m[32mint[m main() {
+[38;5;130m  9 
+ 10 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };
+[38;5;130m 11 [m  [32mint[m is[] = { [31m1[m, [31m2[m, [31m3[m, [31m4[m, [31m5[m };
+[38;5;130m 12 [m  ExpPointer questions[] = {
+[38;5;130m 13 [m    { [31m"is[2]"[m, &is[[31m2[m] },
+[38;5;130m 14 [m    { [31m"cs[3]"[m, &cs[[31m3[m] },
+[38;5;130m 15 [m    { [31m"is[4]"[m, &is[[31m4[m] },
+[38;5;130m 16 [m    { [31m"cs[1]"[m, &cs[[31m1[m] },[33;131H[0;10;7;1m1,1            Top[1;5H[?25h[?25l[34;138H[mj[1;5H[?25h[?25l[34;138H [H[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m[K[18D
+[38;5;130m  2 [m                                                                                                                                                [33;131H[0;10;7;1m2,0-1[2;5H[?25h[?25l[34;138H[mj[2;5H[?25h[?25l[34;138H [32A[38;5;130m  2 [m[K
+[38;5;130m  3 [m[32mtypedef[m [32mstruct[m {                                                                                                                                [33;131H[0;10;7;1m3,1  [3;5H[?25h[?25l[34;138H[mj[3;5H[?25h[?25l[34;138H [31A[38;5;130m  3 [m[32mtypedef[m [32mstruct[m {[K[16D
+[38;5;130m  4 [m  [32mconst[m [32mchar[m *exp;                                                                                                                              [33;131H[0;10;7;1m4[4;5H[?25h[?25l[34;138H[mj[4;5H[?25h[?25l[34;138H [30A[38;5;130m  4 [m  [32mconst[m [32mchar[m *exp;[K[18D
+[38;5;130m  5 [m  [32mvoid[m *p;                                                                                                                                      [33;131H[0;10;7;1m5[5;5H[?25h[?25l[34;138H[mj[5;5H[?25h[?25l[34;138H [3;20H[106m{
+
+[m[38;5;130m  5 [m  [32mvoid[m *p;[K[10D
+[38;5;130m  6 [m[106m}[m ExpPointer;                                                                                                                                   [33;131H[0;10;7;1m6[6;5H[?25h[?25l[34;138H[mj[6;5H[?25h[?25l[34;138H [3;20H{
+
+
+[38;5;130m  6 [m} ExpPointer;[K[13D
+[38;5;130m  7 [m                                                                                                                                                [33;131H[0;10;7;1m7,0-1[7;5H[?25h[?25l[34;138H[mj[7;5H[?25h[?25l[34;138H [27A[38;5;130m  7 [m[K
+[38;5;130m  8 [m[32mint[m main() {                                                                                                                                    [33;131H[0;10;7;1m8,1  [8;5H[?25h[?25l[34;138H[mj[8;5H[?25h[?25l[34;138H [26A[38;5;130m  8 [m[32mint[m main() {[K[12D
+[38;5;130m  9 [m                                                                                                                                                [33;131H[0;10;7;1m9,0-1[9;5H[?25h[?25l[34;138H[mj[9;5H[?25h[?25l[34;138H [25A[38;5;130m  9 [m[K
+[38;5;130m 10 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };                                                                                                      [33;131H[0;10;7;1m10,1 [10;5H[?25h[?25l[34;138H[mj[10;5H[?25h[?25l[34;138H [24A[38;5;130m 10 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };[K[42D
+[38;5;130m 11 [m  [32mint[m is[] = { [31m1[m, [31m2[m, [31m3[m, [31m4[m, [31m5[m };                                                                                                                 [33;132H[0;10;7;1m1[11;5H[?25h[?25l[34;138H[mk[11;5H[?25h[?25l[34;138H [24A[38;5;130m 10 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };                                                                                                      
+[38;5;130m 11 [m  [32mint[m is[] = { [31m1[m, [31m2[m, [31m3[m, [31m4[m, [31m5[m };[K[31D[33;132H[0;10;7;1m0[10;5H[?25h[?25l[34;138H[mq[10;5H[?25h[?25l[34;139H^[[10;5H[?25h[?25l[34;138H   [10;5H[?25h[?25l[34;138Hw[10;5H[?25h[?25l[34;138H [33;134H[0;10;7;1m3[10;7H[?25h[?25l[34;138H[mw[10;7H[?25h[?25l[34;138H [33;134H[0;10;7;1m8[10;12H[?25h[?25l[34;138H[mw[10;12H[?25h[?25l[34;138H [10;14H[106m[][33;134H[0;10;7;1m10[10;14H[?25h[?25l[34;138H[mw[10;14H[?25h[?25l[34;138H [10;14H[][33;135H[0;10;7;1m3[10;17H[?25h[?25l[34;138H[mw[10;17H[?25h[?25l[34;138H [10;19H[106m{[m [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m [106m}[33;135H[0;10;7;1m5[10;19H[?25h[?25l[34;138H[mw[10;19H[?25h[?25l[34;138H [10;19H{ [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m }[33;135H[0;10;7;1m7[10;21H[?25h[?25l[34;138H[mw[10;21H[?25h[?25l[34;138H [33;135H[0;10;7;1m8[10;22H[?25h[?25l[34;138H[mw[10;22H[?25h[?25l[34;138H [33;135H[0;10;7;1m9[10;23H[?25h[?25l[34;138H[mG[10;23H[?25h[?25l[34;138H [1;32r[34;139H[H[16M[1;34r[1;1H[10;23H[7B[38;5;130m 33 [m        printf([31m"[m[35m%s\n[m[31m"[m, isOk ? [31m"ok"[m : [31m"not ok"[m);
+[38;5;130m 34 [m      }
+[38;5;130m 35 [m      [38;5;130melse[m [38;5;130mif[m (nOk == [31mEOF[m) {
+[38;5;130m 36 [m        [38;5;130mbreak[m;
+[38;5;130m 37 [m      }
+[38;5;130m 38 [m      [38;5;130melse[m {
+[38;5;130m 39 [m        printf([31m"bad input: enter hex pointer value[m[35m\n[m[31m"[m);
+[38;5;130m 40 [m      }
+[38;5;130m 41 [m      [32mint[m c = getchar();
+[38;5;130m 42 [m      [38;5;130mwhile[m (c != [35m'\n'[m && c != [31mEOF[m) { [34m//waste line
+[m[38;5;130m 43 [m        c = getchar();
+[38;5;130m 44 [m      }
+[38;5;130m 45 [m    } [38;5;130mwhile[m (!isOk);
+[38;5;130m 46 [m  }
+[38;5;130m 47 [m  [38;5;130mreturn[m [31m0[m;
+[38;5;130m 48 [m}                                                                                                                                               [33;131H[0;10;7;1m48,1           Bot[32;5H[?25h[?25l[34;138H[mk[32;5H[?25h[?25l[34;138H [3A[38;5;130m 47 [m  [38;5;130mreturn[m [31m0[m;                                                                                                                                     
+[38;5;130m 48 [m}[K[33;132H[0;10;7;1m7[31;5H[?25h[?25l[34;138H[mk[31;5H[?25h[?25l[34;138H [4A[38;5;130m 46 [m  }                                                                                                                                             
+[38;5;130m 47 [m  [38;5;130mreturn[m [31m0[m;[K[11D[33;132H[0;10;7;1m6[30;5H[?25h[?25l[34;138H[mk[30;5H[?25h[?25l[34;138H [5A[38;5;130m 45 [m    } [38;5;130mwhile[m (!isOk);                                                                                                                            
+[38;5;130m 46 [m  }[K[33;132H[0;10;7;1m5[29;5H[?25h[?25l[34;138H[mk[29;5H[?25h[?25l[34;138H [6A[38;5;130m 44 [m      }                                                                                                                                         
+[38;5;130m 45 [m    } [38;5;130mwhile[m (!isOk);[K[20D[33;132H[0;10;7;1m4[28;5H[?25h[?25l[34;138H[mk[28;5H[?25h[?25l[34;138H [7A[38;5;130m 43 [m        c = getchar();                                                                                                                          
+[38;5;130m 44 [m      }[K[7D[33;132H[0;10;7;1m3[27;5H[?25h[?25l[34;138H[mk[27;5H[?25h[?25l[34;138H [8A[38;5;130m 42 [m      [38;5;130mwhile[m (c != [35m'\n'[m && c != [31mEOF[m) { [34m//waste line[m                                                                                              
+[38;5;130m 43 [m        c = getchar();[K[22D[33;132H[0;10;7;1m2[26;5H[?25h[?25l[34;138H[mk[26;5H[?25h[?25l[34;138H [9A[38;5;130m 41 [m      [32mint[m c = getchar();                                                                                                                        
+[38;5;130m 42 [m      [38;5;130mwhile[m (c != [35m'\n'[m && c != [31mEOF[m) { [34m//waste line[m[K[50D[33;132H[0;10;7;1m1[25;5H[?25h[?25l[34;138H[mk[25;5H[?25h[?25l[34;138H [10A[38;5;130m 40 [m      }                                                                                                                                         
+[38;5;130m 41 [m      [32mint[m c = getchar();[K[24D[33;132H[0;10;7;1m0[24;5H[?25h[?25l[34;138H[mk[24;5H[?25h[?25l[34;138H [11A[38;5;130m 39 [m        printf([31m"bad input: enter hex pointer value[m[35m\n[m[31m"[m);                                                                                         
+[38;5;130m 40 [m      }[K[7D[33;131H[0;10;7;1m39[23;5H[?25h[?25l[34;138H[mk[23;5H[?25h[?25l[34;138H [12A[38;5;130m 38 [m      [38;5;130melse[m {                                                                                                                                    
+[38;5;130m 39 [m        printf([31m"bad input: enter hex pointer value[m[35m\n[m[31m"[m);[K[55D[33;132H[0;10;7;1m8[22;5H[?25h[?25l[34;138H[mk[22;5H[?25h[?25l[34;138H [13A[38;5;130m 37 [m      }                                                                                                                                         
+[38;5;130m 38 [m      [38;5;130melse[m {[K[12D[33;132H[0;10;7;1m7[21;5H[?25h[?25l[34;138H[mk[21;5H[?25h[?25l[34;138H [14A[38;5;130m 36 [m        [38;5;130mbreak[m;                                                                                                                                  
+[38;5;130m 37 [m      }[K[7D[33;132H[0;10;7;1m6[20;5H[?25h[?25l[34;138H[mk[20;5H[?25h[?25l[34;138H [15A[38;5;130m 35 [m      [38;5;130melse[m [38;5;130mif[m (nOk == [31mEOF[m) {                                                                                                                    
+[38;5;130m 36 [m        [38;5;130mbreak[m;[K[14D[33;132H[0;10;7;1m5[19;5H[?25h[?25l[34;138H[mk[19;5H[?25h[?25l[34;138H [16A[38;5;130m 34 [m      }                                                                                                                                         
+[38;5;130m 35 [m      [38;5;130melse[m [38;5;130mif[m (nOk == [31mEOF[m) {[K[28D[33;132H[0;10;7;1m4[18;5H[?25h[?25l[34;138H[mk[18;5H[?25h[?25l[34;138H [17A[38;5;130m 33 [m        printf([31m"[m[35m%s\n[m[31m"[m, isOk ? [31m"ok"[m : [31m"not ok"[m);                                                                                                 
+[38;5;130m 34 [m      }[K[7D[33;132H[0;10;7;1m3[17;5H[?25h[?25l[34;138H[mk[17;5H[?25h[?25l[34;138H [18A[38;5;130m 32 [m        isOk = (p == q.p);                                                                                                                      
+[38;5;130m 33 [m        printf([31m"[m[35m%s\n[m[31m"[m, isOk ? [31m"ok"[m : [31m"not ok"[m);[K[47D[33;132H[0;10;7;1m2[16;5H[?25h[?25l[34;138H[mk[16;5H[?25h[?25l[34;138H [19A[38;5;130m 31 [m      [38;5;130mif[m (nOk == [31m1[m) {                                                                                                                           
+[38;5;130m 32 [m        isOk = (p == q.p);[K[26D[33;132H[0;10;7;1m1[15;5H[?25h[?25l[34;138H[mk[15;5H[?25h[?25l[34;138H [20A[38;5;130m 30 [m      [32mint[m nOk = scanf([31m"[m[35m%p[m[31m"[m, &p);                                                                                                                
+[38;5;130m 31 [m      [38;5;130mif[m (nOk == [31m1[m) {[K[21D[33;132H[0;10;7;1m0[14;5H[?25h[?25l[34;138H[mk[14;5H[?25h[?25l[34;138H [21A[38;5;130m 29 [m      [32mvoid[m *p;                                                                                                                                  
+[38;5;130m 30 [m      [32mint[m nOk = scanf([31m"[m[35m%p[m[31m"[m, &p);[K[32D[33;131H[0;10;7;1m29[13;5H[?25h[?25l[34;138H[mk[13;5H[?25h[?25l[34;138H [22A[38;5;130m 28 [m      fflush([31mstdout[m);                                                                                                                           
+[38;5;130m 29 [m      [32mvoid[m *p;[K[14D[33;132H[0;10;7;1m8[12;5H[?25h[?25l[34;138H[mk[12;5H[?25h[?25l[34;138H [23A[38;5;130m 27 [m      printf([31m"enter pointer to [m[35m%s[m[31m: "[m, q.exp);                                                                                                   
+[38;5;130m 28 [m      fflush([31mstdout[m);[K[21D[33;132H[0;10;7;1m7[11;5H[?25h[?25l[34;138H[mk[11;5H[?25h[?25l[34;138H [24A[38;5;130m 26 [m      printf([31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is);                                                                                         
+[38;5;130m 27 [m      printf([31m"enter pointer to [m[35m%s[m[31m: "[m, q.exp);[K[45D[33;132H[0;10;7;1m6[10;5H[?25h[?25l[34;138H[mk[10;5H[?25h[?25l[34;138H [25A[38;5;130m 25 [m    [38;5;130mdo[m {                                                                                                                                        
+[38;5;130m 26 [m      printf([31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is);[K[55D[33;132H[0;10;7;1m5[9;5H[?25h[?25l[34;138H[mk[9;5H[?25h[?25l[34;138H [26A[38;5;130m 24 [m    [32mint[m isOk = [31m0[m;                                                                                                                               
+[38;5;130m 25 [m    [38;5;130mdo[m {[K[8D[33;132H[0;10;7;1m4[8;5H[?25h[?25l[34;138H[mj[8;5H[?25h[?25l[34;138H [26A[38;5;130m 24 [m    [32mint[m isOk = [31m0[m;[K[17D
+[38;5;130m 25 [m    [38;5;130mdo[m {                                                                                                                                        [33;132H[0;10;7;1m5[9;5H[?25h[?25l[34;138H[mj[9;5H[?25h[?25l[34;138H [25A[38;5;130m 25 [m    [38;5;130mdo[m {[K[8D
+[38;5;130m 26 [m      printf([31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is);                                                                                         [33;132H[0;10;7;1m6[10;5H[?25h[?25l[34;138H[mA[10;5H[?25h[?25l[34;138H [10;60H[?2c[?25h[?25l[24B[0;10;1m-- INSERT --[?25h[?25l[33;134H[0;10;7;1m56[10;60H[?25h[?25l[24B[m            [10;60H[?112c[?25h[?25l[33;135H[0;10;7;1m5[10;59H[?25h[?25l[34;138H[mh[10;59H[?25h[?25l[34;138H [10;17H[106m([m[31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is[106m)[33;135H[0;10;7;1m4[10;58H[?25h[?25l[34;138H[mj[10;58H[?25h[?25l[34;138H [24A[38;5;130m 26 [m      printf([31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is);[K
+[38;5;130m 27 [m      printf([31m"enter pointer to [m[35m%s[m[31m: "[m, q.exp);                                                                                                   [33;132H[0;10;7;1m7,45[11;49H[?25h[?25l[34;138H[mk[11;49H[?25h[?25l[34;138H [24A[38;5;130m 26 [m      printf[106m([m[31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is[106m)[m;                                                                                         
+[38;5;130m 27 [m      printf([31m"enter pointer to [m[35m%s[m[31m: "[m, q.exp);[K[33;132H[0;10;7;1m6,54[10;58H[?25h[?25l[34;138H[mb[10;58H[?25h[?25l[34;138H [10;17H([31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is)[33;135H[0;10;7;1m2[10;56H[?25h[?25l[34;138H[mb[10;56H[?25h[?25l[34;138H [33;135H[0;10;7;1m0[10;54H[?25h[?25l[34;138H[mb[10;54H[?25h[?25l[34;138H [33;134H[0;10;7;1m48[10;52H[?25h[?25l[34;138H[mb[10;52H[?25h[?25l[34;138H [33;135H[0;10;7;1m5[10;49H[?25h[?25l[34;138H[mk[10;49H[?25h[?25l[34;138H [25A[38;5;130m 25 [m    [38;5;130mdo[m [106m{[m                                                                                                                                        
+[38;5;130m 26 [m      printf([31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is);[K[11D[29;9H[106m}[33;132H[0;10;7;1m5,8 [9;12H[?25h[?25l[34;138H[mk[9;12H[?25h[?25l[34;138H [26A[38;5;130m 24 [m    [32mint[m isOk = [31m0[m;                                                                                                                               
+[38;5;130m 25 [m    [38;5;130mdo[m {[K[29;9H}[33;132H[0;10;7;1m4,17[8;21H[?25h[?25l[34;138H[mk[8;21H[?25h[?25l[34;138H [27A[38;5;130m 23 [m    ExpPointer q = questions[i];                                                                                                                
+[38;5;130m 24 [m    [32mint[m isOk = [31m0[m;[K[33;132H[0;10;7;1m3,32[7;36H[?25h[?25l[34;138H[mk[7;36H[?25h[?25l[34;138H [28A[38;5;130m 22 [m       i++) [106m{[m                                                                                                                                   
+[38;5;130m 23 [m    ExpPointer q = questions[i];[K[30;7H[106m}[33;132H[0;10;7;1m2,13[6;17H[?25h[?25l[34;138H[mk[6;17H[?25h[?25l[34;138H [29A[38;5;130m 21 [m       !feof([31mstdin[m) && i < [38;5;130msizeof[m(questions)/[38;5;130msizeof[m(questions[[31m0[m]);                                                                              
+[38;5;130m 22 [m       i++) {[K[30;7H}[33;132H[0;10;7;1m1,45[5;49H[?25h[?25l[34;138H[mk[5;49H[?25h[?25l[34;138H [30A[38;5;130m 20 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m;                                                                                                                               
+[38;5;130m 21 [m       !feof([31mstdin[m) && i < [38;5;130msizeof[m(questions)/[38;5;130msizeof[m(questions[[31m0[m]);[K[22D[33;132H[0;10;7;1m0,17[4;21H[?25h[?25l[34;138H[mk[4;21H[?25h[?25l[34;138H [31A[38;5;130m 19 [m  };                                                                                                                                            
+[38;5;130m 20 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m;[K[33;131H[0;10;7;1m19,4 [3;8H[?25h[?25l[34;138H[mk[3;8H[?25h[?25l[34;138H [32A[38;5;130m 18 [m    { [31m"is[1]"[m, &is[[31m1[m] },                                                                                                                        
+[38;5;130m 19 [m  };[K[33;132H[0;10;7;1m8,24[2;28H[?25h[?25l[34;138H[mk[2;28H[?25h[?25l[34;138H [H[38;5;130m 17 [m    { [31m"cs[4]"[m, &cs[[31m4[m] },                                                                                                                        
+[38;5;130m 18 [m    { [31m"is[1]"[m, &is[[31m1[m] },[K[33;132H[0;10;7;1m7[1;28H[?25h[?25l[34;138H[mk[1;28H[?25h[?25l[34;138H [1;32r[34;139H[H[L[1;34r[1;1H[27C[H[38;5;130m 16 [m    { [31m"cs[1]"[m, &cs[[31m1[m] },                                                                                                                        
+[38;5;130m 17 [m    { [31m"cs[4]"[m, &cs[[31m4[m] },[K[1;28H[33;132H[0;10;7;1m6,24          93%[1;28H[?25h[?25l[34;138H[mk[1;28H[?25h[?25l[34;138H [1;32r[34;139H[H[L[1;34r[1;1H[27C[H[38;5;130m 15 [m    { [31m"is[4]"[m, &is[[31m4[m] },                                                                                                                        
+[38;5;130m 16 [m    { [31m"cs[1]"[m, &cs[[31m1[m] },[K[1;28H[33;132H[0;10;7;1m5,24          87[1;28H[?25h[?25l[34;138H[mk[1;28H[?25h[?25l[34;138H [1;32r[34;139H[H[L[1;34r[1;1H[27C[H[38;5;130m 14 [m    { [31m"cs[3]"[m, &cs[[31m3[m] },                                                                                                                        
+[38;5;130m 15 [m    { [31m"is[4]"[m, &is[[31m4[m] },[K[1;28H[33;132H[0;10;7;1m4,24          81[1;28H[?25h[?25l[34;138H[mk[1;28H[?25h[?25l[34;138H [1;32r[34;139H[H[L[1;34r[1;1H[27C[H[38;5;130m 13 [m    { [31m"is[2]"[m, &is[[31m2[m] },                                                                                                                        
+[38;5;130m 14 [m    { [31m"cs[3]"[m, &cs[[31m3[m] },[K[1;28H[33;132H[0;10;7;1m3,24          75[1;28H[?25h[?25l[34;138H[m:[1;28H[?25h[?25l[34;138H [1;28H[33B:[?112c[?25h[?25lx[?25h[?25l[34;1H[?25h[?25l[?112c[m[?25h[?2004l[?1004l[?25h[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex6 [49m[34m[39m [K[?2004hvim in-voids.c[14D./in-voids    [?2004l
+cs[] is at 0xfff9c0fb; is[] is at 0xfff9c0e4
+enter pointer to is[2]: 0xfff9c0ec
+ok
+cs[] is at 0xfff9c0fb; is[] is at 0xfff9c0e4
+enter pointer to cs[3]: 0xf   fff9c04 fb^[[D^[[D           107
+not ok
+cs[] is at 0xfff9c0fb; is[] is at 0xfff9c0e4
+enter pointer to cs[3]: fff9c04 fb^[[C      ^C
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m [31m✘[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex6 [49m[34m[39m [K[?2004hffg[?2004l
+fg: no current job
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m [31m✘[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex6 [49m[34m[39m [K[?2004hvvim 
+[J[01;32min-voids[0m*   [Jin-voids.c  [JMakefile  [J[A[m[27m[24m[m[39m[49m[45Cvim[K[m[39m[49m[1Cin-voids
+[J[7min-voids* [0m  [Jin-voids.c  [JMakefile  [J[A[m[27m[24m[m[39m[49m[45Cvim in-voids[K[m[39m[49m
+[7min-voids* [0m  [7min-voids* [0m  [A[m[27m[24m[m[39m[49m[45Cvim in-voids[K[m[39m[49m.c
+[12C[7min-voids.c[0m  [01;32min-voids[0m*   [A[m[27m[24m[m[39m[49m[45Cvim in-voids.c[K[m[39m[49m
+[J[A[59C[1m [m[m [?2004l
+[J[H[J[?2004h[1;34r[1;1H[m[H[J[?112c[?25h[?25l[H[J[?112c[?112c[?25h[?25l[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m                                                                                                                              
+[38;5;130m  2 
+  3 [m[32mtypedef[m [32mstruct[m {
+[38;5;130m  4 [m  [32mconst[m [32mchar[m *exp;
+[38;5;130m  5 [m  [32mvoid[m *p;
+[38;5;130m  6 [m} ExpPointer;
+[38;5;130m  7 
+  8 [m[32mint[m main() {
+[38;5;130m  9 
+ 10 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };
+[38;5;130m 11 [m  [32mint[m is[] = { [31m1[m, [31m2[m, [31m3[m, [31m4[m, [31m5[m };
+[38;5;130m 12 [m  ExpPointer questions[] = {
+[38;5;130m 13 [m    { [31m"is[2]"[m, &is[[31m2[m] },
+[38;5;130m 14 [m    { [31m"cs[3]"[m, &cs[[31m3[m] },
+[38;5;130m 15 [m    { [31m"is[4]"[m, &is[[31m4[m] },
+[38;5;130m 16 [m    { [31m"cs[1]"[m, &cs[[31m1[m] },
+[38;5;130m 17 [m    { [31m"cs[4]"[m, &cs[[31m4[m] },
+[38;5;130m 18 [m    { [31m"is[1]"[m, &is[[31m1[m] },
+[38;5;130m 19 [m  };
+[38;5;130m 20 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m;
+[38;5;130m 21 [m       !feof([31mstdin[m) && i < [38;5;130msizeof[m(questions)/[38;5;130msizeof[m(questions[[31m0[m]);
+[38;5;130m 22 [m       i++) {
+[38;5;130m 23 [m    ExpPointer q = questions[i];
+[38;5;130m 24 [m    [32mint[m isOk = [31m0[m;
+[38;5;130m 25 [m    [38;5;130mdo[m {
+[38;5;130m 26 [m      printf([31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is);
+[38;5;130m 27 [m      printf([31m"enter pointer to [m[35m%s[m[31m: "[m, q.exp);
+[38;5;130m 28 [m      fflush([31mstdout[m);
+[38;5;130m 29 [m      [32mvoid[m *p;
+[38;5;130m 30 [m      [32mint[m nOk = scanf([31m"[m[35m%p[m[31m"[m, &p);
+[38;5;130m 31 [m      [38;5;130mif[m (nOk == [31m1[m) {
+[38;5;130m 32 [m        isOk = (p == q.p);
+[0;10;7;1min-voids.c                                                                                                                        [H[33;131H1,1            Top[?25h[?25l[1;5H[?25h[?25l[?1004h[?25h[?25l[34;138H[mj[1;5H[?25h[?25l[34;138H [H[38;5;130m  1 [m[35m#include [m[31m<stdio.h>[m[K[18D
+[38;5;130m  2 [m                                                                                                                                                [33;131H[0;10;7;1m2,0-1[2;5H[?25h[?25l[34;138H[mj[2;5H[?25h[?25l[34;138H [32A[38;5;130m  2 [m[K
+[38;5;130m  3 [m[32mtypedef[m [32mstruct[m {                                                                                                                                [33;131H[0;10;7;1m3,1  [3;5H[?25h[?25l[34;138H[mj[3;5H[?25h[?25l[34;138H [31A[38;5;130m  3 [m[32mtypedef[m [32mstruct[m {[K[16D
+[38;5;130m  4 [m  [32mconst[m [32mchar[m *exp;                                                                                                                              [33;131H[0;10;7;1m4[4;5H[?25h[?25l[34;138H[mj[4;5H[?25h[?25l[34;138H [30A[38;5;130m  4 [m  [32mconst[m [32mchar[m *exp;[K[18D
+[38;5;130m  5 [m  [32mvoid[m *p;                                                                                                                                      [33;131H[0;10;7;1m5[5;5H[?25h[?25l[34;138H[mj[5;5H[?25h[?25l[34;138H [3;20H[106m{
+
+[m[38;5;130m  5 [m  [32mvoid[m *p;[K[10D
+[38;5;130m  6 [m[106m}[m ExpPointer;                                                                                                                                   [33;131H[0;10;7;1m6[6;5H[?25h[?25l[34;138H[mj[6;5H[?25h[?25l[34;138H [3;20H{
+
+
+[38;5;130m  6 [m} ExpPointer;[K[13D
+[38;5;130m  7 [m                                                                                                                                                [33;131H[0;10;7;1m7,0-1[7;5H[?25h[?25l[34;138H[mj[7;5H[?25h[?25l[34;138H [27A[38;5;130m  7 [m[K
+[38;5;130m  8 [m[32mint[m main() {                                                                                                                                    [33;131H[0;10;7;1m8,1  [8;5H[?25h[?25l[34;138H[mj[8;5H[?25h[?25l[34;138H [26A[38;5;130m  8 [m[32mint[m main() {[K[12D
+[38;5;130m  9 [m                                                                                                                                                [33;131H[0;10;7;1m9,0-1[9;5H[?25h[?25l[34;138H[mj[9;5H[?25h[?25l[34;138H [25A[38;5;130m  9 [m[K
+[38;5;130m 10 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };                                                                                                      [33;131H[0;10;7;1m10,1 [10;5H[?25h[?25l[34;138H[mj[10;5H[?25h[?25l[34;138H [24A[38;5;130m 10 [m  [32mchar[m cs[] = { [31m'a'[m, [31m'b'[m, [31m'c'[m, [31m'd'[m, [31m'e'[m };[K[42D
+[38;5;130m 11 [m  [32mint[m is[] = { [31m1[m, [31m2[m, [31m3[m, [31m4[m, [31m5[m };                                                                                                                 [33;132H[0;10;7;1m1[11;5H[?25h[?25l[34;138H[mj[11;5H[?25h[?25l[34;138H [23A[38;5;130m 11 [m  [32mint[m is[] = { [31m1[m, [31m2[m, [31m3[m, [31m4[m, [31m5[m };[K[31D
+[38;5;130m 12 [m  ExpPointer questions[] = {                                                                                                                    [33;132H[0;10;7;1m2[12;5H[?25h[?25l[34;138H[mj[12;5H[?25h[?25l[34;138H [22A[38;5;130m 12 [m  ExpPointer questions[] = {[K[28D
+[38;5;130m 13 [m    { [31m"is[2]"[m, &is[[31m2[m] },                                                                                                                        [33;132H[0;10;7;1m3[13;5H[?25h[?25l[34;138H[mj[13;5H[?25h[?25l[34;138H [21A[38;5;130m 13 [m    { [31m"is[2]"[m, &is[[31m2[m] },[K[24D
+[38;5;130m 14 [m    { [31m"cs[3]"[m, &cs[[31m3[m] },                                                                                                                        [33;132H[0;10;7;1m4[14;5H[?25h[?25l[34;138H[mj[14;5H[?25h[?25l[34;138H [20A[38;5;130m 14 [m    { [31m"cs[3]"[m, &cs[[31m3[m] },[K[24D
+[38;5;130m 15 [m    { [31m"is[4]"[m, &is[[31m4[m] },                                                                                                                        [33;132H[0;10;7;1m5[15;5H[?25h[?25l[34;138H[mj[15;5H[?25h[?25l[34;138H [19A[38;5;130m 15 [m    { [31m"is[4]"[m, &is[[31m4[m] },[K[24D
+[38;5;130m 16 [m    { [31m"cs[1]"[m, &cs[[31m1[m] },                                                                                                                        [33;132H[0;10;7;1m6[16;5H[?25h[?25l[34;138H[mj[16;5H[?25h[?25l[34;138H [18A[38;5;130m 16 [m    { [31m"cs[1]"[m, &cs[[31m1[m] },[K[24D
+[38;5;130m 17 [m    { [31m"cs[4]"[m, &cs[[31m4[m] },                                                                                                                        [33;132H[0;10;7;1m7[17;5H[?25h[?25l[34;138H[mj[17;5H[?25h[?25l[34;138H [17A[38;5;130m 17 [m    { [31m"cs[4]"[m, &cs[[31m4[m] },[K[24D
+[38;5;130m 18 [m    { [31m"is[1]"[m, &is[[31m1[m] },                                                                                                                        [33;132H[0;10;7;1m8[18;5H[?25h[?25l[34;138H[mj[18;5H[?25h[?25l[34;138H [16A[38;5;130m 18 [m    { [31m"is[1]"[m, &is[[31m1[m] },[K[24D
+[38;5;130m 19 [m  };                                                                                                                                            [33;132H[0;10;7;1m9[19;5H[?25h[?25l[34;138H[mj[19;5H[?25h[?25l[34;138H [15A[38;5;130m 19 [m  };[K
+[38;5;130m 20 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m;                                                                                                                               [33;131H[0;10;7;1m20[20;5H[?25h[?25l[34;138H[mj[20;5H[?25h[?25l[34;138H [14A[38;5;130m 20 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m;[K[17D
+[38;5;130m 21 [m       !feof([31mstdin[m) && i < [38;5;130msizeof[m(questions)/[38;5;130msizeof[m(questions[[31m0[m]);                                                                              [33;132H[0;10;7;1m1[21;5H[?25h[?25l[34;138H[mk[21;5H[?25h[?25l[34;138H [14A[38;5;130m 20 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m;                                                                                                                               
+[38;5;130m 21 [m       !feof([31mstdin[m) && i < [38;5;130msizeof[m(questions)/[38;5;130msizeof[m(questions[[31m0[m]);[K[66D[33;132H[0;10;7;1m0[20;5H[?25h[?25l[34;138H[mk[20;5H[?25h[?25l[34;138H [15A[38;5;130m 19 [m  };                                                                                                                                            
+[38;5;130m 20 [m  [38;5;130mfor[m ([32mint[m i = [31m0[m;[K[17D[33;131H[0;10;7;1m19[19;5H[?25h[?25l[34;138H[mo[19;5H[?25h[?25l[34;138H [20;7H[?2c[?25h[?25l[14B[0;10;1m-- INSERT --[?25h[?25l[15A[m[38;5;130m 19 [m  };[K[34;13H[14A[38;5;130m 20 [m[94m··[m                                                                                                                                              [21;7H[38;5;130mfor[m ([32mint[m i = [31m0[m;                                                 [34;13H[22;12H!feof([31mstdin[m) && i < [38;5;130msizeof[m(questions)/[38;5;130msizeof[m(questions[[31m0[m]);[23;9H   i++) {                   [34;13H[24;9HExpPointer q = questions[i];[25;9H[32mint[m isOk = [31m0[m;[26;9H[38;5;130mdo[m {                                               [34;13H[27;19H[31mcs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is);[28;11Hprintf([31m"enter pointer to [m[35m%s[m[31m: "[m, q.exp);[29;11Hfflush([31mstdout[m);[30;11H[32mvoid[m *p;                  [34;13H[31;11H[32mint[m nOk = scanf([31m"[m[35m%p[m[31m"[m, &p);[32;11H[38;5;130mif[m (nOk == [31m1[m) {     [34;13H[33;12H[0;10;7;1m[+][116C20,3[?25h[?25l[20;7H[?25h[?25l[m  p[33;134H[0;10;7;1m4[20;8H[?25h[?25l[mr[33;134H[0;10;7;1m5[20;9H[?25h[?25l[mi[33;134H[0;10;7;1m6[20;10H[?25h[?25l[mn[33;134H[0;10;7;1m7[20;11H[?25h[?25l[mt[33;134H[0;10;7;1m8[20;12H[?25h[?25l[mf[33;134H[0;10;7;1m9[20;13H[?25h[?25l[m([23;17H[97m[101m{[26;12H{[32;25H{[33;134H[0;10;7;1m10[20;14H[?25h[?25l[m[31m"[21;5H  for (int i = 0;[22;5H       !feof(stdin) && i < sizeof(questions)/sizeof(questions[0]);[23;5H       i++) {[24;5H    ExpPointer q = questions[i];[25;5H    int isOk = 0;[26;5H    do {[27;5H      printf("[mcs[] is at %p; is[] is at %p\n[31m", cs, is);[28;5H      printf("[menter pointer to %s: [31m", q.exp);[29;5H      fflush(stdout);[30;5H      void *p;[31;5H      int nOk = scanf("[m%p[31m", &p);[32;5H      if (nOk == 1) {[33;135H[0;10;7;1m1[20;15H[?25h[?25l[m[31m^[33;135H[0;10;7;1m2[20;16H[?25h[?25l[m [33;135H[0;10;7;1m1[20;15H[?25h[?25l[m[31mS[33;135H[0;10;7;1m2[20;16H[?25h[?25l[m[31mi[33;135H[0;10;7;1m3[20;17H[?25h[?25l[m[31mz[33;135H[0;10;7;1m4[20;18H[?25h[?25l[m[31me[33;135H[0;10;7;1m5[20;19H[?25h[?25l[m[31mo[33;135H[0;10;7;1m6[20;20H[?25h[?25l[m[31mf[33;135H[0;10;7;1m7[20;21H[?25h[?25l[m[94m·[33;135H[0;10;7;1m8[20;22H[?25h[?25l[m[31m c[33;135H[0;10;7;1m9[20;23H[?25h[?25l[m[31mh[33;134H[0;10;7;1m20[20;24H[?25h[?25l[m[31ma[33;135H[0;10;7;1m1[20;25H[?25h[?25l[m[31mr[33;135H[0;10;7;1m2[20;26H[?25h[?25l[m[94m·[33;135H[0;10;7;1m3[20;27H[?25h[?25l[m[31m i[33;135H[0;10;7;1m4[20;28H[?25h[?25l[m[31ms[33;135H[0;10;7;1m5[20;29H[?25h[?25l[m[94m·[33;135H[0;10;7;1m6[20;30H[?25h[?25l[m[31m %[33;135H[0;10;7;1m7[20;31H[?25h[?25l[m[35m%d[33;135H[0;10;7;1m8[20;32H[?25h[?25l[m[31m"[21;5H[m  [38;5;130mfor[m ([32mint[m i = [31m0[m;[22;5H       !feof([31mstdin[m) && i < [38;5;130msizeof[m(questions)/[38;5;130msizeof[m(questions[[31m0[m]);[23;5H       i++) [97m[101m{[24;5H[m    ExpPointer q = questions[i];[25;5H    [32mint[m isOk = [31m0[m;[26;5H    [38;5;130mdo[m [97m[101m{[27;5H[m      printf([31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is);[28;5H      printf([31m"enter pointer to [m[35m%s[m[31m: "[m, q.exp);[29;5H      fflush([31mstdout[m);[30;5H      [32mvoid[m *p;[31;5H      [32mint[m nOk = scanf([31m"[m[35m%p[m[31m"[m, &p);[32;5H      [38;5;130mif[m (nOk == [31m1[m) [97m[101m{[33;135H[0;10;7;1m9[20;33H[?25h[?25l[m,[33;134H[0;10;7;1m30[20;34H[?25h[?25l[m [33;134H[0;10;7;1m29[20;33H[?25h[?25l[m [21;5H[31m  for (int i = 0;[22;5H       !feof(stdin) && i < sizeof(questions)/sizeof(questions[0]);[23;5H       i++) {[24;5H    ExpPointer q = questions[i];[25;5H    int isOk = 0;[26;5H    do {[27;5H      printf("[mcs[] is at %p; is[] is at %p\n[31m", cs, is);[28;5H      printf("[menter pointer to %s: [31m", q.exp);[29;5H      fflush(stdout);[30;5H      void *p;[31;5H      int nOk = scanf("[m%p[31m", &p);[32;5H      if (nOk == 1) {[33;135H[0;10;7;1m8[20;32H[?25h[?25l[m[35m\[33;135H[0;10;7;1m9[20;33H[?25h[?25l[m[35mn[33;134H[0;10;7;1m30[20;34H[?25h[?25l[m[31m"[21;5H[m  [38;5;130mfor[m ([32mint[m i = [31m0[m;[22;5H       !feof([31mstdin[m) && i < [38;5;130msizeof[m(questions)/[38;5;130msizeof[m(questions[[31m0[m]);[23;5H       i++) [97m[101m{[24;5H[m    ExpPointer q = questions[i];[25;5H    [32mint[m isOk = [31m0[m;[26;5H    [38;5;130mdo[m [97m[101m{[27;5H[m      printf([31m"cs[] is at [m[35m%p[m[31m; is[] is at [m[35m%p\n[m[31m"[m, cs, is);[28;5H      printf([31m"enter pointer to [m[35m%s[m[31m: "[m, q.exp);[29;5H      fflush([31mstdout[m);[30;5H      [32mvoid[m *p;[31;5H      [32mint[m nOk = scanf([31m"[m[35m%p[m[31m"[m, &p);[32;5H      [38;5;130mif[m (nOk == [31m1[m) [97m[101m{[33;135H[0;10;7;1m1[20;35H[?25h[?25l[m,[33;135H[0;10;7;1m2[20;36H[?25h[?25l[m[94m·[33;135H[0;10;7;1m3[20;37H[?25h[?25l[m s[33;135H[0;10;7;1m4[20;38H[?25h[?25l[mi[33;135H[0;10;7;1m5[20;39H[?25h[?25l[mz[33;135H[0;10;7;1m6[20;40H[?25h[?25l[me[33;135H[0;10;7;1m7[20;41H[?25h[?25l[mo[33;135H[0;10;7;1m8[20;42H[?25h[?25l[5D[m[38;5;130msizeof[33;135H[0;10;7;1m9[20;43H[?25h[?25l[m([33;134H[0;10;7;1m40[20;44H[?25h[?25l[mc[33;135H[0;10;7;1m1[20;45H[?25h[?25l[mh[33;135H[0;10;7;1m2[20;46H[?25h[?25l[ma[33;135H[0;10;7;1m3[20;47H[?25h[?25l[m[32mchar[33;135H[0;10;7;1m4[20;48H[?25h[?25l[m)[6D[106m([m[32mchar[m[106m)[33;135H[0;10;7;1m5[20;49H[?25h[?25l[m)[23;17H{[26;12H{[32;25H{[20;13H[106m([m[31m"Sizeof char is [m[35m%d\n[m[31m"[m, [38;5;130msizeof[m([32mchar[m)[106m)[33;135H[0;10;7;1m6[20;50H[?25h[?25l[m;[38D([31m"Sizeof char is [m[35m%d\n[m[31m"[m, [38;5;130msizeof[m([32mchar[m))[33;135H[0;10;7;1m7[20;51H[?25h[?25l[14B[m            [20;51H[?112c[?25h[?25l[33;135H[0;10;7;1m6[20;50H[?25h[?25l[34;138H[m:[20;50H[?25h[?25l[34;138H [20;50H[14B:[?112c[?25h[?25lw[?25h[?25l[34;1H[?25h[?25l"in-voids.c"[?112c[?25h[?25l[C49L, 1113C written[?25h[?25l[33;12H[0;10;7;1m   [34;32H[20;50H[?25h[?25l[34;138H[m:[20;50H[?25h[?25l[14B                                                                                                                                          [20;50H[14B:[?112c[?25h[?25lx[?25h[?25l[34;1H[?25h[?25l[?112c[m[?25h[?2004l[?1004l[?25h[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex6 [49m[34m[39m [K[?2004hvim in-voids.c[14Dfg            [12D./in-voids[10Dvim in-voids.c[14D./in-voids    [10Dmake      [?2004l
+cc -g -Wall -std=c11 -m32    in-voids.c   -o in-voids
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex6 [49m[34m[39m [K[?2004hmakevim in-voids.c[14Dfg            [12D./in-voids[?2004l
+Sizeof char is 1
+cs[] is at 0xffe6dc4b; is[] is at 0xffe6dc34
+enter pointer to is[2]: 0 ffe6dc3C c
+ok
+cs[] is at 0xffe6dc4b; is[] is at 0xffe6dc34
+enter pointer to cs[3]: ffe6dc4b c d e
+ok
+cs[] is at 0xffe6dc4b; is[] is at 0xffe6dc34
+enter pointer to is[4]: ffe6dc3 f
+not ok
+cs[] is at 0xffe6dc4b; is[] is at 0xffe6dc34
+enter pointer to is[4]: ffe6dc34  44
+ok
+cs[] is at 0xffe6dc4b; is[] is at 0xffe6dc34
+enter pointer to cs[1]: ffe6dc4c d e f
+not ok
+cs[] is at 0xffe6dc4b; is[] is at 0xffe6dc34
+enter pointer to cs[1]: ffe6dc4c
+ok
+cs[] is at 0xffe6dc4b; is[] is at 0xffe6dc34
+enter pointer to cs[4]: ffe6dc4b c d e
+not ok
+cs[] is at 0xffe6dc4b; is[] is at 0xffe6dc34
+enter pointer to cs[4]: ffe6dc4b c d e f
+ok
+cs[] is at 0xffe6dc4b; is[] is at 0xffe6dc34
+enter pointer to is[1]: ffe6dc4c
+not ok
+cs[] is at 0xffe6dc4b; is[] is at 0xffe6dc34
+enter pointer to is[1]: ffe6dc  dc4 34 8
+ok
+[1m[7m%[27m[1m[m                                                                                                                                                    [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote07 [44m[30m[30m ~/dev/cs220/lab5/ex6 [49m[34m[39m [K[?2004hsscript      [?2004l
+
+Script done on 2019-09-19 11:33:47-04:00 [COMMAND_EXIT_CODE="0"]
