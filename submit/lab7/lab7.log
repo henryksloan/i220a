@@ -1,0 +1,38 @@
+Script started on 2019-10-03 10:36:09-04:00 [TERM="linux" TTY="/dev/pts/1" COLUMNS="225" LINES="53"]
+[01;31m  __   __                  _   _   // ____ 
+[01;31m |  | |  |                | | | | // / ___|
+[01;31m |  |_|  | ___ _ ___  ____| |_| |   | |___ 
+[01;31m |   _   |/ _ \| '_ \/ /\_\__,  |    \___ \
+[01;31m |  | |  |  __/| | | | |   __/  |     ___| |
+[01;31m |__| |__|\___||_| |_| |   \___/     |____/
+
+[01;31m  ______    _ [34m        user: hsloan1
+[01;31m |___  /   | | [34m             @remote03
+[01;31m    / / ___| |__
+[01;31m   / / / __| '_ \ [34m    time: 10:36
+[01;31m  / /__\__ \ | | |
+[01;31m /_____|___/_| |_|
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote03 [44m[30m[30m ~/dev/cs220/lab7/libgeom [49m[34m[39m [K[?2004hlls[?2004l
+circ.c  circ.o  geom.h  libgeom.a  [0m[01;32mlibgeom.so[0m  Makefile  rect.c  rect.o  testgeom.c  [01;32mtestgeom-dynamic[0m  testgeom.o  [01;32mtestgeom-static[0m  typescript
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote03 [44m[30m[30m ~/dev/cs220/lab7/libgeom [49m[34m[39m [K[?2004hlls ..[?2004l
+[0m[01;34mlibgeom[0m  [01;34mlibvec[0m  [01;34mlog10[0m  [01;34mmultiple-defs[0m  [01;34mmultiple-symbols[0m  [01;34mstatic-dynamic[0m
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote03 [44m[30m[30m ~/dev/cs220/lab7/libgeom [49m[34m[39m [K[?2004hmmv typescript[1m [m[m ..[?2004l
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote03 [44m[30m[30m ~/dev/cs220/lab7/libgeom [49m[34m[39m [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote03 [44m[30m[30m ~/dev/cs220/lab7 [49m[34m[39m [K[?2004hlls[?2004l
+[0m[01;34mlibgeom[0m  [01;34mlibvec[0m  [01;34mlog10[0m  [01;34mmultiple-defs[0m  [01;34mmultiple-symbols[0m  [01;34mstatic-dynamic[0m  typescript
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 c[m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote03 [44m[30m[30m ~/dev/cs220/lab7 [49m[34m[39m [K[?2004hccat typescript[1m [m[m [?2004l
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote03 [44m[30m[30m ~/dev/cs220/lab7 [49m[34m[39m [K[?2004hcat typescript[?2004l
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote03 [44m[30m[30m ~/dev/cs220/lab7 [49m[34m[39m [K[?2004hvvim typescript[1m [m[m [?2004l
+[H[J[?2004h[1;53r[1;1H[m[H[J[?112c[?25h[?25l[H[J[?112c[?112c[?25h[?25l[38;5;130m  1 [m                                                                                                                                                                                                                             
+[94m~[K[H
+
+~[K[H
+
+
+~[K[H
+
+
+
+~[K[H[5B~[K[H[6B~[K[H[7B~[K[H[8B~[K[H[9B~[K[H[10B~[K[H[11B~[K[H[12B~[K[H[13B~[K[H[14B~[K[H[15B~[K[H[16B~[K[H[17B~[K[H[18B~[K[H[19B~[K[H[20B~[K[H[21B~[K[H[22B~[K[H[23B~[K[H[24B~[K[H[25B~[K[H[26B~[K[H[27B~[K[H[28B~[K[H[29B~[K[H[30B~[K[H[31B~[K[H[32B~[K[H[33B~[K[H[34B~[K[H[35B~[K[H[36B~[K[H[37B~[K[H[38B~[K[H[39B~[K[H[40B~[K[H[41B~[K[H[42B~[K[H[43B~[K[H[44B~[K[H[45B~[K[H[46B~[K[H[47B~[K[H[48B~[K[H[49B~[K[H[50B~[K[H[51B[0;10;7;1mtypescript                                                                                                                                                                                                     [H[52;208H0,0-1          All[?25h[?25l[1;5H[?25h[?25l[?1004h[?25h[?25l[53;215H[mj[1;5H[?25h[?25l[53;215H [1;5H[?25h[?25l[53;215Hj[1;5H[?25h[?25l[53;215H [1;5H[?25h[?25l[53;215H:[1;5H[?25h[?25l[53;215H [1;5H[52B:[?112c[?25h[?25lx[?25h[?25l [?25h[?25l[?25h[?25lq[?25h[?25l[53;1H[?25h[?25l[?112c[m[?25h[?2004l[?1004l[?25h[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote03 [44m[30m[30m ~/dev/cs220/lab7 [49m[34m[39m [K[?2004h[?2004l
+
+Script done on 2019-10-03 10:36:28-04:00 [COMMAND_EXIT_CODE="0"]
