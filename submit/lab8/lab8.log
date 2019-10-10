@@ -1,0 +1,819 @@
+Script started on 2019-10-10 10:14:18-04:00 [TERM="linux" TTY="/dev/pts/22" COLUMNS="225" LINES="53"]
+[01;31m  __   __                  _   _   // ____ 
+[01;31m |  | |  |                | | | | // / ___|
+[01;31m |  |_|  | ___ _ ___  ____| |_| |   | |___ 
+[01;31m |   _   |/ _ \| '_ \/ /\_\__,  |    \___ \
+[01;31m |  | |  |  __/| | | | |   __/  |     ___| |
+[01;31m |__| |__|\___||_| |_| |   \___/     |____/
+
+[01;31m  ______    _ [34m        user: hsloan1
+[01;31m |___  /   | | [34m             @remote05
+[01;31m    / / ___| |__
+[01;31m   / / / __| '_ \ [34m    time: 10:14
+[01;31m  / /__\__ \ | | |
+[01;31m /_____|___/_| |_|
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote05 [44m[30m[30m ~/dev/cs220/lab8 [49m[34m[39m [K[?2004hbbash[?2004l
+hsloan1@remote05:~/dev/cs220/lab8$ cd ~/git-repos/
+hsloan1@remote05:~/git-repos$ mkdir lab.[K8.git
+hsloan1@remote05:~/git-repos$ cd lab8.git/
+hsloan1@remote05:~/git-repos/lab8.git$ git init --bare
+Initialized empty Git repository in /import/linux/home1/hsloan1/git-repos/lab8.git/
+hsloan1@remote05:~/git-repos/lab8.git$ mkdir -p ~/tmp
+hsloan1@remote05:~/git-repos/lab8.git$ cd ~/tmp/
+hsloan1@remote05:~/tmp$ git clone \
+>   ssh://LOGIN@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[C[1P@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[1P@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[1P@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[Ch@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[Cs@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[Cl@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[Co@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P/git-repos/lab8.gitj/git-repos/lab8.git[1P/git-repos/lab8.gith/git-repos/lab8.gits/git-repos/lab8.gitl/git-repos/lab8.gito/git-repos/lab8.gita/git-repos/lab8.gitn/git-repos/lab8.git1/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Cloning into 'lab8'...
+hsloan1@remote.cs.binghamton.edu's password: 
+warning: You appear to have cloned an empty repository.
+hsloan1@remote05:~/tmp$ cd lab8/
+hsloan1@remote05:~/tmp/lab8$ c[Kgit remote -v
+origin	ssh://hsloan1@remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git (fetch)
+origin	ssh://hsloan1@remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git (push)
+hsloan1@remote05:~/tmp/lab8$ ;[Kls -a
+.  ..  .git
+hsloan1@remote05:~/tmp/lab8$ cp ~/cs220/labs/lab8/files/README.md .
+hsloan1@remote05:~/tmp/lab8$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mREADME.md[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+hsloan1@remote05:~/tmp/lab8$ git add r[KREADME.md 
+hsloan1@remote05:~/tmp/lab8$ git status --short
+[32mA[m  README.md
+hsloan1@remote05:~/tmp/lab8$ git commit -m 'added README'
+[master (root-commit) 3122979] added README
+ Committer: Henry Sloan <hsloan1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+)
+ create mode 100644 README.md
+hsloan1@remote05:~/tmp/lab8$ git branch -l
+* [32mmaster[m[m
+[7m(END)[27m[K[Khsloan1@remote05:~/tmp/lab8$ git push --set-upstream origin master
+hsloan1@remote.cs.binghamton.edu's password: 
+^C
+hsloan1@remote05:~/tmp/lab8$ git push --set-upstream origin master
+hsloan1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 3, done.
+Counting objects:  33% (1/3)   Counting objects:  66% (2/3)   Counting objects: 100% (3/3)   Counting objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 257 bytes | 257.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+hsloan1@remote05:~/tmp/lab8$ git status -s
+hsloan1@remote05:~/tmp/lab8$ cp ~/cs220/labs/lab8/files/Makefile .
+hsloan1@remote05:~/tmp/lab8$ cp ~/cs220/labs/lab8/files/hello-one.c hello.c
+hsloan1@remote05:~/tmp/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+[01m[Khello.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Khello.c:5:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kprintf[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+     [01;35m[Kprintf[m[K("usage: %s NAME\n", argv[0]);
+     [01;35m[K^~~~~~[m[K
+[01m[Khello.c:5:5:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kprintf[m[K’
+[01m[Khello.c:5:5:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdio.h>[m[K’ or provide a declaration of ‘[01m[Kprintf[m[K’
+[01m[Khello.c:1:1:[m[K
++[32m[K#include <stdio.h>[m[K
+ int
+[01m[Khello.c:5:5:[m[K
+     [01;36m[Kprintf[m[K("usage: %s NAME\n", argv[0]);
+     [01;36m[K^~~~~~[m[K
+[01m[Khello.c:6:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kexit[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+     [01;35m[Kexit[m[K(1);
+     [01;35m[K^~~~[m[K
+[01m[Khello.c:6:5:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’
+[01m[Khello.c:6:5:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kexit[m[K’
+[01m[Khello.c:1:1:[m[K
++[32m[K#include <stdlib.h>[m[K
+ int
+[01m[Khello.c:6:5:[m[K
+     [01;36m[Kexit[m[K(1);
+     [01;36m[K^~~~[m[K
+[01m[Khello.c:8:3:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kprintf[m[K’
+   [01;35m[Kprintf[m[K("hello %s\n", argv[1]);
+   [01;35m[K^~~~~~[m[K
+[01m[Khello.c:8:3:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdio.h>[m[K’ or provide a declaration of ‘[01m[Kprintf[m[K’
+hsloan1@remote05:~/tmp/lab8$ ./hello 
+usage: ./hello NAME
+hsloan1@remote05:~/tmp/lab8$ ./hello john
+hello john
+hsloan1@remote05:~/tmp/lab8$ git status -s
+[31m??[m Makefile
+[31m??[m hello
+[31m??[m hello.c
+hsloan1@remote05:~/tmp/lab8$ cp ~/cs220/labs/lab8/files/.gitignore .
+hsloan1@remote05:~/tmp/lab8$ git att .
+git: 'att' is not a git command. See 'git --help'.
+
+The most similar command is
+	tag
+hsloan1@remote05:~/tmp/lab8$ git att .[C[C[C[1P .[1P .[1P .a .d .d .
+hsloan1@remote05:~/tmp/lab8$ git as[K[K[Kgit commit -k[Km 'working with warnings'
+[master 74846cb] working with warnings
+ Committer: Henry Sloan <hsloan1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 22 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Makefile
+ create mode 100644 hello.c
+hsloan1@remote05:~/tmp/lab8$ git push
+hsloan1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)   Counting objects:  33% (2/6)   Counting objects:  50% (3/6)   Counting objects:  66% (4/6)   Counting objects:  83% (5/6)   Counting objects: 100% (6/6)   Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 593 bytes | 296.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git
+   3122979..74846cb  master -> master
+hsloan1@remote05:~/tmp/lab8$ git log
+[33mcommit 74846cbe852996690011ada603def67ebf6ab55c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: Henry Sloan <hsloan1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 10:18:55 2019 -0400[m
+[m
+    working with warnings[m
+[m
+[33mcommit 31229794462d4d3f92e78b67a15b225395daaafc[m[m
+Author: Henry Sloan <hsloan1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 10:17:03 2019 -0400[m
+[m
+    added README[m
+[7m(END)[27m[K[Khsloan1@remote05:~/tmp/lab8$ vim 
+.git/       .gitignore  hello       hello.c     Makefile    README.md   
+hsloan1@remote05:~/tmp/lab8$ vim [Kma[K[Kvim hello.c 
+[1;53r[27m[24m[m[H[J[?25l[?1c[53;1H"hello.c" 9L, 153C[2;1H▽[6n[2;1H  [1;1H[1;1H[1m[32mint[m
+main([1m[32mint[m argc, [1m[32mconst[m [1m[32mchar[m *argv[])
+{
+  [1m[33mif[m (argc != [1m[35m2[m) {
+    printf([1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);
+    exit([1m[35m1[m);
+  }
+  printf([1m[35m"hello [m[1m[31m%s\n[m[1m[35m"[m, argv[[1m[35m1[m]);
+}
+[1m[34m~                                                                                                                                                                                                                                [11;1H~                                                                                                                                                                                                                                [12;1H~                                                                                                                                                                                                                                [13;1H~                                                                                                                                                                                                                                [14;1H~                                                                                                                                                                                                                                [15;1H~                                                                                                                                                                                                                                [16;1H~                                                                                                                                                                                                                                [17;1H~                                                                                                                                                                                                                                [18;1H~                                                                                                                                                                                                                                [19;1H~                                                                                                                                                                                                                                [20;1H~                                                                                                                                                                                                                                [21;1H~                                                                                                                                                                                                                                [22;1H~                                                                                                                                                                                                                                [23;1H~                                                                                                                                                                                                                                [24;1H~                                                                                                                                                                                                                                [25;1H~                                                                                                                                                                                                                                [26;1H~                                                                                                                                                                                                                                [27;1H~                                                                                                                                                                                                                                [28;1H~                                                                                                                                                                                                                                [29;1H~                                                                                                                                                                                                                                [30;1H~                                                                                                                                                                                                                                [31;1H~                                                                                                                                                                                                                                [32;1H~                                                                                                                                                                                                                                [33;1H~                                                                                                                                                                                                                                [34;1H~                                                                                                                                                                                                                                [35;1H~                                                                                                                                                                                                                                [36;1H~                                                                                                                                                                                                                                [37;1H~                                                                                                                                                                                                                                [38;1H~                                                                                                                                                                                                                                [39;1H~                                                                                                                                                                                                                                [40;1H~                                                                                                                                                                                                                                [41;1H~                                                                                                                                                                                                                                [42;1H~                                                                                                                                                                                                                                [43;1H~                                                                                                                                                                                                                                [44;1H~                                                                                                                                                                                                                                [45;1H~                                                                                                                                                                                                                                [46;1H~                                                                                                                                                                                                                                [47;1H~                                                                                                                                                                                                                                [48;1H~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [m[53;208H1,1[11CAll[1;1H[?25h[?0c[?25l[?1c[53;198HO[1;1H[53;198H [1;1H[53;1H[1m-- INSERT --[m[53;13H[K[53;208H1,1[11CTop[1;52r[1;1H[L[1;53r[53;208H[K[53;208H1,1[11CAll[1;1H[?25h[?0c[?25l[?1c#[53;210H2[1;2H[?25h[?0c[?25l[?1ci[53;210H3[1;3H[?25h[?0c[?25l[?1cn[53;210H4[1;4H[?25h[?0c[?25l[?1cc[53;210H5[1;5H[?25h[?0c[?25l[?1cl[53;210H6[1;6H[?25h[?0c[?25l[?1cu[53;210H7[1;7H[?25h[?0c[?25l[?1cd[53;210H8[1;8H[?25h[?0c[?25l[?1ce[53;210H9[1;9H[?25h[?0c[?25l[?1c[53;210H10[1;10H[?25h[?0c[?25l[?1c[1m[34m#include <[m[53;211H1[1;11H[?25h[?0c[?25l[?1cs[53;211H2[1;12H[?25h[?0c[?25l[?1ct[53;211H3[1;13H[?25h[?0c[?25l[?1cd[53;211H4[1;14H[?25h[?0c[?25l[?1ci[53;211H5[1;15H[?25h[?0c[?25l[?1co[53;211H6[1;16H[?25h[?0c[?25l[?1c.[53;211H7[1;17H[?25h[?0c[?25l[?1ch[53;211H8[1;18H[?25h[?0c[?25l[?1c[1;10H[1m[35m<stdio.h>[m[53;211H9[1;19H[?25h[?0c[?25l[?1c[2;52r[2;1H[L[1;53r[53;208H[K[53;208H2,1[11CAll[2;1H[?25h[?0c[53;1H[K[2;1H[?25l[?1c[53;198H^[[2;1H[53;198H  [2;1H[53;208H2,0-1[9CAll[2;1H[?25h[?0c[?25l[?1c[53;198Hl[2;1H[53;198H [2;1H[?25h[?0c[?25l[?1c[53;198Hk[2;1H[53;198H [1;1H[53;208H1,1  [1;1H[?25h[?0c[?25l[?1c[53;198HV[1;1H[53;198H1[1;1H[1C[1m[7m[34minclude [m[1m[7m[35m<stdio.h>[m[7m [m[53;1H[1m-- VISUAL LINE --[m[53;198H[K[53;198H1[1;1H[53;208H1,1[11CAll[1;1H[?25h[?0c[?25l[?1c[53;198Hy[1;1H[53;198H [1;1H[1C[1m[34minclude [m[1m[35m<stdio.h>[m[1;19H[K[53;1H[K[53;208H1,1[11CAll[1;1H[?25h[?0c[?25l[?1c[53;198Hj[1;1H[53;198H [2;1H[53;208H2,0-1[2;1H[?25h[?0c[?25l[?1c[53;198Hw[2;1H[53;198H [3;1H[53;208H3,1  [3;1H[?25h[?0c[?25l[?1c[53;198Hk[3;1H[53;198H [2;1H[53;208H2,0-1[2;1H[?25h[?0c[?25l[?1c[53;198Hk[2;1H[53;198H [1;1H[53;208H1,1  [1;1H[?25h[?0c[?25l[?1c[53;198Hp[1;1H[53;198H [2;1H[2;52r[2;1H[L[1;53r[2;1H[1m[34m#include [m[1m[35m<stdio.h>[m[53;208H[K[53;208H2,1[11CAll[2;1H[?25h[?0c[?25l[?1c[53;198HF[2;1H[?25h[?0c[?25l[?1c[53;199Hi[2;1H[53;198H  [2;1H[?25h[?0c[?25l[?1c[53;198Hl[2;1H[53;198H [2;2H[53;210H2[2;2H[?25h[?0c[?25l[?1c[53;198Ht[2;2H[?25h[?0c[?25l[?1c[53;199Hi[2;2H[53;198H  [2;13H[53;210H13[2;13H[?25h[?0c[?25l[?1c[53;198Hl[2;13H[53;198H [2;14H[53;211H4[2;14H[?25h[?0c[?25l[?1c[53;198Hc[2;14H[?25h[?0c[?25l[?1c[53;199Ht[2;14H[?25h[?0c[?25l[?1c[53;200H.[2;14H[53;198H   [2;14H[53;1H[1m-- INSERT --[m[53;208H[K[53;208H2,14[10CAll[2;14H[1m[35m.h>[m[2;17H[K[2;14H[?25h[?0c[?25l[?1c[1m[35ml.h>[m[53;211H5[2;15H[?25h[?0c[?25l[?1c[1m[35mi.h>[m[53;211H6[2;16H[?25h[?0c[?25l[?1c[1m[35mb.h>[m[53;211H7[2;17H[?25h[?0c[53;1H[K[2;16H[?25l[?1c[53;198H^[[2;16H[53;198H  [2;17H[53;208H2,16[10CAll[2;16H[?25h[?0c[?25l[?1c[53;198H;[2;16H[53;198H [2;16H[?25h[?0c[?25l[?1c[53;198Hx[2;16H[53;198H [2;16H[53;198Hdl[2;16H[53;198H  [2;16H[1m[35m.h>[m[2;19H[K[2;16H[?25h[?0c[?25l[?1c[53;198Hu[2;16H[53;1H1 change; before #4  1 second ago[53;198H[K[2;16H[1m[35mb.h>[m[53;208H2,16[10CAll[53;208H[K[53;208H2,16[10CAll[2;16H[?25h[?0c[?25l[?1c[53;198H:[2;16H[53;1H[K[53;1H:[?25h[?0cx[?25l[?1c[?25h[?0c[?25l[?1c"hello.c" 12L, 193C written[?25h[?0c
+hsloan1@remote05:~/tmp/lab8$ make'
+> ^C
+hsloan1@remote05:~/tmp/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+hsloan1@remote05:~/tmp/lab8$ ./hello 
+usage: ./hello NAME
+hsloan1@remote05:~/tmp/lab8$ ./hello  [Ksue
+hello sue
+hsloan1@remote05:~/tmp/lab8$ git commit -a -m 'working: clean compile'
+[master 1dbf917] working: clean compile
+ Committer: Henry Sloan <hsloan1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+hsloan1@remote05:~/tmp/lab8$ git push
+hsloan1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)   Counting objects:  40% (2/5)   Counting objects:  60% (3/5)   Counting objects:  80% (4/5)   Counting objects: 100% (5/5)   Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 322 bytes | 322.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git
+   74846cb..1dbf917  master -> master
+hsloan1@remote05:~/tmp/lab8$ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+hsloan1@remote05:~/tmp/lab8$ git merge^C
+hsloan1@remote05:~/tmp/lab8$ git log -1 hello.c
+[33mcommit 1dbf917a41c40dbb4ee0ff05887b9390052cf0d1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: Henry Sloan <hsloan1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 10:20:12 2019 -0400[m
+[m
+    working: clean compile[m
+[7m(END)[27m[K[Khsloan1@remote05:~/tmp/lab8$ vim git log -1 hello.ccheckout masterpush[Kcommit -a -m 'working: clean compile'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./hello sue[K[K[4Pmake'vim hello.c [5Pgit logpush[1Plogvim hello.c 
+[1;53r[27m[24m[m[H[J[?25l[?1c[53;1H"hello.c" 12L, 193C[2;1H▽[6n[2;1H  [1;1H[1;1H[1m[34m#include [m[1m[35m<stdio.h>[m
+[1m[34m#include [m[1m[35m<stdlib.h>[m
+
+[1m[32mint[m
+main([1m[32mint[m argc, [1m[32mconst[m [1m[32mchar[m *argv[])
+{
+  [1m[33mif[m (argc != [1m[35m2[m) {
+    printf([1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);
+    exit([1m[35m1[m);
+  }
+  printf([1m[35m"hello [m[1m[31m%s\n[m[1m[35m"[m, argv[[1m[35m1[m]);
+}
+[1m[34m~                                                                                                                                                                                                                                [14;1H~                                                                                                                                                                                                                                [15;1H~                                                                                                                                                                                                                                [16;1H~                                                                                                                                                                                                                                [17;1H~                                                                                                                                                                                                                                [18;1H~                                                                                                                                                                                                                                [19;1H~                                                                                                                                                                                                                                [20;1H~                                                                                                                                                                                                                                [21;1H~                                                                                                                                                                                                                                [22;1H~                                                                                                                                                                                                                                [23;1H~                                                                                                                                                                                                                                [24;1H~                                                                                                                                                                                                                                [25;1H~                                                                                                                                                                                                                                [26;1H~                                                                                                                                                                                                                                [27;1H~                                                                                                                                                                                                                                [28;1H~                                                                                                                                                                                                                                [29;1H~                                                                                                                                                                                                                                [30;1H~                                                                                                                                                                                                                                [31;1H~                                                                                                                                                                                                                                [32;1H~                                                                                                                                                                                                                                [33;1H~                                                                                                                                                                                                                                [34;1H~                                                                                                                                                                                                                                [35;1H~                                                                                                                                                                                                                                [36;1H~                                                                                                                                                                                                                                [37;1H~                                                                                                                                                                                                                                [38;1H~                                                                                                                                                                                                                                [39;1H~                                                                                                                                                                                                                                [40;1H~                                                                                                                                                                                                                                [41;1H~                                                                                                                                                                                                                                [42;1H~                                                                                                                                                                                                                                [43;1H~                                                                                                                                                                                                                                [44;1H~                                                                                                                                                                                                                                [45;1H~                                                                                                                                                                                                                                [46;1H~                                                                                                                                                                                                                                [47;1H~                                                                                                                                                                                                                                [48;1H~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [m[53;208H2,16[10CAll[2;16H[?25h[?0c[?25l[?1c[53;198Hj[2;16H[53;198H [3;1H[53;208H3,0-1[3;1H[?25h[?0c[?25l[?1c[53;198Hj[3;1H[53;198H [4;3H[53;208H4,3  [4;3H[?25h[?0c[?25l[?1c[53;198Hj[4;3H[53;198H [5;16H[53;208H5,16[5;16H[?25h[?0c[?25l[?1c[53;198Hj[5;16H[53;198H [6;1H[46m{[12;1H}[m[53;208H6,1 [6;1H[?25h[?0c[?25l[?1c[53;198Hj[6;1H[53;198H [7;16H[6;1H{[7;6H[46m([9C)[m[12;1H}[53;208H7,16[7;16H[?25h[?0c[?25l[?1c[53;198Hj[7;16H[53;198H [8;16H[7;6H([9C)[53;208H8[8;16H[?25h[?0c[?25l[?1c[53;198Hj[8;16H[53;198H [9;12H[53;208H9,12[9;12H[?25h[?0c[?25l[?1c[53;198Hj[9;12H[53;198H [10;3H[7;18H[46m{[10;3H}[m[53;208H10,3[10;3H[?25h[?0c[?25l[?1c[53;198Hj[10;3H[53;198H [11;16H[7;18H{[10;3H}[53;209H1,16[11;16H[?25h[?0c[?25l[?1c[53;198Hl[11;16H[53;198H [11;17H[53;212H7[11;17H[?25h[?0c[?25l[?1c[53;198Hk[11;17H[53;198H [10;3H[7;18H[46m{[10;3H}[m[53;209H0,3 [10;3H[?25h[?0c[?25l[?1c[53;198Hk[10;3H[53;198H [9;12H[7;18H{[10;3H}[53;208H9,12[9;12H[?25h[?0c[?25l[?1c[53;198Hk[9;12H[53;198H [8;17H[53;208H8,17[8;17H[?25h[?0c[?25l[?1c[53;198HI[8;17H[53;198H [8;5H[53;1H[1m-- INSERT --[m[53;13H[K[53;208H8,5[11CAll[8;5H[?25h[?0c[?25l[?1cfprintf([1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);[53;210H6[8;6H[?25h[?0c[53;1H[K[8;5H[?25l[?1c[53;198H^[[8;5H[53;198H  [8;6H[53;208H8,5[11CAll[8;5H[?25h[?0c[?25l[?1c[53;198H;[8;5H[53;198H [8;5H[?25h[?0c[?25l[?1c[53;198Hw[8;5H[53;198H [8;12H[46m([27C)[m[53;210H12[8;12H[?25h[?0c[?25l[?1c[53;198H^M[8;12H[53;198H  [9;5H[8;12H([27C)[53;208H9,5 [9;5H[?25h[?0c[?25l[?1c[53;198Hw[9;5H[53;198H [9;9H[46m([1C)[m[53;210H9[9;9H[?25h[?0c[?25l[?1c[53;198Hk[9;9H[53;198H [8;9H[9;9H([1C)[53;208H8[8;9H[?25h[?0c[?25l[?1c[53;198H;[8;9H[53;198H [8;9H[?25h[?0c[?25l[?1c[53;198H;[8;9H[53;198H [8;9H[?25h[?0c[?25l[?1c[53;198H:[8;9H[53;198H[K[53;1H:[?25h[?0cx[?25l[?1c[?25h[?0c[?25l[?1c"hello.c" 12L, 194C written[?25h[?0c
+hsloan1@remote05:~/tmp/lab8$ g^C
+hsloan1@remote05:~/tmp/lab8$ git commit -a -m 'send usage message to stderr'
+[master af51605] send usage message to stderr
+ Committer: Henry Sloan <hsloan1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+hsloan1@remote05:~/tmp/lab8$ git push
+hsloan1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)   Counting objects:  40% (2/5)   Counting objects:  60% (3/5)   Counting objects:  80% (4/5)   Counting objects: 100% (5/5)   Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 298 bytes | 298.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git
+   1dbf917..af51605  master -> master
+hsloan1@remote05:~/tmp/lab8$ git shortlog
+Henry Sloan (4):[m
+      added README[m
+      working with warnings[m
+      working: clean compile[m
+      send usage message to stderr[m
+[m
+[7m(END)[27m[K[Khsloan1@remote05:~/tmp/lab8$ git checkout -b hello-multi
+Switched to a new branch 'hello-multi'
+hsloan1@remote05:~/tmp/lab8$ git branch -l
+* [32mhello-multi[m[m
+  master[m[m
+[7m(END)[27m[K[K[7m(END)[27m[K[K...skipping...
+* [32mhello-multi[m[m
+  master[m[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[1m~[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K/[Kcc[Kss[K22[K22[K00[K//[Kll[Kaa[Kbb[Kss[K//[Kll[Kaa[Kbb[K88[K//[Kff[Kii[Kll[Kee[Kss[K//[Khh[Kee[Kll[Kll[Koo[K--[Kmm[Kuu[Kll[Ktt[Kii[K..[Kcc[K  [Khh[Kee[Kll[Kll[Koo[K..[Kcc[K[1;1H* [32mhello-multi[m[m
+[2;1H  master[m[m
+[3;1H[1m~[m
+[53;1H[1;1H* [32mhello-multi[m[m
+[2;1H  master[m[m
+[3;1H[1m~[m
+[53;1H[K[7mPattern not found  (press RETURN)[27m[53;1H[K[Khsloan1@remote05:~/tmp/lab8$ q[Kgit branch -l[K
+hsloan1@remote05:~/tmp/lab8$ cp ~/cs220/labs/lab8/files/hello-multi.c hello.c
+hsloan1@remote05:~/tmp/lab8$ ,ma[K[K[Kmake
+cc -g -Wall -std=c11    hello.c   -o hello
+hsloan1@remote05:~/tmp/lab8$ ./hello 
+usage: ./hello NAME...
+hsloan1@remote05:~/tmp/lab8$ ./hello yo
+hello yo
+hsloan1@remote05:~/tmp/lab8$ ./hello yo ya
+hello yo
+hello ya
+hsloan1@remote05:~/tmp/lab8$ git ocmm[K[K[K[Kcommit -a -m;[K "[K'allow greati[K[K[Keting multiple names'
+[hello-multi 3d2c337] allow greeting multiple names
+ Committer: Henry Sloan <hsloan1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+hsloan1@remote05:~/tmp/lab8$ git o[Kpush u[K-u o[Korigin hek[Kllo-multi
+hsloan1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)   Counting objects:  40% (2/5)   Counting objects:  60% (3/5)   Counting objects:  80% (4/5)   Counting objects: 100% (5/5)   Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 444 bytes | 444.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git
+ * [new branch]      hello-multi -> hello-multi
+Branch 'hello-multi' set up to track remote branch 'hello-multi' from 'origin'.
+hsloan1@remote05:~/tmp/lab8$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+hsloan1@remote05:~/tmp/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+[01m[Khello.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Khello.c:8:13:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kfprintf[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+     fprintf([01;35m[K"usage: %s NAME\n"[m[K, argv[0]);
+             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Khello.c:1[m[K:
+[01m[K/usr/include/stdio.h:326:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KFILE * restrict[m[K’ {aka ‘[01m[Kstruct _IO_FILE * restrict[m[K’} but argument is of type ‘[01m[Kchar *[m[K’
+ extern int fprintf ([01;36m[KFILE *__restrict __stream[m[K,
+                     [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+hsloan1@remote05:~/tmp/lab8$ ./hello a n[Kb
+hsloan1@remote05:~/tmp/lab8$ ./hello a b[Kgit log
+[33mcommit af516057f057dee6158d4f5d5cc4d448fcccec1c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: Henry Sloan <hsloan1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 10:22:23 2019 -0400[m
+[m
+    send usage message to stderr[m
+[m
+[33mcommit 1dbf917a41c40dbb4ee0ff05887b9390052cf0d1[m[m
+Author: Henry Sloan <hsloan1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 10:20:12 2019 -0400[m
+[m
+    working: clean compile[m
+[m
+[33mcommit 74846cbe852996690011ada603def67ebf6ab55c[m[m
+Author: Henry Sloan <hsloan1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 10:18:55 2019 -0400[m
+[m
+    working with warnings[m
+[m
+[33mcommit 31229794462d4d3f92e78b67a15b225395daaafc[m[m
+Author: Henry Sloan <hsloan1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 10:17:03 2019 -0400[m
+[m
+    added README[m
+[7m(END)[27m[K[Khsloan1@remote05:~/tmp/lab8$ vm[Kim hello.c 
+[1;53r[27m[24m[m[H[J[?25l[?1c[53;1H"hello.c" 12L, 194C[2;1H▽[6n[2;1H  [1;1H[1;1H[1m[34m#include [m[1m[35m<stdio.h>[m
+[1m[34m#include [m[1m[35m<stdlib.h>[m
+
+[1m[32mint[m
+main([1m[32mint[m argc, [1m[32mconst[m [1m[32mchar[m *argv[])
+{
+  [1m[33mif[m (argc != [1m[35m2[m) {
+    fprintf([1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);
+    exit([1m[35m1[m);
+  }
+  printf([1m[35m"hello [m[1m[31m%s\n[m[1m[35m"[m, argv[[1m[35m1[m]);
+}
+[1m[34m~                                                                                                                                                                                                                                [14;1H~                                                                                                                                                                                                                                [15;1H~                                                                                                                                                                                                                                [16;1H~                                                                                                                                                                                                                                [17;1H~                                                                                                                                                                                                                                [18;1H~                                                                                                                                                                                                                                [19;1H~                                                                                                                                                                                                                                [20;1H~                                                                                                                                                                                                                                [21;1H~                                                                                                                                                                                                                                [22;1H~                                                                                                                                                                                                                                [23;1H~                                                                                                                                                                                                                                [24;1H~                                                                                                                                                                                                                                [25;1H~                                                                                                                                                                                                                                [26;1H~                                                                                                                                                                                                                                [27;1H~                                                                                                                                                                                                                                [28;1H~                                                                                                                                                                                                                                [29;1H~                                                                                                                                                                                                                                [30;1H~                                                                                                                                                                                                                                [31;1H~                                                                                                                                                                                                                                [32;1H~                                                                                                                                                                                                                                [33;1H~                                                                                                                                                                                                                                [34;1H~                                                                                                                                                                                                                                [35;1H~                                                                                                                                                                                                                                [36;1H~                                                                                                                                                                                                                                [37;1H~                                                                                                                                                                                                                                [38;1H~                                                                                                                                                                                                                                [39;1H~                                                                                                                                                                                                                                [40;1H~                                                                                                                                                                                                                                [41;1H~                                                                                                                                                                                                                                [42;1H~                                                                                                                                                                                                                                [43;1H~                                                                                                                                                                                                                                [44;1H~                                                                                                                                                                                                                                [45;1H~                                                                                                                                                                                                                                [46;1H~                                                                                                                                                                                                                                [47;1H~                                                                                                                                                                                                                                [48;1H~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [m[53;208H8,9[11CAll[8;9H[?25h[?0c[?25l[?1c[53;198Hj[8;9H[53;198H [9;9H[46m([1C)[m[53;208H9[9;9H[?25h[?0c[?25l[?1c[53;198Hj[9;9H[53;198H [10;3H[7;18H[46m{[m[9;9H([1C)
+  [46m}[m[53;208H10,3[10;3H[?25h[?0c[?25l[?1c[53;198Hk[10;3H[53;198H [9;9H[7;18H{[9;9H[46m([1C)[m
+  }[53;208H9,9 [9;9H[?25h[?0c[?25l[?1c[53;198Hk[9;9H[53;198H [8;9H[9;9H([1C)[53;208H8[8;9H[?25h[?0c[?25l[?1c[53;198Hw[8;9H[53;198H [8;12H[46m([27C)[m[53;210H12[8;12H[?25h[?0c[?25l[?1c[53;198Hl[8;12H[53;198H [8;13H([27C)[53;211H3[8;13H[?25h[?0c[?25l[?1c[53;198Hi[8;13H[53;198H [8;13H[53;1H[1m-- INSERT --[m[53;13H[K[53;208H8,13[10CAll[8;13H[?25h[?0c[?25l[?1c,[1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);[53;211H4[8;14H[?25h[?0c[?25l[?1c[1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);[8;42H[K[8;12H[46m([27C)[m[53;211H3[8;13H[?25h[?0c[?25l[?1cs[1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m[46m][m);[8;12H([27C][53;211H4[8;14H[?25h[?0c[?25l[?1ct[1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);[53;211H5[8;15H[?25h[?0c[?25l[?1ce[1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);[53;211H6[8;16H[?25h[?0c[?25l[?1c[1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);[8;44H[K[53;211H5[8;15H[?25h[?0c[?25l[?1cd[1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);[53;211H6[8;16H[?25h[?0c[?25l[?1ce[1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);[53;211H7[8;17H[?25h[?0c[?25l[?1cr[1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);[53;211H8[8;18H[?25h[?0c[?25l[?1c[1m[35mstderr"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);[53;211H9[8;19H[?25h[?0c[?25l[?1c,[1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);[53;210H20[8;20H[?25h[?0c[?25l[?1c [1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);[53;211H1[8;21H[?25h[?0c[53;1H[K[8;20H[?25l[?1c[53;198H^[[8;20H[53;198H  [8;21H[53;208H8,20[10CAll[8;20H[?25h[?0c[?25l[?1c[53;198H;[8;20H[53;198H [8;20H[?25h[?0c[?25l[?1c[53;198H:[8;20H[53;198H[K[53;1H:[?25h[?0cx[?25l[?1c[?25h[?0c[?25l[?1c"hello.c" 12L, 202C written[?25h[?0c
+hsloan1@remote05:~/tmp/lab8$ vim hello.c [5Pgit log./hello a b[4Pgit logvim hello.c [Kmake
+cc -g -Wall -std=c11    hello.c   -o hello
+hsloan1@remote05:~/tmp/lab8$ git commi[Kcommit -a -k[Km 'fix s[Kf[Kfprints call'[C[C[C[C[C[C[1P call'f call'
+[master d24efe0] fix fprintf call
+ Committer: Henry Sloan <hsloan1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+hsloan1@remote05:~/tmp/lab8$ git push
+hsloan1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)   Counting objects:  40% (2/5)   Counting objects:  60% (3/5)   Counting objects:  80% (4/5)   Counting objects: 100% (5/5)   Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 303 bytes | 303.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git
+   af51605..d24efe0  master -> master
+hsloan1@remote05:~/tmp/lab8$ git branch -l
+  hello-multi[m[m
+* [32mmaster[m[m
+[7m(END)[27m[K[Khsloan1@remote05:~/tmp/lab8$ vim 
+.git/       .gitignore  hello       hello.c     Makefile    README.md   
+hsloan1@remote05:~/tmp/lab8$ vim hello.c 
+[1;53r[27m[24m[m[H[J[?25l[?1c[53;1H"hello.c" 12L, 202C[2;1H▽[6n[2;1H  [1;1H[1;1H[1m[34m#include [m[1m[35m<stdio.h>[m
+[1m[34m#include [m[1m[35m<stdlib.h>[m
+
+[1m[32mint[m
+main([1m[32mint[m argc, [1m[32mconst[m [1m[32mchar[m *argv[])
+{
+  [1m[33mif[m (argc != [1m[35m2[m) {
+    fprintf([1m[35mstderr[m, [1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);
+    exit([1m[35m1[m);
+  }
+  printf([1m[35m"hello [m[1m[31m%s\n[m[1m[35m"[m, argv[[1m[35m1[m]);
+}
+[1m[34m~                                                                                                                                                                                                                                [14;1H~                                                                                                                                                                                                                                [15;1H~                                                                                                                                                                                                                                [16;1H~                                                                                                                                                                                                                                [17;1H~                                                                                                                                                                                                                                [18;1H~                                                                                                                                                                                                                                [19;1H~                                                                                                                                                                                                                                [20;1H~                                                                                                                                                                                                                                [21;1H~                                                                                                                                                                                                                                [22;1H~                                                                                                                                                                                                                                [23;1H~                                                                                                                                                                                                                                [24;1H~                                                                                                                                                                                                                                [25;1H~                                                                                                                                                                                                                                [26;1H~                                                                                                                                                                                                                                [27;1H~                                                                                                                                                                                                                                [28;1H~                                                                                                                                                                                                                                [29;1H~                                                                                                                                                                                                                                [30;1H~                                                                                                                                                                                                                                [31;1H~                                                                                                                                                                                                                                [32;1H~                                                                                                                                                                                                                                [33;1H~                                                                                                                                                                                                                                [34;1H~                                                                                                                                                                                                                                [35;1H~                                                                                                                                                                                                                                [36;1H~                                                                                                                                                                                                                                [37;1H~                                                                                                                                                                                                                                [38;1H~                                                                                                                                                                                                                                [39;1H~                                                                                                                                                                                                                                [40;1H~                                                                                                                                                                                                                                [41;1H~                                                                                                                                                                                                                                [42;1H~                                                                                                                                                                                                                                [43;1H~                                                                                                                                                                                                                                [44;1H~                                                                                                                                                                                                                                [45;1H~                                                                                                                                                                                                                                [46;1H~                                                                                                                                                                                                                                [47;1H~                                                                                                                                                                                                                                [48;1H~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [m[53;208H8,20[10CAll[8;20H[?25h[?0c[?25l[?1c[53;198HG[8;20H[53;198H [12;1H[6;1H[46m{[12;1H}[m[53;208H12,1[12;1H[?25h[?0c[?25l[?1c[53;198Hk[12;1H[53;198H [11;1H[6;1H{[12;1H}[53;209H1[11;1H[?25h[?0c[?25l[?1c[53;198Ho[11;1H[53;198H [12;3H[53;1H[1m-- INSERT --[m[53;13H[K[53;208H12,3[10CTop[12;52r[12;1H[L[1;53r[53;208H[K[53;208H12,3[10CAll[12;3H[?25h[?0c[?25l[?1c[13;52r[13;1H[L[1;53r[53;208H[K[53;208H13,3[10CAll[13;3H[?25h[?0c[?25l[?1cp[53;211H4[13;4H[?25h[?0c[?25l[?1c[13;3H[K[53;211H3[13;3H[?25h[?0c[?25l[?1cr[53;211H4[13;4H[?25h[?0c[?25l[?1ce[53;211H5[13;5H[?25h[?0c[?25l[?1ct[53;211H6[13;6H[?25h[?0c[?25l[?1cu[53;211H7[13;7H[?25h[?0c[?25l[?1cr[53;211H8[13;8H[?25h[?0c[?25l[?1c  [1m[33mreturn[m[53;211H9[13;9H[?25h[?0c[?25l[?1c[53;211H10[13;10H[?25h[?0c[?25l[?1c[1m[35m0[m[53;212H1[13;11H[?25h[?0c[?25l[?1c;[53;212H2[13;12H[?25h[?0c[53;1H[K[13;11H[?25l[?1c[53;198H^[[13;11H[53;198H  [13;12H[53;208H13,11[9CAll[13;11H[?25h[?0c[?25l[?1c[53;198H;[13;11H[53;198H [13;11H[?25h[?0c[?25l[?1c[53;198H:[13;11H[53;198H[K[53;1H:[?25h[?0cx[?25l[?1c[?25h[?0c[?25l[?1c"hello.c" 14L, 215C written[?25h[?0c
+hsloan1@remote05:~/tmp/lab8$ git commit -a -m 'added return at end of main()'
+[master e56b41c] added return at end of main()
+ Committer: Henry Sloan <hsloan1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+)
+hsloan1@remote05:~/tmp/lab8$ git push
+hsloan1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)   Counting objects:  40% (2/5)   Counting objects:  60% (3/5)   Counting objects:  80% (4/5)   Counting objects: 100% (5/5)   Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 314 bytes | 314.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git
+   d24efe0..e56b41c  master -> master
+hsloan1@remote05:~/tmp/lab8$ git checkout hello-multi
+Switched to branch 'hello-multi'
+Your branch is up to date with 'origin/hello-multi'.
+hsloan1@remote05:~/tmp/lab8$ cd [K[K[Kgit merge master
+Auto-merging hello.c
+CONFLICT (content): Merge conflict in hello.c
+Automatic merge failed; fix conflicts and then commit the result.
+hsloan1@remote05:~/tmp/lab8$ vim hle[K[Kello.c 
+[1;53r[27m[24m[m[H[J[?25l[?1c[53;1H"hello.c" 24L, 413C[2;1H▽[6n[2;1H  [1;1H[1;1H[1m[34m#include [m[1m[35m<stdio.h>[m
+[1m[34m#include [m[1m[35m<stdlib.h>[m
+
+[1m[32mint[m
+main([1m[32mint[m argc, [1m[32mconst[m [1m[32mchar[m *argv[])
+{
+<<<<<<< HEAD
+  [1m[33mif[m (argc < [1m[35m2[m) {
+    fprintf([1m[35mstderr[m, [1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME...[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);
+    exit([1m[35m1[m);
+  }
+  [1m[33mfor[m ([1m[32mint[m i = [1m[35m1[m; i < argc; i++) {
+    printf[46m([m[1m[35m"hello [m[1m[31m%s\n[m[1m[35m"[m, argv[i][46m)[m;
+  }
+=======
+  [1m[33mif[m (argc != [1m[35m2[m) {
+    fprintf([1m[35mstderr[m, [1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);
+    exit([1m[35m1[m);
+  }
+  printf([1m[35m"hello [m[1m[31m%s\n[m[1m[35m"[m, argv[[1m[35m1[m]);
+
+  [1m[33mreturn[m [1m[35m0[m;
+>>>>>>> master
+}
+[1m[34m~                                                                                                                                                                                                                                [26;1H~                                                                                                                                                                                                                                [27;1H~                                                                                                                                                                                                                                [28;1H~                                                                                                                                                                                                                                [29;1H~                                                                                                                                                                                                                                [30;1H~                                                                                                                                                                                                                                [31;1H~                                                                                                                                                                                                                                [32;1H~                                                                                                                                                                                                                                [33;1H~                                                                                                                                                                                                                                [34;1H~                                                                                                                                                                                                                                [35;1H~                                                                                                                                                                                                                                [36;1H~                                                                                                                                                                                                                                [37;1H~                                                                                                                                                                                                                                [38;1H~                                                                                                                                                                                                                                [39;1H~                                                                                                                                                                                                                                [40;1H~                                                                                                                                                                                                                                [41;1H~                                                                                                                                                                                                                                [42;1H~                                                                                                                                                                                                                                [43;1H~                                                                                                                                                                                                                                [44;1H~                                                                                                                                                                                                                                [45;1H~                                                                                                                                                                                                                                [46;1H~                                                                                                                                                                                                                                [47;1H~                                                                                                                                                                                                                                [48;1H~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [m[53;208H13,11[9CAll[13;11H[?25h[?0c[?25l[?1c[53;198Hj[13;11H[53;198H [14;3H[12;34H[46m{[m[13;11H([21C)
+  [46m}[m[53;209H4,3 [14;3H[?25h[?0c[?25l[?1c[53;198Hk[14;3H[53;198H [13;11H[12;34H{[13;11H[46m([21C)[m
+  }[53;209H3,11[13;11H[?25h[?0c[?25l[?1c[53;198Hk[13;11H[53;198H [12;11H[13;11H([21C)[53;209H2[12;11H[?25h[?0c[?25l[?1c[53;198Hk[12;11H[53;198H [11;3H[8;17H[46m{[11;3H}[m[53;209H1,3 [11;3H[?25h[?0c[?25l[?1c[53;198Hk[11;3H[53;198H [10;11H[8;17H{[10;9H[46m([1C)[m
+  }[53;209H0,11[10;11H[?25h[?0c[?25l[?1c[53;198Hk[10;11H[53;198H [9;11H[10;9H([1C)[53;208H9,11 [9;11H[?25h[?0c[?25l[?1c[53;198Hk[9;11H[53;198H [8;11H[53;208H8[8;11H[?25h[?0c[?25l[?1c[53;198Hk[8;11H[53;198H [7;11H[53;208H7[7;11H[?25h[?0c[?25l[?1c[53;198Hk[7;11H[53;198H [6;1H[46m{[24;1H}[m[53;208H6,1 [6;1H[?25h[?0c[?25l[?1c[53;198Hj[6;1H[53;198H [7;11H[6;1H{[24;1H}[53;208H7,11[7;11H[?25h[?0c[?25l[?1c[53;198Hj[7;11H[53;198H [8;11H[53;208H8[8;11H[?25h[?0c[?25l[?1c[53;198Hk[8;11H[53;198H [7;11H[53;208H7[7;11H[?25h[?0c[?25l[?1c[53;198Hj[7;11H[53;198H [8;11H[53;208H8[8;11H[?25h[?0c[?25l[?1c[53;198Hj[8;11H[53;198H [9;11H[53;208H9[9;11H[?25h[?0c[?25l[?1c[53;198Hj[9;11H[53;198H [10;11H[46m([1C)[m[53;208H10,11[10;11H[?25h[?0c[?25l[?1c[53;198Hj[10;11H[53;198H [11;3H[8;17H[46m{[m[10;9H([1C)
+  [46m}[m[53;209H1,3 [11;3H[?25h[?0c[?25l[?1c[53;198Hj[11;3H[53;198H [12;11H[8;17H{[11;3H}[53;209H2,11[12;11H[?25h[?0c[?25l[?1c[53;198Hj[12;11H[53;198H [13;11H[46m([21C)[m[53;209H3[13;11H[?25h[?0c[?25l[?1c[53;198Hj[13;11H[53;198H [14;3H[12;34H[46m{[m[13;11H([21C)
+  [46m}[m[53;209H4,3 [14;3H[?25h[?0c[?25l[?1c[53;198Hj[14;3H[53;198H [15;7H[12;34H{
+
+  }[53;209H5,7[15;7H[?25h[?0c[?25l[?1c[53;198Hj[15;7H[53;198H [16;11H[53;209H6,11[16;11H[?25h[?0c[?25l[?1c[53;198Hk[16;11H[53;198H [15;7H[53;209H5,7 [15;7H[?25h[?0c[?25l[?1c[53;198HV[15;7H[53;198H1[15;7H[7m======[m=[7m [m[53;1H[1m-- VISUAL LINE --[m[53;18H[K[53;198H1[15;7H[53;208H15,7[10CAll[15;7H[?25h[?0c[?25l[?1c[53;198Hj[15;7H[53;198H2[16;11H[15;7H[7m=
+  [m[1m[7m[33mif[m[7m (argc[m [7m!= [m[1m[7m[35m2[m[7m) { [m[53;209H6,11[16;11H[?25h[?0c[?25l[?1c[53;198Hj[16;11H[53;198H3[17;11H[16;11H[7m 
+    fprint[mf[7m([m[1m[7m[35mstderr[m[7m, [m[1m[7m[35m"usage: [m[1m[7m[31m%s[m[1m[7m[35m NAME[m[1m[7m[31m\n[m[1m[7m[35m"[m[7m, argv[[m[1m[7m[35m0[m[7m]); [m[53;209H7[17;11H[?25h[?0c[?25l[?1c[53;198Hj[17;11H[53;198H4[18;11H[17;11H[7mf
+    exit([m[1m[7m[35m1[m[46m)[m[7m; [m[53;209H8[18;11H[?25h[?0c[?25l[?1c[53;198Hj[18;11H[53;198H5[19;4H[18;11H[7m)
+  }[m[53;209H9,4 [19;4H[?25h[?0c[?25l[?1c[53;198Hj[19;4H[53;198H6[20;11H[19;4H[7m 
+  printf([m[1m[7m[35m"[1Cello [m[1m[7m[31m%s\n[m[1m[7m[35m"[m[7m, argv[[m[1m[7m[35m1[m[7m]); [m[53;208H20,11[20;11H[?25h[?0c[?25l[?1c[53;198Hx[20;11H[53;1H6 fewer lines[53;14H[K[15;1H[15;52r[15;1H[6M[1;53r[47;1H[1m[34m~                                                                                                                                                                                                                                [48;1H~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [m[53;1H[K[53;208H15,0-1[8CAll6 fewer lines[53;208H[K[53;208H15,0-1[8CAll[15;1H[?25h[?0c[?25l[?1c[53;198Hk[15;1H[53;198H [14;1H[53;209H4,1  [14;1H[?25h[?0c[?25l[?1c[53;198Hk[14;1H[53;198H [13;1H[53;209H3[13;1H[?25h[?0c[?25l[?1c[53;198Hk[13;1H[53;198H [12;1H[53;209H2[12;1H[?25h[?0c[?25l[?1c[53;198Hk[12;1H[53;198H [11;1H[53;209H1[11;1H[?25h[?0c[?25l[?1c[53;198Hk[11;1H[53;198H [10;1H[53;209H0[10;1H[?25h[?0c[?25l[?1c[53;198Hk[10;1H[53;198H [9;1H[53;208H9,1 [9;1H[?25h[?0c[?25l[?1c[53;198Hk[9;1H[53;198H [8;1H[53;208H8[8;1H[?25h[?0c[?25l[?1c[53;198Hk[8;1H[53;198H [7;1H[53;208H7[7;1H[?25h[?0c[?25l[?1c[53;198Hk[7;1H[53;198H [6;1H[46m{[18;1H}[m[53;208H6[6;1H[?25h[?0c[?25l[?1c[53;198Hk[6;1H[53;198H [5;1H
+{[18;1H}[53;208H5[5;1H[?25h[?0c[?25l[?1c[53;198Hj[5;1H[53;198H [6;1H[46m{[18;1H}[m[53;208H6[6;1H[?25h[?0c[?25l[?1c[53;198Hj[6;1H[53;198H [7;1H[6;1H{[18;1H}[53;208H7[7;1H[?25h[?0c[?25l[?1c[53;198Hu[7;1H[53;3Hmore lines; before #1  3 seconds ago[53;198H[K[15;1H[15;52r[15;1H[6L[1;53r[15;1H=======
+  [1m[33mif[m (argc != [1m[35m2[m) {
+    fprintf([1m[35mstderr[m, [1m[35m"usage: [m[1m[31m%s[m[1m[35m NAME[m[1m[31m\n[m[1m[35m"[m, argv[[1m[35m0[m]);
+    exit([1m[35m1[m);
+  }
+  printf([1m[35m"hello [m[1m[31m%s\n[m[1m[35m"[m, argv[[1m[35m1[m]);[53;1H[K[53;208H15,1[10CAll6 more lines; before #1  3 seconds ago[53;208H[K[53;208H15,1[10CAll[15;1H[?25h[?0c[?25l[?1c[53;198H^R[15;1H[53;3Hfewer lines; after #1  4[53;198H[K[15;1H[15;52r[15;1H[6M[1;53r[47;1H[1m[34m~                                                                                                                                                                                                                                [48;1H~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [m[53;1H[K[53;208H15,0-1[8CAll6 fewer lines; after #1  4 seconds ago[53;208H[K[53;208H15,0-1[8CAll[15;1H[?25h[?0c[?25l[?1c[53;198Hk[15;1H[53;198H [14;1H[53;209H4,1  [14;1H[?25h[?0c[?25l[?1c[53;198Hk[14;1H[53;198H [13;1H[53;209H3[13;1H[?25h[?0c[?25l[?1c[53;198Hk[13;1H[53;198H [12;1H[53;209H2[12;1H[?25h[?0c[?25l[?1c[53;198Hk[12;1H[53;198H [11;1H[53;209H1[11;1H[?25h[?0c[?25l[?1c[53;198Hk[11;1H[53;198H [10;1H[53;209H0[10;1H[?25h[?0c[?25l[?1c[53;198Hk[10;1H[53;198H [9;1H[53;208H9,1 [9;1H[?25h[?0c[?25l[?1c[53;198Hk[9;1H[53;198H [8;1H[53;208H8[8;1H[?25h[?0c[?25l[?1c[53;198Hk[8;1H[53;198H [7;1H[53;208H7[7;1H[?25h[?0c[?25l[?1c[53;198Hd[7;1H[?25h[?0c[?25l[?1c[53;199Hd[7;1H[53;198H  [7;3H[7;52r[52;1H
+[1;53r[52;1H[1m[34m~                                                                                                                                                                                                                                [m[53;1H[K[53;208H7,3[11CAll[7;3H[?25h[?0c[?25l[?1c[53;198HG[7;3H[53;198H [17;1H[6;1H[46m{[17;1H}[m[53;208H17,1[17;1H[?25h[?0c[?25l[?1c[53;198Hk[17;1H[53;198H [16;1H[6;1H{[17;1H}[53;209H6[16;1H[?25h[?0c[?25l[?1c[53;198Hk[16;1H[53;198H [15;1H[53;209H5[15;1H[?25h[?0c[?25l[?1c[53;198Hj[15;1H[53;198H [16;1H[53;209H6[16;1H[?25h[?0c[?25l[?1c[53;198Hd[16;1H[?25h[?0c[?25l[?1c[53;199Hd[16;1H[53;198H  [16;1H[6;1H[46m{[16;1H}[m[16;2H[K[17;1H[1m[34m~                                                                                                                                                                                                                                [16;1H[?25h[?0c[?25l[?1c[m[53;198H;[16;1H[53;198H [16;1H[?25h[?0c[?25l[?1c[53;198Hw[16;1H[53;198H [16;1H[?25h[?0c[?25l[?1c[53;198H:[16;1H[53;198H[K[53;1H:[?25h[?0cw[?25l[?1c[?25h[?0c[?25l[?1c"hello.c" 16L, 258C written[16;1H[53;208H16,1[10CAll[53;208H[K[53;208H16,1[10CAll[16;1H[?25h[?0c[?25l[?1c[53;198Hk[16;1H[53;198H [15;1H[6;1H{[16;1H}[53;209H5[15;1H[?25h[?0c[?25l[?1c[53;198Hj[15;1H[53;198H [16;1H[6;1H[46m{[16;1H}[m[53;209H6[16;1H[?25h[?0c[?25l[?1c[53;198Hk[16;1H[53;198H [15;1H[6;1H{[16;1H}[53;209H5[15;1H[?25h[?0c[?25l[?1c[53;198Hk[15;1H[53;198H [14;1H[53;209H4,0-1[14;1H[?25h[?0c[?25l[?1c[53;198Hk[14;1H[53;198H [13;1H[53;209H3,1  [13;1H[?25h[?0c[?25l[?1c[53;198Hk[13;1H[53;198H [12;1H[53;209H2[12;1H[?25h[?0c[?25l[?1c[53;198Hk[12;1H[53;198H [11;1H[53;209H1[11;1H[?25h[?0c[?25l[?1c[53;198Hk[11;1H[53;198H [10;1H[53;209H0[10;1H[?25h[?0c[?25l[?1c[53;198Hk[10;1H[53;198H [9;1H[53;208H9,1 [9;1H[?25h[?0c[?25l[?1c[53;198Hk[9;1H[53;198H [8;1H[53;208H8[8;1H[?25h[?0c[?25l[?1c[53;198Hk[8;1H[53;198H [7;1H[53;208H7[7;1H[?25h[?0c[?25l[?1c[53;198Hk[7;1H[53;198H [6;1H[46m{[16;1H}[m[53;208H6[6;1H[?25h[?0c[?25l[?1c[53;198Hk[6;1H[53;198H [5;1H
+{[16;1H}[53;208H5[5;1H[?25h[?0c[?25l[?1c[53;198Hk[5;1H[53;198H [4;1H[53;208H4[4;1H[?25h[?0c[?25l[?1c[53;198Hj[4;1H[53;198H [5;1H[53;208H5[5;1H[?25h[?0c[?25l[?1c[53;198Hj[5;1H[53;198H [6;1H[46m{[16;1H}[m[53;208H6[6;1H[?25h[?0c[?25l[?1c[53;198Hj[6;1H[53;198H [7;1H[6;1H{[16;1H}[53;208H7[7;1H[?25h[?0c[?25l[?1c[53;198Hk[7;1H[53;198H [6;1H[46m{[16;1H}[m[53;208H6[6;1H[?25h[?0c[?25l[?1c[53;198Hj[6;1H[53;198H [7;1H[6;1H{[16;1H}[53;208H7[7;1H[?25h[?0c[?25l[?1c[53;198H:[7;1H[53;1H[K[53;1H:[?25h[?0cx[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[53;1H[K[53;1Hhsloan1@remote05:~/tmp/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+hsloan1@remote05:~/tmp/lab8$ ./ [Kyel[K[K[Khello john sue
+hello john
+hello sue
+hsloan1@remote05:~/tmp/lab8$ git commit -a -m 'merged master'
+[hello-multi 353c3ec] merged master
+ Committer: Henry Sloan <hsloan1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+hsloan1@remote05:~/tmp/lab8$ git push
+hsloan1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)   Counting objects:  28% (2/7)   Counting objects:  42% (3/7)   Counting objects:  57% (4/7)   Counting objects:  71% (5/7)   Counting objects:  85% (6/7)   Counting objects: 100% (7/7)   Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 332 bytes | 332.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git
+   3d2c337..353c3ec  hello-multi -> hello-multi
+hsloan1@remote05:~/tmp/lab8$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+hsloan1@remote05:~/tmp/lab8$ git merge hellol[K-multi
+Updating e56b41c..353c3ec
+Fast-forward
+ hello.c | 8 [32m+++++[m[31m---[m
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+hsloan1@remote05:~/tmp/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+hsloan1@remote05:~/tmp/lab8$ ./hello john sue
+hello john
+hello sue
+hsloan1@remote05:~/tmp/lab8$ git branch 0-[K[K-l
+  hello-multi[m[m
+* [32mmaster[m[m
+[7m(END)[27m[K[Khsloan1@remote05:~/tmp/lab8$ git commit -a -m 'merged hello-multi'
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+hsloan1@remote05:~/tmp/lab8$ git push
+hsloan1@remote.cs.binghamton.edu's password: 
+Total 0 (delta 0), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git
+   e56b41c..353c3ec  master -> master
+hsloan1@remote05:~/tmp/lab8$ cd ~/i220a
+hsloan1@remote05:~/i220a$ git remote add lab8 \
+>   ssh://LOGIN@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git
+hsloan1@remote05:~/i220a$ git remote add lab8   ssh://LOGIN@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[5P/git-repos/lab8.gith/git-repos/lab8.gits/git-repos/lab8.gitl/git-repos/lab8.gito/git-repos/lab8.gita/git-repos/lab8.gitn/git-repos/lab8.git1/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P@remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch@remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs@remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.gitl@remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.gito@remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.gita@remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.gitn@remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git1@remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git
+fatal: remote lab8 already exists.
+hsloan1@remote05:~/i220a$ [H[Jhsloan1@remote05:~/i220a$ ls
+grading  submit  work
+hsloan1@remote05:~/i220a$ rm [Kls u[Ksubmit/
+lab1/     lab2/     lab3/     lab4/     lab5/     lab6/     lab7/     prj1-sol/ 
+hsloan1@remote05:~/i220a$ ls submit/[Kls
+grading  submit  work
+hsloan1@remote05:~/i220a$ ls work/
+hsloan1@remote05:~/i220a$ git remt[Kote remove lab8
+hsloan1@remote05:~/i220a$ git remote remove lab8[14Pls work/[Kgit remote add lab8   ssh://hsloan1@remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+hsloan1@remote05:~/i220a$ git pull --allow-unrelated-histories lab8 master
+hsloan1@remote.cs.binghamton.edu's password: 
+warning: no common commits
+remote: Enumerating objects: 26, done.[K
+remote: Counting objects:   3% (1/26)   [Kremote: Counting objects:   7% (2/26)   [Kremote: Counting objects:  11% (3/26)   [Kremote: Counting objects:  15% (4/26)   [Kremote: Counting objects:  19% (5/26)   [Kremote: Counting objects:  23% (6/26)   [Kremote: Counting objects:  26% (7/26)   [Kremote: Counting objects:  30% (8/26)   [Kremote: Counting objects:  34% (9/26)   [Kremote: Counting objects:  38% (10/26)   [Kremote: Counting objects:  42% (11/26)   [Kremote: Counting objects:  46% (12/26)   [Kremote: Counting objects:  50% (13/26)   [Kremote: Counting objects:  53% (14/26)   [Kremote: Counting objects:  57% (15/26)   [Kremote: Counting objects:  61% (16/26)   [Kremote: Counting objects:  65% (17/26)   [Kremote: Counting objects:  69% (18/26)   [Kremote: Counting objects:  73% (19/26)   [Kremote: Counting objects:  76% (20/26)   [Kremote: Counting objects:  80% (21/26)   [Kremote: Counting objects:  84% (22/26)   [Kremote: Counting objects:  88% (23/26)   [Kremote: Counting objects:  92% (24/26)   [Kremote: Counting objects:  96% (25/26)   [Kremote: Counting objects: 100% (26/26)   [Kremote: Counting objects: 100% (26/26), done.[K
+remote: Compressing objects:   4% (1/23)   [Kremote: Compressing objects:   8% (2/23)   [Kremote: Compressing objects:  13% (3/23)   [Kremote: Compressing objects:  17% (4/23)   [Kremote: Compressing objects:  21% (5/23)   [Kremote: Compressing objects:  26% (6/23)   [Kremote: Compressing objects:  30% (7/23)   [Kremote: Compressing objects:  34% (8/23)   [Kremote: Compressing objects:  39% (9/23)   [Kremote: Compressing objects:  43% (10/23)   [Kremote: Compressing objects:  47% (11/23)   [Kremote: Compressing objects:  52% (12/23)   [Kremote: Compressing objects:  56% (13/23)   [Kremote: Compressing objects:  60% (14/23)   [Kremote: Compressing objects:  65% (15/23)   [Kremote: Compressing objects:  69% (16/23)   [Kremote: Compressing objects:  73% (17/23)   [Kremote: Compressing objects:  78% (18/23)   [Kremote: Compressing objects:  82% (19/23)   [Kremote: Compressing objects:  86% (20/23)   [Kremote: Compressing objects:  91% (21/23)   [Kremote: Compressing objects:  95% (22/23)   [Kremote: Compressing objects: 100% (23/23)   [Kremote: Compressing objects: 100% (23/23), done.[K
+remote: Total 26 (delta 13), reused 0 (delta 0)[K
+Unpacking objects:   3% (1/26)   Unpacking objects:   7% (2/26)   Unpacking objects:  11% (3/26)   Unpacking objects:  15% (4/26)   Unpacking objects:  19% (5/26)   Unpacking objects:  23% (6/26)   Unpacking objects:  26% (7/26)   Unpacking objects:  30% (8/26)   Unpacking objects:  34% (9/26)   Unpacking objects:  38% (10/26)   Unpacking objects:  42% (11/26)   Unpacking objects:  46% (12/26)   Unpacking objects:  50% (13/26)   Unpacking objects:  53% (14/26)   Unpacking objects:  57% (15/26)   Unpacking objects:  61% (16/26)   Unpacking objects:  65% (17/26)   Unpacking objects:  69% (18/26)   Unpacking objects:  73% (19/26)   Unpacking objects:  76% (20/26)   Unpacking objects:  80% (21/26)   Unpacking objects:  84% (22/26)   Unpacking objects:  88% (23/26)   Unpacking objects:  92% (24/26)   Unpacking objects:  96% (25/26)   Unpacking objects: 100% (26/26)   Unpacking objects: 100% (26/26), done.
+From ssh://remote.cs.binghamton.edu/home/hsloan1/git-repos/lab8
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> lab8/master
+Auto-merging .gitignore
+CONFLICT (add/add): Merge conflict in .gitignore
+Automatic merge failed; fix conflicts and then commit the result.
+hsloan1@remote05:~/i220a$ ls
+grading  hello.c  Makefile  README.md  submit  work
+hsloan1@remote05:~/i220a$ mv[Kkdir submit/lab8
+hsloan1@remote05:~/i220a$ mv README.md submit/lab8/
+hsloan1@remote05:~/i220a$ mv README.md submit/lab8/[C[C[C[6P[3P submit/lab8/h submit/lab8/e submit/lab8/llo.c submit/lab8/
+hsloan1@remote05:~/i220a$ ls
+grading  Makefile  submit  work
+hsloan1@remote05:~/i220a$ vim .i[Kgitignore 
+[1;53r[27m[24m[m[H[J[?25l[?1c[53;1H".gitignore" 58L, 513C[2;1H▽[6n[2;1H  [1;1H[1;1H<<<<<<< HEAD
+[1m[36m# Prerequisites[m
+*.d
+
+[1m[36m# Object files[m
+*.o
+*.ko
+*.obj
+*.elf
+
+[1m[36m# Linker output[m
+*.ilk
+*.map
+*.exp
+
+[1m[36m# Precompiled Headers[m
+*.gch
+*.pch
+
+[1m[36m# Libraries[m
+*.lib
+*.a
+*.la
+*.lo
+
+[1m[36m# Shared objects (inc. Windows DLLs)[m
+*.dll
+*.so
+*.so.*
+*.dylib
+
+[1m[36m# Executables[m
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+[1m[36m# Debug files[m
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+[1m[36m# Kernel Module Compile Results[m
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old[53;208H1,1[11CTop[1;1H[?25h[?0c[?25l[?1c[53;198HG[1;1H[53;198H [52;1H[1;52r[1;1H[6M[1;53r[47;1Hdkms.conf
+=======
+*.o
+*~
+hello
+>>>>>>> 353c3ec146116d375a9c47448cba494b6812d96d[53;1H[K[53;208H58,1[10CBot[52;1H[?25h[?0c[?25l[?1c[53;198Hk[52;1H[53;198H [51;1H[53;209H7[51;1H[?25h[?0c[?25l[?1c[53;198Hg[51;1H[?25h[?0c[?25l[?1c[53;198H [51;1H[53;198Hgg[51;1H[53;198H  [1;1H[1;52r[1;1H[6L[1;53r[1;1H<<<<<<< HEAD
+[1m[36m# Prerequisites[m
+*.d
+
+[1m[36m# Object files[m
+*.o[53;208H[K[53;208H1,1[11CTop[1;1H[?25h[?0c[?25l[?1c[53;198HG[1;1H[53;198H [52;1H[1;52r[1;1H[6M[1;53r[47;1Hdkms.conf
+=======
+*.o
+*~
+hello
+>>>>>>> 353c3ec146116d375a9c47448cba494b6812d96d[53;208H[K[53;208H58,1[10CBot[52;1H[?25h[?0c[?25l[?1c[53;198HV[52;1H[53;198H1[52;1H>[7m>>>>>> 353c3ec146116d375a9c47448cba494b6812d96d [m
+[1m-- VISUAL LINE --[m[53;198H[K[53;198H1[52;1H[53;208H58,1[10CBot[52;1H[?25h[?0c[?25l[?1c[53;198Hk[52;1H[53;198H2[51;1Hh[7mello 
+>[m[53;209H7[51;1H[?25h[?0c[?25l[?1c[53;198Hk[51;1H[53;198H3[50;1H*[7m~ 
+h[m[53;209H6[50;1H[?25h[?0c[?25l[?1c[53;198Hk[50;1H[53;198H4[49;1H*[7m.o 
+*[m[53;209H5[49;1H[?25h[?0c[?25l[?1c[53;198Hk[49;1H[53;198H5[48;1H=[7m====== 
+*[m[53;209H4[48;1H[?25h[?0c[?25l[?1c[53;198Hx[48;1H[53;1H5 fewer lines[53;14H[K[47;1H
+[1m[34m~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [m[53;1H[K[53;208H53,1[10CBot5 fewer lines[53;208H[K[53;208H53,1[10CBot[47;1H[?25h[?0c[?25l[?1c[53;198Hg[47;1H[?25h[?0c[?25l[?1c[53;198H [47;1H[53;198Hgg[47;1H[53;198H  [1;1H[1;52r[1;1H[6L[1;53r[1;1H<<<<<<< HEAD
+[1m[36m# Prerequisites[m
+*.d
+
+[1m[36m# Object files[m
+*.o[53;1H[K[53;208H1,1[11CTop[1;1H[?25h[?0c[?25l[?1c[53;198Hd[1;1H[?25h[?0c[?25l[?1c[53;199Hd[1;1H[53;198H  [1;1H[1;52r[52;1H
+[1;53r[52;1Hdkms.conf[53;208H[K[53;208H1,1[11CAll[1;1H[?25h[?0c[?25l[?1c[53;198H;[1;1H[53;198H [1;1H[?25h[?0c[?25l[?1c[53;198H:[1;1H[53;198H[K[53;1H:[?25h[?0cx[?25l[?1c[?25h[?0c[?25l[?1c".gitignore" 52L, 430C written[?25h[?0c
+hsloan1@remote05:~/i220a$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+
+	[32mnew file:   Makefile[m
+	[32mnew file:   README.md[m
+	[32mnew file:   hello.c[m
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	[31mboth added:      .gitignore[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mdeleted:    README.md[m
+	[31mdeleted:    hello.c[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31msubmit/lab8/[m
+
+hsloan1@remote05:~/i220a$ git add .gitignore 
+hsloan1@remote05:~/i220a$ git rm Re[KE[K[Kadd submit/
+hsloan1@remote05:~/i220a$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+	[32mnew file:   Makefile[m
+	[32mnew file:   README.md[m
+	[32mnew file:   hello.c[m
+	[32mnew file:   submit/lab8/README.md[m
+	[32mnew file:   submit/lab8/hello.c[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mdeleted:    README.md[m
+	[31mdeleted:    hello.c[m
+
+hsloan1@remote05:~/i220a$ git rm H[KREAD<[KME.md
+rm 'README.md'
+hsloan1@remote05:~/i220a$ git rm README.md[K[Khlel[K[K[Kello.c
+rm 'hello.c'
+hsloan1@remote05:~/i220a$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+	[32mnew file:   Makefile[m
+	[32mnew file:   submit/lab8/README.md[m
+	[32mnew file:   submit/lab8/hello.c[m
+
+hsloan1@remote05:~/i220a$ git pu[K[Kcommit -m "[K'submit lab 8'
+[master f214123] submit lab 8
+ Committer: Henry Sloan <hsloan1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+hsloan1@remote05:~/i220a$ git push^C
+hsloan1@remote05:~/i220a$ ^C
+hsloan1@remote05:~/i220a$ git p^C
+hsloan1@remote05:~/i220a$ exit
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 [m[27m[24m[J[39m[m[49m[40m[39m [31m✘[40m[39m hsloan1@remote05 [44m[30m[30m ~/dev/cs220/lab8 [49m[34m[39m [K[?2004h[?2004l
+
+Script done on 2019-10-10 10:33:51-04:00 [COMMAND_EXIT_CODE="130"]
