@@ -1,0 +1,37 @@
+Ex 1: Created the following assembly:
+	roll	%cl, %edi
+	rorl	%cl, %esi
+
+Ex 2: Output:
+	cpuid: eax = 0xd; ebx = 0x756e6547; edx = 0x49656e69; ecx = 0x6c65746e
+	vendor: GenuineIntel
+
+Ex 4: 
+get_parity:
+        movl %edi, %eax
+        testl %eax, %eax
+        jpe set
+        xorl %eax, %eax
+        ret
+hsloan1@remote01:~/dev/cs220/lab10/files/parity$ ./parity 1 2 3 4 5 6 7 15 21
+parity(1) = 0
+parity(2) = 0
+parity(3) = 1
+parity(4) = 0
+parity(5) = 1
+parity(6) = 1
+parity(7) = 0
+parity(15) = 1
+parity(21) = 0
+hsloan1@remote01:~/dev/cs220/lab10/files/parity$ ./parity -1 0 -2
+parity(-1) = 1
+parity(0) = 1
+parity(-2) = 0
+
+Ex 5:
+hsloan1@remote01:~/dev/cs220/lab10/files/rip$ ./rip 
+&get_rip() = 0x5570b5c03135; rip = 0x5570b5c0313c
+
+Ex 6:
+hsloan1@remote01:~/dev/cs220/lab10/files/rsp$ ./rsp 
+&stkVar = 0x7fff14709e2c; rsp = 0x7fff14709e18
