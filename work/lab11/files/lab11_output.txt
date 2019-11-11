@@ -1,0 +1,185 @@
+Ex1:
+hsloan1@remote07:~/i220a/work/lab11/files$ time ls ~/cs220/labs/lab11/files
+coverage  int-search  matmul-cache  parity
+
+real    0m0.005s
+user    0m0.000s
+sys     0m0.002s
+hsloan1@remote07:~/i220a/work/lab11/files$ time sleep 5
+
+real    0m5.003s
+user    0m0.000s
+sys     0m0.001s
+hsloan1@remote07:~/i220a/work/lab11/files$ time wc -l `find /etc -type f 2>/dev/null` 2>/dev/null | tail
+     34 /etc/logrotate.conf.dpkg-old
+    618 /etc/matplotlibrc2
+     15 /etc/nftables.conf
+     56 /etc/ntp.conf.dpkg-old
+      3 /etc/sbclrc
+     40 /etc/usb_modeswitch.conf
+      1 /etc/video_format
+     21 /etc/xattr.conf
+     23 /etc/sysfs.conf
+ 166652 total
+
+real    0m1.032s
+user    0m0.052s
+sys     0m0.150s
+hsloan1@remote07:~/i220a/work/lab11/files$ time wc -l `find /etc -type f 2>/dev/null` 2>/dev/null | tail
+     34 /etc/logrotate.conf.dpkg-old
+    618 /etc/matplotlibrc2
+     15 /etc/nftables.conf
+     56 /etc/ntp.conf.dpkg-old
+      3 /etc/sbclrc
+     40 /etc/usb_modeswitch.conf
+      1 /etc/video_format
+     21 /etc/xattr.conf
+     23 /etc/sysfs.conf
+ 166652 total
+
+real    0m0.659s
+user    0m0.013s
+sys     0m0.174s
+
+hsloan1@remote07:~/i220a/work/lab11/files$ time cat
+fd
+fd
+^C
+
+real    0m2.241s
+user    0m0.001s
+sys     0m0.000s
+
+Ex2:
+hsloan1@remote07:~/i220a/work/lab11/files/parity$ time ./parity-c 10000000
+5000346
+
+real    0m0.359s
+user    0m0.358s
+sys     0m0.000s
+hsloan1@remote07:~/i220a/work/lab11/files/parity$ time ./parity-s 10000000
+5000131
+
+real    0m0.168s
+user    0m0.168s
+sys     0m0.000s
+
+Ex3:
+hsloan1@remote07:~/i220a/work/lab11/files/matmul-cache$ ./simple-matmul 4 1
+2.22116e+17 7.02729e+17 9.76657e+17 2.08306e+17 
+2.17616e+18 2.16772e+18 3.40213e+18 1.2273e+18 
+4.86494e+18 4.48803e+18 7.27046e+18 2.8719e+18 
+7.68709e+18 2.14813e+18 5.99903e+18 4.12269e+18 
+hsloan1@remote07:~/i220a/work/lab11/files/matmul-cache$ ./transpose-matmul 4 1
+2.22116e+17 7.02729e+17 9.76657e+17 2.08306e+17 
+2.17616e+18 2.16772e+18 3.40213e+18 1.2273e+18 
+4.86494e+18 4.48803e+18 7.27046e+18 2.8719e+18 
+7.68709e+18 2.14813e+18 5.99903e+18 4.12269e+18 
+hsloan1@remote07:~/i220a/work/lab11/files/matmul-cache$ time ./simple-matmul 1500 1
+
+real    0m13.857s
+user    0m13.843s
+sys     0m0.012s
+hsloan1@remote07:~/i220a/work/lab11/files/matmul-cache$ time ./transpose-matmul 1500 1
+
+real    0m12.655s
+user    0m12.637s
+sys     0m0.016s
+
+hsloan1@remote07:~/i220a/work/lab11/files/matmul-cache$ for s in `seq 1000 500 2500`; \
+> do \
+> echo -n "*** Size $s: simple"; time ./simple-matmul $s 1 ; echo ; \
+> echo -n "*** Size $s: transpose"; time ./transpose-matmul $s 1 ; echo ; \
+> done
+*** Size 1000: simple
+real    0m3.783s
+user    0m3.774s
+sys     0m0.008s
+
+*** Size 1000: transpose
+real    0m3.732s
+user    0m3.715s
+sys     0m0.016s
+
+*** Size 1500: simple
+real    0m13.786s
+user    0m13.780s
+sys     0m0.004s
+
+*** Size 1500: transpose
+real    0m12.656s
+user    0m12.646s
+sys     0m0.008s
+
+*** Size 2000: simple
+real    0m38.326s
+user    0m38.278s
+sys     0m0.044s
+
+*** Size 2000: transpose
+real    0m30.141s
+user    0m30.098s
+sys     0m0.040s
+
+*** Size 2500: simple
+real    1m13.638s
+user    1m13.607s
+sys     0m0.024s
+
+*** Size 2500: transpose
+real    0m58.992s
+user    0m58.946s
+sys     0m0.040s
+
+Ex4:
+hsloan1@remote07:~/i220a/work/lab11/files/int-search$ make
+cc -g -Wall -std=c11 -O1   -c -o linear-search.o linear-search.c
+cc   linear-search.o main.o int_compare.o   -o linear-search
+hsloan1@remote07:~/i220a/work/lab11/files/int-search$ ./linear-search 100 1
+hsloan1@remote07:~/i220a/work/lab11/files/int-search$ time ./linear-search 2000 2000
+
+real    0m7.695s
+user    0m7.694s
+sys     0m0.000s
+hsloan1@remote07:~/i220a/work/lab11/files/int-search$ time ./binary-search 2000 2000
+
+real    0m0.466s
+user    0m0.464s
+sys     0m0.000s
+
+Ex5:
+hsloan1@remote07:~/i220a/work/lab11/files/coverage$ ./coverage 200 2000 2999
+200
+2000
+2999
+compute(200, 2000, 2999) = 730
+hsloan1@remote07:~/i220a/work/lab11/files/coverage$ gcov coverage.
+coverage.c     coverage.gcda  coverage.gcno  
+hsloan1@remote07:~/i220a/work/lab11/files/coverage$ gcov coverage.
+coverage.c     coverage.gcda  coverage.gcno  
+hsloan1@remote07:~/i220a/work/lab11/files/coverage$ gcov coverage.gcda 
+File 'coverage.c'
+Lines executed:45.83% of 24
+Creating 'coverage.c.gcov'
+
+hsloan1@remote07:~/i220a/work/lab11/files/coverage$ ./coverage 
+250 300 400
+compute(250, 300, 400) = 1549
+250 300 450
+compute(250, 300, 450) = 1049
+250 350 330
+compute(250, 350, 330) = 1563
+250 350 400
+compute(250, 350, 400) = 971
+400 400 400
+compute(400, 400, 400) = 1320
+400 400 1000
+compute(400, 400, 1000) = 652
+400 500 300
+compute(400, 500, 300) = 652
+400 500 400
+compute(400, 500, 400) = 730
+hsloan1@remote07:~/i220a/work/lab11/files/coverage$ gcov coverage.gcda
+File 'coverage.c'
+Lines executed:100.00% of 24
+Creating 'coverage.c.gcov'

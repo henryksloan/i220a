@@ -1,0 +1,366 @@
+Ex1:
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\$*
+'./1$2'  './a$b'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\'*
+"./'12"  "./a'b"
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./\\*
+'./\\ab'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./??
+'./**'   ./-l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ??
+-rw-r----- 1 hsloan1 hsloan1 0 Nov 10 20:58 '**'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -- ??
+'**'   -l
+
+Ex2:
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env
+SHELL=/bin/zsh
+LSCOLORS=GxFxCxDxBxegedabagaced
+LESS=-R
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+EDITOR=vim
+KRB5CCNAME=FILE:/tmp/krb5cc_14371_OAxP6jqGDb
+PWD=/home/hsloan1/i220a/work/lab12/files/quote-files
+LOGNAME=hsloan1
+XDG_SESSION_TYPE=tty
+TZ=America/New_York
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+VIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+HOME=/home/hsloan1
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+_VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv
+KEYTIMEOUT=1
+LIBTOOL=/home/hsloan1/builds/libtool-2.4.6/libtool
+CLICOLOR=1
+SSH_CONNECTION=149.125.153.219 41838 128.226.114.204 22
+XDG_SESSION_CLASS=user
+TERM=linux
+ZSH=/home/hsloan1/.oh-my-zsh
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+USER=hsloan1
+SHLVL=3
+PAGER=less
+XDG_SESSION_ID=126152
+XDG_RUNTIME_DIR=/run/user/14371
+SSH_CLIENT=149.125.153.219 41838 22
+PATH=/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/14371/bus
+MAIL=/var/mail/hsloan1
+SSH_TTY=/dev/pts/9
+DEFAULT_USER=hsloan1
+OLDPWD=/home/hsloan1/i220a/work/lab12
+_=/usr/bin/env
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $HOME
+/home/hsloan1
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ xxx=123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ 
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx
+xxx=123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xx=456
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx
+xxx=123
+xx=456
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ p=$PATH
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $p
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ PATH=
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls
+bash: ls: No such file or directory
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ PATH=$p
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"   -l
+
+EX3:
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ; wc *
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"   -l
+0 **
+0 1$2
+0 '12
+0 1"2
+0 a$b
+0 \\ab
+0 a"b
+0 a'b
+0 total
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find -L ~/cs220 -name '*.c' 
+/home/hsloan1/cs220/hws/hw3-sol/fib.c
+/home/hsloan1/cs220/hws/hw3-sol/mask.c
+/home/hsloan1/cs220/hws/hw3-sol/rec-fn.c
+/home/hsloan1/cs220/labs/lab2/files/ex1/hello.c
+/home/hsloan1/cs220/labs/lab2/files/ex3/main.c
+/home/hsloan1/cs220/labs/lab2/files/ex3/quadr.c
+/home/hsloan1/cs220/labs/lab2/files/ex4/key-value.c
+/home/hsloan1/cs220/labs/lab2/files/ex4/main.c
+/home/hsloan1/cs220/labs/lab2/files/ex4/process-file.c
+/home/hsloan1/cs220/labs/lab3/files/ex1/hello.c
+/home/hsloan1/cs220/labs/lab3/files/ex2/hello.c
+/home/hsloan1/cs220/labs/lab4/files/ex1/uints.c
+/home/hsloan1/cs220/labs/lab4/files/ex2/ints.c
+/home/hsloan1/cs220/labs/lab4/files/ex3/identify.c
+/home/hsloan1/cs220/labs/lab4/files/ex4/negeq.c
+/home/hsloan1/cs220/labs/lab4/files/ex6/0.1.c
+/home/hsloan1/cs220/labs/lab4/files/ex7/nan.c
+/home/hsloan1/cs220/labs/lab4/files/ex8/ulp.c
+/home/hsloan1/cs220/labs/lab4/files/ex9/loop.c
+/home/hsloan1/cs220/labs/lab5/files/ex1/pointers.c
+/home/hsloan1/cs220/labs/lab5/files/ex2/in-pointers.c
+/home/hsloan1/cs220/labs/lab5/files/ex3/bad-types.c
+/home/hsloan1/cs220/labs/lab5/files/ex4/cast-types.c
+/home/hsloan1/cs220/labs/lab5/files/ex5/void-pointers.c
+/home/hsloan1/cs220/labs/lab5/files/ex6/in-voids.c
+/home/hsloan1/cs220/labs/lab6/files/brk/brk.c
+/home/hsloan1/cs220/labs/lab6/files/bug-program/bug-program.c
+/home/hsloan1/cs220/labs/lab6/files/process-memory/process-memory.c
+/home/hsloan1/cs220/labs/lab7/files/libgeom/circ.c
+/home/hsloan1/cs220/labs/lab7/files/libgeom/rect.c
+/home/hsloan1/cs220/labs/lab7/files/libgeom/testgeom.c
+/home/hsloan1/cs220/labs/lab7/files/libvec/addvec.c
+/home/hsloan1/cs220/labs/lab7/files/libvec/multvec.c
+/home/hsloan1/cs220/labs/lab7/files/libvec/testvec.c
+/home/hsloan1/cs220/labs/lab7/files/log10/log10.c
+/home/hsloan1/cs220/labs/lab7/files/multiple-defs/f.c
+/home/hsloan1/cs220/labs/lab7/files/multiple-defs/main.c
+/home/hsloan1/cs220/labs/lab7/files/multiple-symbols/def1.c
+/home/hsloan1/cs220/labs/lab7/files/multiple-symbols/def2.c
+/home/hsloan1/cs220/labs/lab7/files/multiple-symbols/main.c
+/home/hsloan1/cs220/labs/lab7/files/static-dynamic/log10.c
+/home/hsloan1/cs220/labs/lab8/files/hello-multi.c
+/home/hsloan1/cs220/labs/lab8/files/hello-one.c
+/home/hsloan1/cs220/labs/lab9/files/hello.c
+/home/hsloan1/cs220/labs/lab10/files/cpuid1/main.c
+/home/hsloan1/cs220/labs/lab10/files/cpuid2/main.c
+/home/hsloan1/cs220/labs/lab10/files/parity/main.c
+/home/hsloan1/cs220/labs/lab10/files/rip/rip.c
+/home/hsloan1/cs220/labs/lab10/files/rotate/rotate.c
+/home/hsloan1/cs220/labs/lab10/files/rsp/rsp.c
+/home/hsloan1/cs220/labs/lab11/files/coverage/coverage.c
+/home/hsloan1/cs220/labs/lab11/files/int-search/binary-search.c
+/home/hsloan1/cs220/labs/lab11/files/int-search/int_compare.c
+/home/hsloan1/cs220/labs/lab11/files/int-search/linear-search.c
+/home/hsloan1/cs220/labs/lab11/files/int-search/main.c
+/home/hsloan1/cs220/labs/lab11/files/matmul-cache/main.c
+/home/hsloan1/cs220/labs/lab11/files/matmul-cache/simple-matmul.c
+/home/hsloan1/cs220/labs/lab11/files/matmul-cache/transpose-matmul.c
+/home/hsloan1/cs220/labs/lab11/files/parity/main.c
+/home/hsloan1/cs220/labs/lab11/files/parity/parity-c.c
+/home/hsloan1/cs220/labs/lab11/files/parity/parity-s.c
+/home/hsloan1/cs220/misc/bin-num/220a/bin-num.c
+/home/hsloan1/cs220/misc/bin-num/220a/main.c
+/home/hsloan1/cs220/misc/bin-num/220b/bin-num.c
+/home/hsloan1/cs220/misc/bin-num/220b/main.c
+/home/hsloan1/cs220/misc/shapes/cs220a/shapes.c
+/home/hsloan1/cs220/misc/shapes/cs220b/shapes.c
+/home/hsloan1/cs220/projects/prj1/prj1-sol/errors.c
+/home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/home/hsloan1/cs220/projects/prj1/prj1-sol/main.c
+/home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.c
+/home/hsloan1/cs220/projects/prj1-sol/errors.c
+/home/hsloan1/cs220/projects/prj1-sol/main.c
+/home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.c
+/home/hsloan1/cs220/projects/prj2/prj2-sol/errors.c
+/home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.c
+/home/hsloan1/cs220/projects/prj2/prj2-sol/main.c
+/home/hsloan1/cs220/projects/prj2/prj2-sol/stack.c
+/home/hsloan1/cs220/projects/prj2-sol/alt-big-bits.c
+/home/hsloan1/cs220/projects/prj2-sol/big-bits.c
+/home/hsloan1/cs220/projects/prj2-sol/errors.c
+/home/hsloan1/cs220/projects/prj2-sol/hex-util.c
+/home/hsloan1/cs220/projects/prj2-sol/main.c
+/home/hsloan1/cs220/projects/prj2-sol/stack.c
+/home/hsloan1/cs220/projects/prj4/aux-files/fns.c
+/home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.c
+/home/hsloan1/cs220/projects/prj4/prj4-sol/main.c
+/home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.c
+/home/hsloan1/cs220/slides/intro/code/hello.c
+/home/hsloan1/cs220/slides/c-intro/code/bases.c
+/home/hsloan1/cs220/slides/c-intro/code/out-bits.c
+/home/hsloan1/cs220/slides/c-intro/code/sum.c
+/home/hsloan1/cs220/slides/c-intro/code/count-1s-1.c
+/home/hsloan1/cs220/slides/c-intro/code/count-1s-2.c
+/home/hsloan1/cs220/slides/c-intro/code/endian.c
+/home/hsloan1/cs220/slides/c-intro/code/integer-sizes.c
+/home/hsloan1/cs220/slides/c-intro/code/kilo-powers.c
+/home/hsloan1/cs220/slides/c-intro/code/ptr-sum.c
+/home/hsloan1/cs220/slides/c-intro/code/robust-sum.c
+/home/hsloan1/cs220/slides/c-intro/code/sum-args.c
+/home/hsloan1/cs220/slides/c-intro/code/wc.c
+/home/hsloan1/cs220/slides/adts/code/stack.c
+/home/hsloan1/cs220/slides/x86/code/arith.c
+/home/hsloan1/cs220/slides/x86/code/conditional-move.c
+/home/hsloan1/cs220/slides/x86/code/div-mod.c
+/home/hsloan1/cs220/slides/x86/code/dynamic-array.c
+/home/hsloan1/cs220/slides/x86/code/find.c
+/home/hsloan1/cs220/slides/x86/code/mstore/main.c
+/home/hsloan1/cs220/slides/x86/code/mstore/mstore.c
+/home/hsloan1/cs220/slides/x86/code/abs-diff.c
+/home/hsloan1/cs220/slides/x86/code/cmp-sets.c
+/home/hsloan1/cs220/slides/x86/code/fact-do-while.c
+/home/hsloan1/cs220/slides/x86/code/fact-while.c
+/home/hsloan1/cs220/slides/x86/code/indirect-goto.c
+/home/hsloan1/cs220/slides/x86/code/scale.c
+/home/hsloan1/cs220/slides/x86/code/sum-dist-origin.c
+/home/hsloan1/cs220/slides/x86/code/sum.c
+/home/hsloan1/cs220/slides/x86/code/array-access.c
+/home/hsloan1/cs220/slides/x86/code/move.c
+/home/hsloan1/cs220/slides/x86/code/point3.c
+/home/hsloan1/cs220/slides/x86/code/read-point.c
+/home/hsloan1/cs220/slides/x86/code/rec-fact.c
+/home/hsloan1/cs220/slides/x86/code/stack-frame.c
+/home/hsloan1/cs220/slides/x86/code/structs.c
+/home/hsloan1/cs220/slides/x86/code/sum-dist-origin-s.c
+/home/hsloan1/cs220/slides/x86/code/switch.c
+/home/hsloan1/cs220/slides/x86/code/vframe.c
+/home/hsloan1/cs220/slides/x86/code/acc-fact.c
+/home/hsloan1/cs220/slides/advanced-c/code/enum-strings.c
+/home/hsloan1/cs220/slides/advanced-c/code/float-decode.c
+/home/hsloan1/cs220/slides/advanced-c/code/oo-shapes/circle.c
+/home/hsloan1/cs220/slides/advanced-c/code/oo-shapes/main.c
+/home/hsloan1/cs220/slides/advanced-c/code/oo-shapes/rect.c
+/home/hsloan1/cs220/slides/advanced-c/code/oo-shapes/shape.c
+/home/hsloan1/cs220/slides/advanced-c/code/stack/main.c
+/home/hsloan1/cs220/slides/advanced-c/code/stack/stack.c
+/home/hsloan1/cs220/exercises/questions/src/x86/fns-asm.c
+/home/hsloan1/cs220/src/libcs220/errors.c
+/home/hsloan1/cs220/src/libcs220/memalloc.c
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find -L ~/cs220 -name '*.c' | wc -l
+139
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find / -name '*.c' 2>/dev/null
+^C
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find / -name '*.c' 2>/dev/null >c-files.lst &
+[2] 22931
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 192
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 163840 Nov 10 21:15  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 256
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 253952 Nov 10 21:15  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ jobs
+[1]+  Stopped                 vim ../../lab12_output.txt
+[2]-  Running                 find / -name '*.c' 2> /dev/null > c-files.lst &
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 704
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 720896 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 1536
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 770048 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+
+Ex4:
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ cd ~
+hsloan1@remote04:~$ pwd
+/home/hsloan1
+hsloan1@remote04:~$ xx=123
+hsloan1@remote04:~$ pwd; echo $xx; (xx=abc; cd /; pwd; echo $xx); pwd; echo $xx
+/home/hsloan1
+123
+/
+abc
+/home/hsloan1
+123
+
+Ex5:
+hsloan1@remote04:~$ grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`
+/home/hsloan1/cs220/projects/prj1/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/hsloan1/cs220/projects/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/hsloan1/cs220/projects/prj2/prj2-sol/main.c:main()
+/home/hsloan1/cs220/projects/prj2-sol/main.c:main()
+/home/hsloan1/cs220/projects/prj4/aux-files/fns.c:int main() {
+/home/hsloan1/cs220/projects/prj4/prj4-sol/main.c:main(int argc, const char *argv[]) {
+
+hsloan1@remote04:~$ wc -l `find ~/cs220/projects -name '*.[ch]'`
+   47 /home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.h
+   30 /home/hsloan1/cs220/projects/prj1/prj1-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj1/prj1-sol/errors.h
+   54 /home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+   58 /home/hsloan1/cs220/projects/prj1/prj1-sol/main.c
+  178 /home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.c
+   46 /home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.h
+   30 /home/hsloan1/cs220/projects/prj1-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj1-sol/errors.h
+   58 /home/hsloan1/cs220/projects/prj1-sol/main.c
+   87 /home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.c
+   61 /home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.h
+   30 /home/hsloan1/cs220/projects/prj2/prj2-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj2/prj2-sol/errors.h
+   49 /home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.c
+   18 /home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.h
+   52 /home/hsloan1/cs220/projects/prj2/prj2-sol/stack.h
+  302 /home/hsloan1/cs220/projects/prj2/prj2-sol/main.c
+   75 /home/hsloan1/cs220/projects/prj2/prj2-sol/stack.c
+  140 /home/hsloan1/cs220/projects/prj2-sol/alt-big-bits.c
+  184 /home/hsloan1/cs220/projects/prj2-sol/big-bits.c
+   61 /home/hsloan1/cs220/projects/prj2-sol/big-bits.h
+   30 /home/hsloan1/cs220/projects/prj2-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj2-sol/errors.h
+   49 /home/hsloan1/cs220/projects/prj2-sol/hex-util.c
+   18 /home/hsloan1/cs220/projects/prj2-sol/hex-util.h
+  302 /home/hsloan1/cs220/projects/prj2-sol/main.c
+   75 /home/hsloan1/cs220/projects/prj2-sol/stack.c
+   52 /home/hsloan1/cs220/projects/prj2-sol/stack.h
+  330 /home/hsloan1/cs220/projects/prj4/aux-files/fns.c
+   68 /home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.c
+   47 /home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.h
+  116 /home/hsloan1/cs220/projects/prj4/prj4-sol/main.c
+   40 /home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.c
+   15 /home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.h
+ 2758 total
+
+Ex6:
+hsloan1@remote04:~$ sleep 5 && echo 123 &
+[4] 26816
+hsloan1@remote04:~$ 123
+
+[4]   Done                    sleep 5 && echo 123
+hsloan1@remote04:~$ 
+

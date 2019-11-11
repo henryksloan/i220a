@@ -1,0 +1,1314 @@
+Script started on 2019-11-10 20:59:18-05:00 [TERM="linux" TTY="/dev/pts/9" COLUMNS="225" LINES="55"]
+[01;31m  __   __                  _   _   // ____ 
+[01;31m |  | |  |                | | | | // / ___|
+[01;31m |  |_|  | ___ _ ___  ____| |_| |   | |___ 
+[01;31m |   _   |/ _ \| '_ \/ /\_\__,  |    \___ \
+[01;31m |  | |  |  __/| | | | |   __/  |     ___| |
+[01;31m |__| |__|\___||_| |_| |   \___/     |____/
+
+[01;31m  ______    _ [34m        user: hsloan1
+[01;31m |___  /   | | [34m             @remote04
+[01;31m    / / ___| |__
+[01;31m   / / / __| '_ \ [34m    time:  8:59
+[01;31m  / /__\__ \ | | |
+[01;31m /_____|___/_| |_|
+[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 [m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote04 [44m[30m[30m ~/i220a/work/lab12 [43m[34m[30m  master [49m[33m[39m [K[?2004hbbash[?2004l
+hsloan1@remote04:~/i220a/work/lab12$ echo \\
+\
+hsloan1@remote04:~/i220a/work/lab12$ echo \'
+'
+hsloan1@remote04:~/i220a/work/lab12$ echo \'[K*
+*
+hsloan1@remote04:~/i220a/work/lab12$ echo \*[K$HOME\"\\
+$HOME"\
+hsloan1@remote04:~/i220a/work/lab12$ echo \$HOME\"\\[Kecho;[K '\'
+\
+hsloan1@remote04:~/i220a/work/lab12$ echo '\'\'
+\\
+hsloan1@remote04:~/i220a/work/lab12$ echo '\\'[1P'[1P'*'$%'[1P'[1P'$'!'[1P'~'
+*$~
+hsloan1@remote04:~/i220a/work/lab12$ echo '\''
+> '
+\
+
+hsloan1@remote04:~/i220a/work/lab12$ ech [Ko "\"\\"
+"\
+hsloan1@remote04:~/i220a/work/lab12$ echo $hOME[K[K[K[KHome[K[K[KOME[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"$HOME[C[C[C[C[C"
+/home/hsloan1
+hsloan1@remote04:~/i220a/work/lab12$ echo \
+> abs[Kc \
+> 123
+abc 123
+hsloan1@remote04:~/i220a/work/lab12$ ls *$*[C\$*[C[C
+ls: cannot access '*$*': No such file or directory
+hsloan1@remote04:~/i220a/work/lab12$ ls *\$*\*
+ls: cannot access '*$*': No such file or directory
+hsloan1@remote04:~/i220a/work/lab12$ ls *\$\*[1P*[1P$*[Kls . [K[K,.[K[K./\[K*\4[K$*
+ls: cannot access './*$*': No such file or directory
+hsloan1@remote04:~/i220a/work/lab12$ ls ./*\$*[C[1P$*[C[C
+./lab12.html  ./lab12.log  ./lab12.pdf	./lab12.umt  ./Makefile
+
+./files:
+quote-files
+
+./lab12:
+hl-fine_blue.css  hl-fine_blue.sty
+hsloan1@remote04:~/i220a/work/lab12$ ls ./*$*[C[C[C[Kls ./*\$*[C[C[C[C[C[C[C[C[C'./*\$*[C[C[C[C[C[C'[C[C[1P$*'[C[C[C
+ls: cannot access './*$*': No such file or directory
+hsloan1@remote04:~/i220a/work/lab12$ ls './*$*'[1P*$*'.'.*$*'[C '.*$*'[C[C[C[1P*$*'[C[C[C[C
+ls: cannot access '*$*': No such file or directory
+.:
+files  lab12  lab12.html  lab12.log  lab12.pdf	lab12.umt  Makefile
+hsloan1@remote04:~/i220a/work/lab12$ ls 
+files/      lab12/      lab12.html  lab12.log   lab12.pdf   lab12.umt   Makefile    
+hsloan1@remote04:~/i220a/work/lab12$ ls files/quote-files/
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+hsloan1@remote04:~/i220a/work/lab12$ ls files/quote-files/[K[K[K [K[Kls files/quote-files/*$[Kcd files/quote-files/
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls *[K./*$*
+'./**'	'./1$2'  "./'12"  './1"2'  './a$b'  './\\ab'  './a"b'  "./a'b"	 ./-l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*$*[C[C[C[C[C[C[C[Cb[1Pb[C[K*[C\$*[C[C
+'./1$2'  './a$b'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\$*[C[C[C[C[C[C[C[C[C[1P*'*
+"./'12"  "./a'b"
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\'*[K[K[K[K\\*
+'./\\ab'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./\\*[K[K[K??
+'./**'	 ./-l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./??\\**\'*$*'*[1P\\*[1P??[Kls ./??\\*[1P??[C[1P??[1P??[C[C
+-rw-r----- 1 hsloan1 hsloan1 0 Nov 10 20:58 '**'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ vim ../quote-files/[K[K../
+files/      lab12/      lab12.html  lab12.log   lab12.pdf   lab12.umt   Makefile    
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ vim ../../ou[K[Klab12_output.txt
+[1;55r[27m[24m[m[H[J[?25l[?1c[55;1H"../../lab12_output.txt" [New File][2;1H▽[6n[2;1H  [1;1H[2;1H[1m[34m~                                                                                                                                                                                                                                [3;1H~                                                                                                                                                                                                                                [4;1H~                                                                                                                                                                                                                                [5;1H~                                                                                                                                                                                                                                [6;1H~                                                                                                                                                                                                                                [7;1H~                                                                                                                                                                                                                                [8;1H~                                                                                                                                                                                                                                [9;1H~                                                                                                                                                                                                                                [10;1H~                                                                                                                                                                                                                                [11;1H~                                                                                                                                                                                                                                [12;1H~                                                                                                                                                                                                                                [13;1H~                                                                                                                                                                                                                                [14;1H~                                                                                                                                                                                                                                [15;1H~                                                                                                                                                                                                                                [16;1H~                                                                                                                                                                                                                                [17;1H~                                                                                                                                                                                                                                [18;1H~                                                                                                                                                                                                                                [19;1H~                                                                                                                                                                                                                                [20;1H~                                                                                                                                                                                                                                [21;1H~                                                                                                                                                                                                                                [22;1H~                                                                                                                                                                                                                                [23;1H~                                                                                                                                                                                                                                [24;1H~                                                                                                                                                                                                                                [25;1H~                                                                                                                                                                                                                                [26;1H~                                                                                                                                                                                                                                [27;1H~                                                                                                                                                                                                                                [28;1H~                                                                                                                                                                                                                                [29;1H~                                                                                                                                                                                                                                [30;1H~                                                                                                                                                                                                                                [31;1H~                                                                                                                                                                                                                                [32;1H~                                                                                                                                                                                                                                [33;1H~                                                                                                                                                                                                                                [34;1H~                                                                                                                                                                                                                                [35;1H~                                                                                                                                                                                                                                [36;1H~                                                                                                                                                                                                                                [37;1H~                                                                                                                                                                                                                                [38;1H~                                                                                                                                                                                                                                [39;1H~                                                                                                                                                                                                                                [40;1H~                                                                                                                                                                                                                                [41;1H~                                                                                                                                                                                                                                [42;1H~                                                                                                                                                                                                                                [43;1H~                                                                                                                                                                                                                                [44;1H~                                                                                                                                                                                                                                [45;1H~                                                                                                                                                                                                                                [46;1H~                                                                                                                                                                                                                                [47;1H~                                                                                                                                                                                                                                [48;1H~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [53;1H~                                                                                                                                                                                                                                [54;1H~                                                                                                                                                                                                                                [m[55;208H0,0-1[9CAll[1;1H[?25h[?0c[?25l[?1c[55;198Hi[1;1H[55;198H [1;1H[55;1H[1m-- INSERT --[m[55;13H[K[55;208H0,1[11CAll[1;1H[?25h[?0c[?25l[?1chsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\$*
+'./1$2'  './a$b'[2;17H[K[3;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\'*[3;65H[K[4;1H"./'12"  "./a'b"[4;17H[K[5;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./\\*[5;64H[K[6;1H'./\\ab'[6;9H[K[7;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./??[7;63H[K[8;1H'./**'   ./-l[8;14H[K[9;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ??[9;61H[K[10;1H-rw-r----- 1 hsloan1 hsloan1 0 Nov 10 20:58 '**'[10;49H[K[11;1H[K[55;208H11,1[11;1H[?25h[?0c[55;1H[K[11;1H[?25l[?1c[55;198H^[[11;1H[55;198H  [11;1H[55;208H11,0-1[8CAll[11;1H[?25h[?0c[?25l[?1c[55;198H:[11;1H[55;198H[K[55;1H:[?25h[?0cx[?25l[?1c[?25h[?0c[?25l[?1c"../../lab12_output.txt" [New] 11L, 425C written[?25h[?0c
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ vim ../../lab12_output.txtls ??[K./??\\**\'*$*[1P$*cd files/quote-files/[13Pls ./*$*\$*[1P$*cd files/quote-files/[13Pls ./*$*\$*'*[1P\\*[1P??[2P??./??[2P??-??-?? ??
+'**'   -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ gf
+bash: gf: command not found
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ fg
+bash: fg: current: no such job
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ vim 
+**    1$2   '12   1"2   a$b   \\ab  a"b   a'b   -l    
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ vim ../quote-files/.[K[K../
+files/            lab12/            lab12.html        lab12.log         lab12_output.txt  lab12.pdf         lab12.umt         Makefile          
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ vim ../../lo[Kab12_output.txt 
+[1;55r[27m[24m[m[H[J[?25l[?1c[55;1H"../../lab12_output.txt" 11L, 425C[2;1H▽[6n[2;1H  [1;1H[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\$*
+'./1$2'  './a$b'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\'*
+"./'12"  "./a'b"
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./\\*
+'./\\ab'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./??
+'./**'   ./-l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ??
+-rw-r----- 1 hsloan1 hsloan1 0 Nov 10 20:58 '**'
+
+[1m[34m~                                                                                                                                                                                                                                [13;1H~                                                                                                                                                                                                                                [14;1H~                                                                                                                                                                                                                                [15;1H~                                                                                                                                                                                                                                [16;1H~                                                                                                                                                                                                                                [17;1H~                                                                                                                                                                                                                                [18;1H~                                                                                                                                                                                                                                [19;1H~                                                                                                                                                                                                                                [20;1H~                                                                                                                                                                                                                                [21;1H~                                                                                                                                                                                                                                [22;1H~                                                                                                                                                                                                                                [23;1H~                                                                                                                                                                                                                                [24;1H~                                                                                                                                                                                                                                [25;1H~                                                                                                                                                                                                                                [26;1H~                                                                                                                                                                                                                                [27;1H~                                                                                                                                                                                                                                [28;1H~                                                                                                                                                                                                                                [29;1H~                                                                                                                                                                                                                                [30;1H~                                                                                                                                                                                                                                [31;1H~                                                                                                                                                                                                                                [32;1H~                                                                                                                                                                                                                                [33;1H~                                                                                                                                                                                                                                [34;1H~                                                                                                                                                                                                                                [35;1H~                                                                                                                                                                                                                                [36;1H~                                                                                                                                                                                                                                [37;1H~                                                                                                                                                                                                                                [38;1H~                                                                                                                                                                                                                                [39;1H~                                                                                                                                                                                                                                [40;1H~                                                                                                                                                                                                                                [41;1H~                                                                                                                                                                                                                                [42;1H~                                                                                                                                                                                                                                [43;1H~                                                                                                                                                                                                                                [44;1H~                                                                                                                                                                                                                                [45;1H~                                                                                                                                                                                                                                [46;1H~                                                                                                                                                                                                                                [47;1H~                                                                                                                                                                                                                                [48;1H~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [53;1H~                                                                                                                                                                                                                                [54;1H~                                                                                                                                                                                                                                [m[55;208H11,0-1[8CAll[11;1H[?25h[?0c[?25l[?1c[55;198Hi[11;1H[55;198H [11;1H[55;1H[1m-- INSERT --[m[55;13H[K[55;208H11,1[10CAll[11;1H[?25h[?0c[?25l[?1chsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -- ??
+'**'   -l[12;10H[K[55;209H2,10[12;10H[?25h[?0c[55;1H[K[12;9H[?25l[?1c[55;198H^[[12;9H[55;198H  [12;10H[55;208H12,9[10CAll[12;9H[?25h[?0c[?25l[?1c[55;198H:[12;9H[55;198H[K[55;1H:[?25h[?0cx[?25l[?1c[?25h[?0c[?25l[?1c"../../lab12_output.txt" 12L, 498C written[?25h[?0c
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ vim ../../lab12_output.txt fg[Kvim ../../lab12_output.txt 
+[1;55r[27m[24m[m[H[J[?25l[?1c[55;1H"../../lab12_output.txt" 12L, 498C[2;1H▽[6n[2;1H  [1;1H[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\$*
+'./1$2'  './a$b'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\'*
+"./'12"  "./a'b"
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./\\*
+'./\\ab'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./??
+'./**'   ./-l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ??
+-rw-r----- 1 hsloan1 hsloan1 0 Nov 10 20:58 '**'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -- ??
+'**'   -l
+[1m[34m~                                                                                                                                                                                                                                [14;1H~                                                                                                                                                                                                                                [15;1H~                                                                                                                                                                                                                                [16;1H~                                                                                                                                                                                                                                [17;1H~                                                                                                                                                                                                                                [18;1H~                                                                                                                                                                                                                                [19;1H~                                                                                                                                                                                                                                [20;1H~                                                                                                                                                                                                                                [21;1H~                                                                                                                                                                                                                                [22;1H~                                                                                                                                                                                                                                [23;1H~                                                                                                                                                                                                                                [24;1H~                                                                                                                                                                                                                                [25;1H~                                                                                                                                                                                                                                [26;1H~                                                                                                                                                                                                                                [27;1H~                                                                                                                                                                                                                                [28;1H~                                                                                                                                                                                                                                [29;1H~                                                                                                                                                                                                                                [30;1H~                                                                                                                                                                                                                                [31;1H~                                                                                                                                                                                                                                [32;1H~                                                                                                                                                                                                                                [33;1H~                                                                                                                                                                                                                                [34;1H~                                                                                                                                                                                                                                [35;1H~                                                                                                                                                                                                                                [36;1H~                                                                                                                                                                                                                                [37;1H~                                                                                                                                                                                                                                [38;1H~                                                                                                                                                                                                                                [39;1H~                                                                                                                                                                                                                                [40;1H~                                                                                                                                                                                                                                [41;1H~                                                                                                                                                                                                                                [42;1H~                                                                                                                                                                                                                                [43;1H~                                                                                                                                                                                                                                [44;1H~                                                                                                                                                                                                                                [45;1H~                                                                                                                                                                                                                                [46;1H~                                                                                                                                                                                                                                [47;1H~                                                                                                                                                                                                                                [48;1H~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [53;1H~                                                                                                                                                                                                                                [54;1H~                                                                                                                                                                                                                                [m[55;208H12,9[10CAll[12;9H[?25h[?0c[?25l[?1c[55;198H^Z[12;9H[55;1H
+[?25h[?0c
+[1]+  Stopped                 vim ../../lab12_output.txt
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ fg
+vim ../../lab12_output.txt
+[27m[24m[m[H[J[?25l[?1c[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\$*
+'./1$2'  './a$b'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\'*
+"./'12"  "./a'b"
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./\\*
+'./\\ab'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./??
+'./**'   ./-l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ??
+-rw-r----- 1 hsloan1 hsloan1 0 Nov 10 20:58 '**'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -- ??
+'**'   -l
+[1m[34m~                                                                                                                                                                                                                                [14;1H~                                                                                                                                                                                                                                [15;1H~                                                                                                                                                                                                                                [16;1H~                                                                                                                                                                                                                                [17;1H~                                                                                                                                                                                                                                [18;1H~                                                                                                                                                                                                                                [19;1H~                                                                                                                                                                                                                                [20;1H~                                                                                                                                                                                                                                [21;1H~                                                                                                                                                                                                                                [22;1H~                                                                                                                                                                                                                                [23;1H~                                                                                                                                                                                                                                [24;1H~                                                                                                                                                                                                                                [25;1H~                                                                                                                                                                                                                                [26;1H~                                                                                                                                                                                                                                [27;1H~                                                                                                                                                                                                                                [28;1H~                                                                                                                                                                                                                                [29;1H~                                                                                                                                                                                                                                [30;1H~                                                                                                                                                                                                                                [31;1H~                                                                                                                                                                                                                                [32;1H~                                                                                                                                                                                                                                [33;1H~                                                                                                                                                                                                                                [34;1H~                                                                                                                                                                                                                                [35;1H~                                                                                                                                                                                                                                [36;1H~                                                                                                                                                                                                                                [37;1H~                                                                                                                                                                                                                                [38;1H~                                                                                                                                                                                                                                [39;1H~                                                                                                                                                                                                                                [40;1H~                                                                                                                                                                                                                                [41;1H~                                                                                                                                                                                                                                [42;1H~                                                                                                                                                                                                                                [43;1H~                                                                                                                                                                                                                                [44;1H~                                                                                                                                                                                                                                [45;1H~                                                                                                                                                                                                                                [46;1H~                                                                                                                                                                                                                                [47;1H~                                                                                                                                                                                                                                [48;1H~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [53;1H~                                                                                                                                                                                                                                [54;1H~                                                                                                                                                                                                                                [m[55;208H12,9[10CAll[12;9H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[55;198Hg[12;9H[?25h[?0c[?25l[?1c[55;198H [12;9H[55;198Hgg[12;9H[55;198H  [1;1H[55;209H,1 [1;1H[?25h[?0c[?25l[?1c[55;198HO[1;1H[55;198H [1;1H[55;1H[1m-- INSERT --[m[55;208H[K[55;208H1,1[11CTop[1;54r[1;1H[L[1;55r[55;208H[K[55;208H1,1[11CAll[1;1H[?25h[?0c[?25l[?1cE[55;210H2[1;2H[?25h[?0c[?25l[?1cX[55;210H3[1;3H[?25h[?0c[?25l[?1c[1;2H[K[55;210H2[1;2H[?25h[?0c[?25l[?1cx[55;210H3[1;3H[?25h[?0c[?25l[?1c1[55;210H4[1;4H[?25h[?0c[?25l[?1c:[55;210H5[1;5H[?25h[?0c[55;1H[K[1;4H[?25l[?1c[55;198H^[[1;4H[55;198H  [1;5H[55;208H1,4[11CAll[1;4H[?25h[?0c[?25l[?1c[55;198HG[1;4H[55;198H [13;1H[55;209H3,1[13;1H[?25h[?0c[?25l[?1c[55;198H^Z[13;1H[55;1H
+[?25h[?0c
+[1]+  Stopped                 vim ../../lab12_output.txt
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env
+SHELL=/bin/zsh
+LSCOLORS=GxFxCxDxBxegedabagaced
+LESS=-R
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+EDITOR=vim
+KRB5CCNAME=FILE:/tmp/krb5cc_14371_OAxP6jqGDb
+PWD=/home/hsloan1/i220a/work/lab12/files/quote-files
+LOGNAME=hsloan1
+XDG_SESSION_TYPE=tty
+TZ=America/New_York
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+VIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+HOME=/home/hsloan1
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+_VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv
+KEYTIMEOUT=1
+LIBTOOL=/home/hsloan1/builds/libtool-2.4.6/libtool
+CLICOLOR=1
+SSH_CONNECTION=149.125.153.219 41838 128.226.114.204 22
+XDG_SESSION_CLASS=user
+TERM=linux
+ZSH=/home/hsloan1/.oh-my-zsh
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+USER=hsloan1
+SHLVL=3
+PAGER=less
+XDG_SESSION_ID=126152
+XDG_RUNTIME_DIR=/run/user/14371
+SSH_CLIENT=149.125.153.219 41838 22
+PATH=/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/14371/bus
+MAIL=/var/mail/hsloan1
+SSH_TTY=/dev/pts/9
+DEFAULT_USER=hsloan1
+OLDPWD=/home/hsloan1/i220a/work/lab12
+_=/usr/bin/env
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $HOME
+/home/hsloan1
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ rg[K[Kfg
+vim ../../lab12_output.txt
+[27m[24m[m[H[J[?25l[?1c[1;1HEx1:
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\$*
+'./1$2'  './a$b'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\'*
+"./'12"  "./a'b"
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./\\*
+'./\\ab'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./??
+'./**'   ./-l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ??
+-rw-r----- 1 hsloan1 hsloan1 0 Nov 10 20:58 '**'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -- ??
+'**'   -l
+[1m[34m~                                                                                                                                                                                                                                [15;1H~                                                                                                                                                                                                                                [16;1H~                                                                                                                                                                                                                                [17;1H~                                                                                                                                                                                                                                [18;1H~                                                                                                                                                                                                                                [19;1H~                                                                                                                                                                                                                                [20;1H~                                                                                                                                                                                                                                [21;1H~                                                                                                                                                                                                                                [22;1H~                                                                                                                                                                                                                                [23;1H~                                                                                                                                                                                                                                [24;1H~                                                                                                                                                                                                                                [25;1H~                                                                                                                                                                                                                                [26;1H~                                                                                                                                                                                                                                [27;1H~                                                                                                                                                                                                                                [28;1H~                                                                                                                                                                                                                                [29;1H~                                                                                                                                                                                                                                [30;1H~                                                                                                                                                                                                                                [31;1H~                                                                                                                                                                                                                                [32;1H~                                                                                                                                                                                                                                [33;1H~                                                                                                                                                                                                                                [34;1H~                                                                                                                                                                                                                                [35;1H~                                                                                                                                                                                                                                [36;1H~                                                                                                                                                                                                                                [37;1H~                                                                                                                                                                                                                                [38;1H~                                                                                                                                                                                                                                [39;1H~                                                                                                                                                                                                                                [40;1H~                                                                                                                                                                                                                                [41;1H~                                                                                                                                                                                                                                [42;1H~                                                                                                                                                                                                                                [43;1H~                                                                                                                                                                                                                                [44;1H~                                                                                                                                                                                                                                [45;1H~                                                                                                                                                                                                                                [46;1H~                                                                                                                                                                                                                                [47;1H~                                                                                                                                                                                                                                [48;1H~                                                                                                                                                                                                                                [49;1H~                                                                                                                                                                                                                                [50;1H~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [53;1H~                                                                                                                                                                                                                                [54;1H~                                                                                                                                                                                                                                [m[55;208H13,1[10CAll[13;1H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[55;198Ho[13;1H[55;198H [14;1H[55;1H[1m-- INSERT --[m[55;208H[K[55;208H14,1[10CAll[14;1H[K[14;1H[?25h[?0c[?25l[?1c[15;1H[K[55;209H5[15;1H[?25h[?0c[?25l[?1cE[55;211H2[15;2H[?25h[?0c[?25l[?1cx[55;211H3[15;3H[?25h[?0c[?25l[?1c2[55;211H4[15;4H[?25h[?0c[?25l[?1c:[55;211H5[15;5H[?25h[?0c[?25l[?1c[55;211H6[15;6H[?25h[?0c[?25l[?1c[55;211H5[15;5H[?25h[?0c[?25l[?1c[16;1H[K[55;209H6,1[16;1H[?25h[?0c[?25l[?1c[1;54r[1;1H[13M[1;55r[3;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env
+SHELL=/bin/zsh[4;15H[K[5;1HLSCOLORS=GxFxCxDxBxegedabagaced[5;32H[K[6;1HLESS=-R[6;8H[K[7;1HDERBY_HOME=/usr/lib/jvm/java-8-oracle/db[7;41H[K[8;1HPKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig[8;60H[K[9;1HJAVA_HOME=/usr/lib/jvm/java-8-oracle[9;37H[K[10;1HEDITOR=vim[10;11H[K[11;1HKRB5CCNAME=FILE:/tmp/krb5cc_14371_OAxP6jqGDb[11;45H[K[12;1HPWD=/home/hsloan1/i220a/work/lab12/files/quote-files[12;53H[K[13;1HLOGNAME=hsloan1[13;16H[K[14;1HXDG_SESSION_TYPE=tty[14;21H[K[15;1HTZ=America/New_York[15;20H[K[16;1HJ2REDIR=/usr/lib/jvm/java-8-oracle/jre[16;39H[K[17;1HVIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh[17;75H[K[18;1HHOME=/home/hsloan1[18;19H[K[19;1HLANG=en_US.UTF-8[19;17H[K[20;1HLS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=[21;1H01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=0[22;1H1;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=[23;1H01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;3[24;1H5:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.as[25;1Hf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m[26;1H4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:[26;156H[K[27;1H_VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mkt[28;1Hmpenv[28;6H[K[29;1HKEYTIMEOUT=1[29;13H[K[30;1HLIBTOOL=/home/hsloan1/builds/libtool-2.4.6/libtool[30;51H[K[31;1HCLICOLOR=1[31;11H[K[32;1HSSH_CONNECTION=149.125.153.219 41838 128.226.114.204 22[32;56H[K[33;1HXDG_SESSION_CLASS=user[33;23H[K[34;1HTERM=linux[34;11H[K[35;1HZSH=/home/hsloan1/.oh-my-zsh[35;29H[K[36;1HJ2SDKDIR=/usr/lib/jvm/java-8-oracle[36;36H[K[37;1HUSER=hsloan1[37;13H[K[38;1HSHLVL=3[38;8H[K[39;1HPAGER=less[39;11H[K[40;1HXDG_SESSION_ID=126152[40;22H[K[41;1HXDG_RUNTIME_DIR=/run/user/14371[41;32H[K[42;1HSSH_CLIENT=149.125.153.219 41838 22
+PATH=/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/14371/bus
+MAIL=/var/mail/hsloan1
+SSH_TTY=/dev/pts/9
+DEFAULT_USER=hsloan1
+OLDPWD=/home/hsloan1/i220a/work/lab12
+_=/usr/bin/env
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $HOME
+/home/hsloan1
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin[55;208H[K[55;208H60,1[10CBot[54;1H[?25h[?0c[?25l[?1c[1;54r[54;1H
+[1;55r[55;208H[K[55;208H61,1[10CBot[54;1H[?25h[?0c[55;1H[K[54;1H[?25l[?1c[55;198H^[[54;1H[55;198H  [54;1H[55;208H61,0-1[8CBot[54;1H[?25h[?0c[?25l[?1c[55;198H^Z[54;1H
+
+[?25h[?0c
+[1]+  Stopped                 vim ../../lab12_output.txt
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ xxx=13[K23
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ fg
+vim ../../lab12_output.txt
+[27m[24m[m[H[J[?25l[?1c[1;1HEx2:
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env
+SHELL=/bin/zsh
+LSCOLORS=GxFxCxDxBxegedabagaced
+LESS=-R
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+EDITOR=vim
+KRB5CCNAME=FILE:/tmp/krb5cc_14371_OAxP6jqGDb
+PWD=/home/hsloan1/i220a/work/lab12/files/quote-files
+LOGNAME=hsloan1
+XDG_SESSION_TYPE=tty
+TZ=America/New_York
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+VIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+HOME=/home/hsloan1
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=[20;1H01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=0[21;1H1;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=[22;1H01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;3[23;1H5:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.as[24;1Hf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m[25;1H4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+_VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mkt[27;1Hmpenv
+KEYTIMEOUT=1
+LIBTOOL=/home/hsloan1/builds/libtool-2.4.6/libtool
+CLICOLOR=1
+SSH_CONNECTION=149.125.153.219 41838 128.226.114.204 22
+XDG_SESSION_CLASS=user
+TERM=linux
+ZSH=/home/hsloan1/.oh-my-zsh
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+USER=hsloan1
+SHLVL=3
+PAGER=less
+XDG_SESSION_ID=126152
+XDG_RUNTIME_DIR=/run/user/14371
+SSH_CLIENT=149.125.153.219 41838 22
+PATH=/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/14371/bus
+MAIL=/var/mail/hsloan1
+SSH_TTY=/dev/pts/9
+DEFAULT_USER=hsloan1
+OLDPWD=/home/hsloan1/i220a/work/lab12
+_=/usr/bin/env
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $HOME
+/home/hsloan1
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin[55;208H61,0-1[8CBot[54;1H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[55;198Hi[54;1H[55;198H [54;1H
+[1m-- INSERT --[m[55;208H[K[55;208H61,1[10CBot[54;1H[?25h[?0c[?25l[?1c[1;54r[1;1H[7M[1;55r[47;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ xxx=123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$[55;208H[K[55;208H68,1[10CBot[54;1H[?25h[?0c[?25l[?1c[1;54r[54;1H
+[1;55r[55;208H[K[55;208H69,1[10CBot[54;1H[?25h[?0c[55;1H[K[54;1H[?25l[?1c[55;198H^[[54;1H[55;198H  [54;1H[55;208H69,0-1[8CBot[54;1H[?25h[?0c[?25l[?1c[55;198H:[54;1H[55;198H[K[55;1H:[?25h[?0cw[?25l[?1c[?25h[?0c[?25l[?1c"../../lab12_output.txt" 69L, 4189C written[54;1H[55;208H69,0-1[8CBot[55;208H[K[55;208H69,0-1[8CBot[54;1H[?25h[?0c[?25l[?1c[55;198H^Z[54;1H
+
+[?25h[?0c
+[1]+  Stopped                 vim ../../lab12_output.txt
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx
+xxx=123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xx=456
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env ~xport xx=456nv | grep xx[3Pxport xxxnv | grep xx
+xxx=123
+xx=456
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ fg
+vim ../../lab12_output.txt
+[27m[24m[m[H[J[?25l[?1c[1;1HEDITOR=vim
+KRB5CCNAME=FILE:/tmp/krb5cc_14371_OAxP6jqGDb
+PWD=/home/hsloan1/i220a/work/lab12/files/quote-files
+LOGNAME=hsloan1
+XDG_SESSION_TYPE=tty
+TZ=America/New_York
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+VIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+HOME=/home/hsloan1
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=[12;1H01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=0[13;1H1;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=[14;1H01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;3[15;1H5:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.as[16;1Hf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m[17;1H4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+_VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mkt[19;1Hmpenv
+KEYTIMEOUT=1
+LIBTOOL=/home/hsloan1/builds/libtool-2.4.6/libtool
+CLICOLOR=1
+SSH_CONNECTION=149.125.153.219 41838 128.226.114.204 22
+XDG_SESSION_CLASS=user
+TERM=linux
+ZSH=/home/hsloan1/.oh-my-zsh
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+USER=hsloan1
+SHLVL=3
+PAGER=less
+XDG_SESSION_ID=126152
+XDG_RUNTIME_DIR=/run/user/14371
+SSH_CLIENT=149.125.153.219 41838 22
+PATH=/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/14371/bus
+MAIL=/var/mail/hsloan1
+SSH_TTY=/dev/pts/9
+DEFAULT_USER=hsloan1
+OLDPWD=/home/hsloan1/i220a/work/lab12
+_=/usr/bin/env
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $HOME
+/home/hsloan1
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ xxx=123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$[55;208H69,0-1[8CBot[54;1H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[55;198Hi[54;1H[55;198H [54;1H
+[1m-- INSERT --[m[55;208H[K[55;208H69,1[10CBot[54;1H[?25h[?0c[?25l[?1c[1;54r[1;1H[6M[1;55r[48;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx
+xxx=123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xx=456
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx
+xxx=123
+xx=456[55;208H[K[55;208H75,7[10CBot[54;7H[?25h[?0c[55;1H[K[54;6H[?25l[?1c[55;198H^[[54;6H[55;198H  [54;7H[55;208H75,6[10CBot[54;6H[?25h[?0c[?25l[?1c[55;198H:[54;6H[55;198H[K[55;1H:[?25h[?0cw[?25l[?1c[?25h[?0c[?25l[?1c"../../lab12_output.txt" 75L, 4484C written[54;6H[55;208H75,6[10CBot[55;208H[K[55;208H75,6[10CBot[54;6H[?25h[?0c[?25l[?1c[55;198H^Z[54;6H
+
+[?25h[?0c
+[1]+  Stopped                 vim ../../lab12_output.txt
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ p = [K[K[K=$PATH
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $p
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ PATH =[K[K=
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ $[Kecho $PATH
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls
+bash: ls: No such file or directory
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ exp[K[K[Kpath[K[K[KPA[K[K[KPATH=$p
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ fg
+vim ../../lab12_output.txt
+[27m[24m[m[H[J[?25l[?1c[1;1HJ2REDIR=/usr/lib/jvm/java-8-oracle/jre
+VIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+HOME=/home/hsloan1
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=[6;1H01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=0[7;1H1;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=[8;1H01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;3[9;1H5:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.as[10;1Hf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m[11;1H4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+_VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mkt[13;1Hmpenv
+KEYTIMEOUT=1
+LIBTOOL=/home/hsloan1/builds/libtool-2.4.6/libtool
+CLICOLOR=1
+SSH_CONNECTION=149.125.153.219 41838 128.226.114.204 22
+XDG_SESSION_CLASS=user
+TERM=linux
+ZSH=/home/hsloan1/.oh-my-zsh
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+USER=hsloan1
+SHLVL=3
+PAGER=less
+XDG_SESSION_ID=126152
+XDG_RUNTIME_DIR=/run/user/14371
+SSH_CLIENT=149.125.153.219 41838 22
+PATH=/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/14371/bus
+MAIL=/var/mail/hsloan1
+SSH_TTY=/dev/pts/9
+DEFAULT_USER=hsloan1
+OLDPWD=/home/hsloan1/i220a/work/lab12
+_=/usr/bin/env
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $HOME
+/home/hsloan1
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ xxx=123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx
+xxx=123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xx=456
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx
+xxx=123
+xx=456[55;208H75,6[10CBot[54;6H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[55;198Ho[54;6H[55;198H [54;1H
+[1m-- INSERT --[m[55;208H[K[55;208H76,1[10CBot[1;54r[54;1H
+[1;55r[55;208H[K[55;208H76,1[10CBot[54;1H[?25h[?0c[?25l[?1c[1;54r[54;1H
+[1;55r[55;208H[K[55;208H77,1[10CBot[54;1H[?25h[?0c[?25l[?1c[1;54r[1;1H[15M[1;55r[39;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ p=$PATH
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $p
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ PATH=
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls
+bash: ls: No such file or directory
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ PATH=$p
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"   -l
+[1m[34m~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [53;1H~                                                                                                                                                                                                                                [54;1H~                                                                                                                                                                                                                                [m[55;208H[K[55;208H87,60[9CBot[49;60H[?25h[?0c[55;1H[K[49;59H[?25l[?1c[55;198H^[[49;59H[55;198H  [49;60H[55;208H87,59[9CBot[49;59H[?25h[?0c[?25l[?1c[55;198H:[49;59H[55;198H[K[55;1H:[?25h[?0cw[?25l[?1c[?25h[?0c[?25l[?1c"../../lab12_output.txt" 87L, 5201C written[49;59H[55;208H87,59[9CBot[55;208H[K[55;208H87,59[9CBot[49;59H[?25h[?0c[?25l[?1c[55;198H^Z[49;59H[55;1H
+[?25h[?0c
+[1]+  Stopped                 vim ../../lab12_output.txt
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ; wc *
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+0 **
+0 1$2
+0 '12
+0 1"2
+0 a$b
+0 \\ab
+0 a"b
+0 a'b
+0 total
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find -L ~/cs220 -name '*.c' 
+/home/hsloan1/cs220/hws/hw3-sol/fib.c
+/home/hsloan1/cs220/hws/hw3-sol/mask.c
+/home/hsloan1/cs220/hws/hw3-sol/rec-fn.c
+/home/hsloan1/cs220/labs/lab2/files/ex1/hello.c
+/home/hsloan1/cs220/labs/lab2/files/ex3/main.c
+/home/hsloan1/cs220/labs/lab2/files/ex3/quadr.c
+/home/hsloan1/cs220/labs/lab2/files/ex4/key-value.c
+/home/hsloan1/cs220/labs/lab2/files/ex4/main.c
+/home/hsloan1/cs220/labs/lab2/files/ex4/process-file.c
+/home/hsloan1/cs220/labs/lab3/files/ex1/hello.c
+/home/hsloan1/cs220/labs/lab3/files/ex2/hello.c
+/home/hsloan1/cs220/labs/lab4/files/ex1/uints.c
+/home/hsloan1/cs220/labs/lab4/files/ex2/ints.c
+/home/hsloan1/cs220/labs/lab4/files/ex3/identify.c
+/home/hsloan1/cs220/labs/lab4/files/ex4/negeq.c
+/home/hsloan1/cs220/labs/lab4/files/ex6/0.1.c
+/home/hsloan1/cs220/labs/lab4/files/ex7/nan.c
+/home/hsloan1/cs220/labs/lab4/files/ex8/ulp.c
+/home/hsloan1/cs220/labs/lab4/files/ex9/loop.c
+/home/hsloan1/cs220/labs/lab5/files/ex1/pointers.c
+/home/hsloan1/cs220/labs/lab5/files/ex2/in-pointers.c
+/home/hsloan1/cs220/labs/lab5/files/ex3/bad-types.c
+/home/hsloan1/cs220/labs/lab5/files/ex4/cast-types.c
+/home/hsloan1/cs220/labs/lab5/files/ex5/void-pointers.c
+/home/hsloan1/cs220/labs/lab5/files/ex6/in-voids.c
+/home/hsloan1/cs220/labs/lab6/files/brk/brk.c
+/home/hsloan1/cs220/labs/lab6/files/bug-program/bug-program.c
+/home/hsloan1/cs220/labs/lab6/files/process-memory/process-memory.c
+/home/hsloan1/cs220/labs/lab7/files/libgeom/circ.c
+/home/hsloan1/cs220/labs/lab7/files/libgeom/rect.c
+/home/hsloan1/cs220/labs/lab7/files/libgeom/testgeom.c
+/home/hsloan1/cs220/labs/lab7/files/libvec/addvec.c
+/home/hsloan1/cs220/labs/lab7/files/libvec/multvec.c
+/home/hsloan1/cs220/labs/lab7/files/libvec/testvec.c
+/home/hsloan1/cs220/labs/lab7/files/log10/log10.c
+/home/hsloan1/cs220/labs/lab7/files/multiple-defs/f.c
+/home/hsloan1/cs220/labs/lab7/files/multiple-defs/main.c
+/home/hsloan1/cs220/labs/lab7/files/multiple-symbols/def1.c
+/home/hsloan1/cs220/labs/lab7/files/multiple-symbols/def2.c
+/home/hsloan1/cs220/labs/lab7/files/multiple-symbols/main.c
+/home/hsloan1/cs220/labs/lab7/files/static-dynamic/log10.c
+/home/hsloan1/cs220/labs/lab8/files/hello-multi.c
+/home/hsloan1/cs220/labs/lab8/files/hello-one.c
+/home/hsloan1/cs220/labs/lab9/files/hello.c
+/home/hsloan1/cs220/labs/lab10/files/cpuid1/main.c
+/home/hsloan1/cs220/labs/lab10/files/cpuid2/main.c
+/home/hsloan1/cs220/labs/lab10/files/parity/main.c
+/home/hsloan1/cs220/labs/lab10/files/rip/rip.c
+/home/hsloan1/cs220/labs/lab10/files/rotate/rotate.c
+/home/hsloan1/cs220/labs/lab10/files/rsp/rsp.c
+/home/hsloan1/cs220/labs/lab11/files/coverage/coverage.c
+/home/hsloan1/cs220/labs/lab11/files/int-search/binary-search.c
+/home/hsloan1/cs220/labs/lab11/files/int-search/int_compare.c
+/home/hsloan1/cs220/labs/lab11/files/int-search/linear-search.c
+/home/hsloan1/cs220/labs/lab11/files/int-search/main.c
+/home/hsloan1/cs220/labs/lab11/files/matmul-cache/main.c
+/home/hsloan1/cs220/labs/lab11/files/matmul-cache/simple-matmul.c
+/home/hsloan1/cs220/labs/lab11/files/matmul-cache/transpose-matmul.c
+/home/hsloan1/cs220/labs/lab11/files/parity/main.c
+/home/hsloan1/cs220/labs/lab11/files/parity/parity-c.c
+/home/hsloan1/cs220/labs/lab11/files/parity/parity-s.c
+/home/hsloan1/cs220/misc/bin-num/220a/bin-num.c
+/home/hsloan1/cs220/misc/bin-num/220a/main.c
+/home/hsloan1/cs220/misc/bin-num/220b/bin-num.c
+/home/hsloan1/cs220/misc/bin-num/220b/main.c
+/home/hsloan1/cs220/misc/shapes/cs220a/shapes.c
+/home/hsloan1/cs220/misc/shapes/cs220b/shapes.c
+/home/hsloan1/cs220/projects/prj1/prj1-sol/errors.c
+/home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/home/hsloan1/cs220/projects/prj1/prj1-sol/main.c
+/home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.c
+/home/hsloan1/cs220/projects/prj1-sol/errors.c
+/home/hsloan1/cs220/projects/prj1-sol/main.c
+/home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.c
+/home/hsloan1/cs220/projects/prj2/prj2-sol/errors.c
+/home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.c
+/home/hsloan1/cs220/projects/prj2/prj2-sol/main.c
+/home/hsloan1/cs220/projects/prj2/prj2-sol/stack.c
+/home/hsloan1/cs220/projects/prj2-sol/alt-big-bits.c
+/home/hsloan1/cs220/projects/prj2-sol/big-bits.c
+/home/hsloan1/cs220/projects/prj2-sol/errors.c
+/home/hsloan1/cs220/projects/prj2-sol/hex-util.c
+/home/hsloan1/cs220/projects/prj2-sol/main.c
+/home/hsloan1/cs220/projects/prj2-sol/stack.c
+/home/hsloan1/cs220/projects/prj4/aux-files/fns.c
+/home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.c
+/home/hsloan1/cs220/projects/prj4/prj4-sol/main.c
+/home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.c
+/home/hsloan1/cs220/slides/intro/code/hello.c
+/home/hsloan1/cs220/slides/c-intro/code/bases.c
+/home/hsloan1/cs220/slides/c-intro/code/out-bits.c
+/home/hsloan1/cs220/slides/c-intro/code/sum.c
+/home/hsloan1/cs220/slides/c-intro/code/count-1s-1.c
+/home/hsloan1/cs220/slides/c-intro/code/count-1s-2.c
+/home/hsloan1/cs220/slides/c-intro/code/endian.c
+/home/hsloan1/cs220/slides/c-intro/code/integer-sizes.c
+/home/hsloan1/cs220/slides/c-intro/code/kilo-powers.c
+/home/hsloan1/cs220/slides/c-intro/code/ptr-sum.c
+/home/hsloan1/cs220/slides/c-intro/code/robust-sum.c
+/home/hsloan1/cs220/slides/c-intro/code/sum-args.c
+/home/hsloan1/cs220/slides/c-intro/code/wc.c
+/home/hsloan1/cs220/slides/adts/code/stack.c
+/home/hsloan1/cs220/slides/x86/code/arith.c
+/home/hsloan1/cs220/slides/x86/code/conditional-move.c
+/home/hsloan1/cs220/slides/x86/code/div-mod.c
+/home/hsloan1/cs220/slides/x86/code/dynamic-array.c
+/home/hsloan1/cs220/slides/x86/code/find.c
+/home/hsloan1/cs220/slides/x86/code/mstore/main.c
+/home/hsloan1/cs220/slides/x86/code/mstore/mstore.c
+/home/hsloan1/cs220/slides/x86/code/abs-diff.c
+/home/hsloan1/cs220/slides/x86/code/cmp-sets.c
+/home/hsloan1/cs220/slides/x86/code/fact-do-while.c
+/home/hsloan1/cs220/slides/x86/code/fact-while.c
+/home/hsloan1/cs220/slides/x86/code/indirect-goto.c
+/home/hsloan1/cs220/slides/x86/code/scale.c
+/home/hsloan1/cs220/slides/x86/code/sum-dist-origin.c
+/home/hsloan1/cs220/slides/x86/code/sum.c
+/home/hsloan1/cs220/slides/x86/code/array-access.c
+/home/hsloan1/cs220/slides/x86/code/move.c
+/home/hsloan1/cs220/slides/x86/code/point3.c
+/home/hsloan1/cs220/slides/x86/code/read-point.c
+/home/hsloan1/cs220/slides/x86/code/rec-fact.c
+/home/hsloan1/cs220/slides/x86/code/stack-frame.c
+/home/hsloan1/cs220/slides/x86/code/structs.c
+/home/hsloan1/cs220/slides/x86/code/sum-dist-origin-s.c
+/home/hsloan1/cs220/slides/x86/code/switch.c
+/home/hsloan1/cs220/slides/x86/code/vframe.c
+/home/hsloan1/cs220/slides/x86/code/acc-fact.c
+/home/hsloan1/cs220/slides/advanced-c/code/enum-strings.c
+/home/hsloan1/cs220/slides/advanced-c/code/float-decode.c
+/home/hsloan1/cs220/slides/advanced-c/code/oo-shapes/circle.c
+/home/hsloan1/cs220/slides/advanced-c/code/oo-shapes/main.c
+/home/hsloan1/cs220/slides/advanced-c/code/oo-shapes/rect.c
+/home/hsloan1/cs220/slides/advanced-c/code/oo-shapes/shape.c
+/home/hsloan1/cs220/slides/advanced-c/code/stack/main.c
+/home/hsloan1/cs220/slides/advanced-c/code/stack/stack.c
+/home/hsloan1/cs220/exercises/questions/src/x86/fns-asm.c
+/home/hsloan1/cs220/src/libcs220/errors.c
+/home/hsloan1/cs220/src/libcs220/memalloc.c
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find -L ~/cs220 -name '*.c' | wc -l
+139
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find / -name '*.c' 2>/dev/null
+^C
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find / -name '*.c' 2>/dev/null >c-files.lst &
+[2] 22931
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ cat [Kls -l
+total 192
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 163840 Nov 10 21:15  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 256
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 253952 Nov 10 21:15  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ jobs
+[1]+  Stopped                 vim ../../lab12_output.txt
+[2]-  Running                 find / -name '*.c' 2> /dev/null > c-files.lst &
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ jobsls -l
+total 704
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 720896 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 1536
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 770048 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ lill %[1P[1@k[C[C[C[C[C1
+
+[1]+  Stopped                 vim ../../lab12_output.txt
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ vim ../../
+files/                 lab12/                 lab12.html             lab12.log              lab12_output.txt       .lab12_output.txt.swp  lab12.pdf              lab12.umt              Makefile
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ vim ../../l[Ka[Klab12_output.txt 
+[1;55r[27m[24m[m[H[J[?25l[?1c[55;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name "../../.lab12_output.txt.swp"
+[10Cowned by: hsloan1   dated: Sun Nov 10 21:13:26 2019
+[9Cfile name: ~hsloan1/git-repos/i220a/work/lab12/lab12_output.txt
+[10Cmodified: no
+[9Cuser name: hsloan1   host name: remote04
+[8Cprocess ID: 21186 (STILL RUNNING)
+While opening file "../../lab12_output.txt"
+[13Cdated: Sun Nov 10 21:13:25 2019
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r ../../lab12_output.txt"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "../../.lab12_output.txt.swp"
+    to avoid this message.
+
+[1m[32mSwap file "../../.lab12_output.txt.swp" already exists![m
+[1m[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?0c[m[55;1H[K[?25l[?1c[55;1H"../../lab12_output.txt" 87L, 5201C[2;1H▽[6n[2;1H  [1;1H[1;1HEx1:
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\$*
+'./1$2'  './a$b'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./*\'*
+"./'12"  "./a'b"
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./\\*
+'./\\ab'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ./??
+'./**'   ./-l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ??
+-rw-r----- 1 hsloan1 hsloan1 0 Nov 10 20:58 '**'
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -- ??
+'**'   -l
+
+Ex2:
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env
+SHELL=/bin/zsh
+LSCOLORS=GxFxCxDxBxegedabagaced
+LESS=-R
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+EDITOR=vim
+KRB5CCNAME=FILE:/tmp/krb5cc_14371_OAxP6jqGDb
+PWD=/home/hsloan1/i220a/work/lab12/files/quote-files
+LOGNAME=hsloan1
+XDG_SESSION_TYPE=tty
+TZ=America/New_York
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+VIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+HOME=/home/hsloan1
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=[34;1H01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=0[35;1H1;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=[36;1H01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;3[37;1H5:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.as[38;1Hf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m[39;1H4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+_VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mkt[41;1Hmpenv[41;9H[K[42;1HKEYTIMEOUT=1[42;13H[K[43;1HLIBTOOL=/home/hsloan1/builds/libtool-2.4.6/libtool
+CLICOLOR=1
+SSH_CONNECTION=149.125.153.219 41838 128.226.114.204 22[45;56H[K[46;1HXDG_SESSION_CLASS=user[46;23H[K[47;1HTERM=linux[47;11H[K[48;1HZSH=/home/hsloan1/.oh-my-zsh[48;30H[K[49;1HJ2SDKDIR=/usr/lib/jvm/java-8-oracle[49;36H[K[50;1HUSER=hsloan1[50;13H[K[51;1HSHLVL=3[51;8H[K[52;1HPAGER=less[52;11H[K[53;1HXDG_SESSION_ID=126152
+XDG_RUNTIME_DIR=/run/user/14371[54;32H[K[55;208H12,9[10CTop[12;9H[?25h[?0c[?25l[?1c[55;198HG[12;9H[55;198H [53;1H[1;54r[1;1H[41M[1;55r[14;1HSSH_CLIENT=149.125.153.219 41838 22
+PATH=/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/14371/bus
+MAIL=/var/mail/hsloan1
+SSH_TTY=/dev/pts/9
+DEFAULT_USER=hsloan1
+OLDPWD=/home/hsloan1/i220a/work/lab12
+_=/usr/bin/env
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $HOME
+/home/hsloan1
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ xxx=123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx
+xxx=123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xx=456
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx
+xxx=123
+xx=456
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ p=$PATH
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $p
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ PATH=
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls
+bash: ls: No such file or directory
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ PATH=$p
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"   -l
+[1m[34m~                                                                                                                                                                                                                                [m[55;1H[K[55;208H87,1[10CBot[53;1H[?25h[?0c[?25l[?1c[55;198Ho[53;1H[55;198H [54;1H
+[1m-- INSERT --[m[55;208H[K[55;208H88,1[10CBot[54;1H[K[54;1H[?25h[?0c[?25l[?1c[1;54r[54;1H
+[1;55r[55;208H[K[55;208H89,1[10CBot[54;1H[?25h[?0c[?25l[?1cE[55;211H2[54;2H[?25h[?0c[?25l[?1cX[55;211H3[54;3H[?25h[?0c[?25l[?1c3[55;211H4[54;4H[?25h[?0c[?25l[?1c:[55;211H5[54;5H[?25h[?0c[?25l[?1c[1;54r[54;1H
+[1;55r[55;208H[K[55;208H90,1[10CBot[54;1H[?25h[?0c[?25l[?1c[1;1H^C[1;3H[K[2;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find / -name '*.c' 2>/dev/null >c-files.lst &
+[2] 22931[3;10H[K[4;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 192[5;10H[K[6;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"[13;55H[K[14;1H-rw-r----- 1 hsloan1 hsloan1 163840 Nov 10 21:15  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 256[17;10H[K[18;1H-rw-r----- 1 [7C hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"[20;56H[K[21;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'[22;56H[K[23;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'[23;56H[K[24;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"[25;56H[K[26;1H-rw-r----- 1 hsloan1 hsloan1 253952 Nov 10 21:15  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l[27;53H[K[28;56Hjobs[28;61H[K[29;1H[1]+  Stopped[17Cvim ../../lab12_output.txt
+[2]-  Running                 find / -name '*.c' 2> /dev/null > c-files.lst &[31;56Hls -l
+total 704
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'[33;54H[K[34;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'[34;56H[K[35;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'[36;56H[K[37;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'[37;56H[K[38;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 720896 Nov 10 21:16  c-files.lst[41;62H[K[42;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l[42;53H[K[43;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l[43;61H[K[44;1Htotal 1536[44;11H[K[45;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'[45;54H[K[46;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"[47;56H[K[48;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'[49;56H[K[50;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'[50;56H[K[51;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'[51;58H[K[52;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 770048 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l[55;208H297,53[54;53H[?25h[?0c[55;1H[K[54;52H[?25l[?1c[55;198H^[[54;52H[55;198H  [54;53H[55;208H297,52[8CBot[54;52H[?25h[?0c[?25l[?1c[55;198Hk[54;52H[55;198H [53;52H[55;210H6[53;52H[?25h[?0c[?25l[?1c[55;198Hk[53;52H[55;198H [52;52H[55;210H5[52;52H[?25h[?0c[?25l[?1c[55;198Hk[52;52H[55;198H [51;52H[55;210H4[51;52H[?25h[?0c[?25l[?1c[55;198Hk[51;52H[55;198H [50;52H[55;210H3[50;52H[?25h[?0c[?25l[?1c[55;198Hk[50;52H[55;198H [49;52H[55;210H2[49;52H[?25h[?0c[?25l[?1c[55;198Hk[49;52H[55;198H [48;52H[55;210H1[48;52H[?25h[?0c[?25l[?1c[55;198Hk[48;52H[55;198H [47;52H[55;210H0[47;52H[?25h[?0c[?25l[?1c[55;198Hk[47;52H[55;198H [46;52H[55;209H89[46;52H[?25h[?0c[?25l[?1c[55;198Hk[46;52H[55;198H [45;52H[55;210H8[45;52H[?25h[?0c[?25l[?1c[55;198Hk[45;52H[55;198H [44;10H[55;210H7,10[44;10H[?25h[?0c[?25l[?1c[55;198Hk[44;10H[55;198H [43;52H[55;210H6,52[43;52H[?25h[?0c[?25l[?1c[55;198Hk[43;52H[55;198H [42;52H[55;210H5[42;52H[?25h[?0c[?25l[?1c[55;198Hk[42;52H[55;198H [41;52H[55;210H4[41;52H[?25h[?0c[?25l[?1c[55;198Hk[41;52H[55;198H [40;52H[55;210H3[40;52H[?25h[?0c[?25l[?1c[55;198Hk[40;52H[55;198H [39;52H[55;210H2[39;52H[?25h[?0c[?25l[?1c[55;198Hk[39;52H[55;198H [38;52H[55;210H1[38;52H[?25h[?0c[?25l[?1c[55;198Hk[38;52H[55;198H [37;52H[55;210H0[37;52H[?25h[?0c[?25l[?1c[55;198Hk[37;52H[55;198H [36;52H[55;209H79[36;52H[?25h[?0c[?25l[?1c[55;198Hk[36;52H[55;198H [35;52H[55;210H8[35;52H[?25h[?0c[?25l[?1c[55;198Hk[35;52H[55;198H [34;52H[55;210H7[34;52H[?25h[?0c[?25l[?1c[55;198Hk[34;52H[55;198H [33;52H[55;210H6[33;52H[?25h[?0c[?25l[?1c[55;198Hk[33;52H[55;198H [32;9H[55;210H5,9 [32;9H[?25h[?0c[?25l[?1c[55;198Hk[32;9H[55;198H [31;52H[55;210H4,52[31;52H[?25h[?0c[?25l[?1c[55;198Hk[31;52H[55;198H [30;52H[55;210H3[30;52H[?25h[?0c[?25l[?1c[55;198Hk[30;52H[55;198H [29;52H[55;210H2[29;52H[?25h[?0c[?25l[?1c[55;198Hk[29;52H[55;198H [28;52H[55;210H1[28;52H[?25h[?0c[?25l[?1c[55;198Hk[28;52H[55;198H [27;52H[55;210H0[27;52H[?25h[?0c[?25l[?1c[55;198Hk[27;52H[55;198H [26;52H[55;209H69[26;52H[?25h[?0c[?25l[?1c[55;198Hk[26;52H[55;198H [25;52H[55;210H8[25;52H[?25h[?0c[?25l[?1c[55;198Hk[25;52H[55;198H [24;52H[55;210H7[24;52H[?25h[?0c[?25l[?1c[55;198Hk[24;52H[55;198H [23;52H[55;210H6[23;52H[?25h[?0c[?25l[?1c[55;198Hk[23;52H[55;198H [22;52H[55;210H5[22;52H[?25h[?0c[?25l[?1c[55;198Hk[22;52H[55;198H [21;52H[55;210H4[21;52H[?25h[?0c[?25l[?1c[55;198Hk[21;52H[55;198H [20;52H[55;210H3[20;52H[?25h[?0c[?25l[?1c[55;198Hk[20;52H[55;198H [19;52H[55;210H2[19;52H[?25h[?0c[?25l[?1c[55;198Hk[19;52H[55;198H [18;52H[55;210H1[18;52H[?25h[?0c[?25l[?1c[55;198Hk[18;52H[55;198H [17;9H[55;210H0,9 [17;9H[?25h[?0c[?25l[?1c[55;198Hk[17;9H[55;198H [16;52H[55;209H59,52[16;52H[?25h[?0c[?25l[?1c[55;198Hk[16;52H[55;198H [15;52H[55;210H8[15;52H[?25h[?0c[?25l[?1c[55;198Hk[15;52H[55;198H [14;52H[55;210H7[14;52H[?25h[?0c[?25l[?1c[55;198Hk[14;52H[55;198H [13;52H[55;210H6[13;52H[?25h[?0c[?25l[?1c[55;198Hk[13;52H[55;198H [12;52H[55;210H5[12;52H[?25h[?0c[?25l[?1c[55;198Hk[12;52H[55;198H [11;52H[55;210H4[11;52H[?25h[?0c[?25l[?1c[55;198Hk[11;52H[55;198H [10;52H[55;210H3[10;52H[?25h[?0c[?25l[?1c[55;198Hk[10;52H[55;198H [9;52H[55;210H2[9;52H[?25h[?0c[?25l[?1c[55;198Hk[9;52H[55;198H [8;52H[55;210H1[8;52H[?25h[?0c[?25l[?1c[55;198Hk[8;52H[55;198H [7;52H[55;210H0[7;52H[?25h[?0c[?25l[?1c[55;198Hk[7;52H[55;198H [6;52H[55;209H49[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;9H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find / -name '*.c' 2>/dev/null[55;208H[K[55;208H248,9[9C99%[6;9H[?25h[?0c[?25l[?1c[55;198Hk[6;9H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H139[55;208H[K[55;208H247,52[8C99%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;9H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find -L ~/cs220 -name '*.c' | wc -l[55;208H[K[55;208H246,9[9C98%[6;9H[?25h[?0c[?25l[?1c[55;198Hk[6;9H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/src/libcs220/memalloc.c[55;208H[K[55;208H245,52[8C98%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;2H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/src/libcs220/errors.c[55;208H[K[55;208H244,2[9C97%[6;2H[?25h[?0c[?25l[?1c[55;198Hk[6;2H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/exercises/questions/src/x86/fns-asm.c[55;208H[K[55;208H243,52[8C97%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;3H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/advanced-c/code/stack/stack.c[55;208H[K[55;208H242,3[9C97%[6;3H[?25h[?0c[?25l[?1c[55;198Hk[6;3H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/advanced-c/code/stack/main.c[55;208H[K[55;208H241,52[8C96%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;43H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/advanced-c/code/oo-shapes/shape.c[55;208H[K[55;208H240,43[8C96%[6;43H[?25h[?0c[?25l[?1c[55;198Hk[6;43H[55;198H [6;41H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/advanced-c/code/oo-shapes/rect.c[55;208H[K[55;208H239,41[8C95%[6;41H[?25h[?0c[?25l[?1c[55;198Hk[6;41H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/advanced-c/code/oo-shapes/main.c[55;208H[K[55;208H238,52[8C95%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/advanced-c/code/oo-shapes/circle.c[55;208H[K[55;208H237,52[8C95%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/advanced-c/code/float-decode.c[55;208H[K[55;208H236,52[8C94%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/advanced-c/code/enum-strings.c[55;208H[K[55;208H235,52[8C94%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/acc-fact.c[55;208H[K[55;208H234,52[8C93%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/vframe.c[55;208H[K[55;208H233,52[8C93%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/switch.c[55;208H[K[55;208H232,52[8C93%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/sum-dist-origin-s.c[55;208H[K[55;208H231,52[8C92%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/structs.c[55;208H[K[55;208H230,52[8C92%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;46H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/stack-frame.c[55;208H[K[55;208H229,46[8C91%[6;46H[?25h[?0c[?25l[?1c[55;198Hk[6;46H[55;198H [6;44H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/rec-fact.c[55;208H[K[55;208H228,44[8C91%[6;44H[?25h[?0c[?25l[?1c[55;198Hk[6;44H[55;198H [6;44H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/read-point.c[55;208H[K[55;208H227,44[8C90%[6;44H[?25h[?0c[?25l[?1c[55;198Hk[6;44H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/point3.c[55;208H[K[55;208H226,52[8C90%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;45H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/move.c[55;208H[K[55;208H225,45[8C90%[6;45H[?25h[?0c[?25l[?1c[55;198Hk[6;45H[55;198H [6;49H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/array-access.c[55;208H[K[55;208H224,49[8C89%[6;49H[?25h[?0c[?25l[?1c[55;198Hk[6;49H[55;198H [6;46H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/sum.c[55;208H[K[55;208H223,46[8C89%[6;46H[?25h[?0c[?25l[?1c[55;198Hk[6;46H[55;198H [6;48H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/sum-dist-origin.c[55;208H[K[55;208H222,48[8C88%[6;48H[?25h[?0c[?25l[?1c[55;198Hk[6;48H[55;198H [6;44H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/scale.c[55;208H[K[55;208H221,44[8C88%[6;44H[?25h[?0c[?25l[?1c[55;198Hk[6;44H[55;198H [6;42H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/indirect-goto.c[55;208H[K[55;208H220,42[8C88%[6;42H[?25h[?0c[?25l[?1c[55;198Hk[6;42H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/fact-while.c[55;208H[K[55;208H219,50[8C87%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;41H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/fact-do-while.c[55;208H[K[55;208H218,41[8C87%[6;41H[?25h[?0c[?25l[?1c[55;198Hk[6;41H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/cmp-sets.c[55;208H[K[55;208H217,52[8C86%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;43H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/abs-diff.c[55;208H[K[55;208H216,43[8C86%[6;43H[?25h[?0c[?25l[?1c[55;198Hk[6;43H[55;198H [6;51H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/mstore/mstore.c[55;208H[K[55;208H215,51[8C86%[6;51H[?25h[?0c[?25l[?1c[55;198Hk[6;51H[55;198H [6;48H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/mstore/main.c[55;208H[K[55;208H214,48[8C85%[6;48H[?25h[?0c[?25l[?1c[55;198Hk[6;48H[55;198H [6;51H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/find.c[55;208H[K[55;208H213,51[8C85%[6;51H[?25h[?0c[?25l[?1c[55;198Hk[6;51H[55;198H [6;46H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/dynamic-array.c[55;208H[K[55;208H212,46[8C84%[6;46H[?25h[?0c[?25l[?1c[55;198Hk[6;46H[55;198H [6;46H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/div-mod.c[55;208H[K[55;208H211,46[8C84%[6;46H[?25h[?0c[?25l[?1c[55;198Hk[6;46H[55;198H [6;51H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/conditional-move.c[55;208H[K[55;208H210,51[8C83%[6;51H[?25h[?0c[?25l[?1c[55;198Hk[6;51H[55;198H [6;49H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/x86/code/arith.c[55;208H[K[55;208H209,49[8C83%[6;49H[?25h[?0c[?25l[?1c[55;198Hk[6;49H[55;198H [6;42H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/adts/code/stack.c[55;208H[K[55;208H208,42[8C83%[6;42H[?25h[?0c[?25l[?1c[55;198Hk[6;42H[55;198H [6;51H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/c-intro/code/wc.c[55;208H[K[55;208H207,51[8C82%[6;51H[?25h[?0c[?25l[?1c[55;198Hk[6;51H[55;198H [6;45H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/c-intro/code/sum-args.c[55;208H[K[55;208H206,45[8C82%[6;45H[?25h[?0c[?25l[?1c[55;198Hk[6;45H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/c-intro/code/robust-sum.c[55;208H[K[55;208H205,52[8C81%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;43H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/c-intro/code/ptr-sum.c[55;208H[K[55;208H204,43[8C81%[6;43H[?25h[?0c[?25l[?1c[55;198Hk[6;43H[55;198H [6;44H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/c-intro/code/kilo-powers.c[55;208H[K[55;208H203,44[8C81%[6;44H[?25h[?0c[?25l[?1c[55;198Hk[6;44H[55;198H [6;44H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/c-intro/code/integer-sizes.c[55;208H[K[55;208H202,44[8C80%[6;44H[?25h[?0c[?25l[?1c[55;198Hk[6;44H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/c-intro/code/endian.c[55;208H[K[55;208H201,50[8C80%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/c-intro/code/count-1s-2.c[55;208H[K[55;208H200,52[8C79%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;49H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/c-intro/code/count-1s-1.c[55;208H[K[55;208H199,49[8C79%[6;49H[?25h[?0c[?25l[?1c[55;198Hk[6;49H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/c-intro/code/sum.c[55;208H[K[55;208H198,52[8C79%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/c-intro/code/out-bits.c[55;208H[K[55;208H197,52[8C78%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;48H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/c-intro/code/bases.c[55;208H[K[55;208H196,48[8C78%[6;48H[?25h[?0c[?25l[?1c[55;198Hk[6;48H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/slides/intro/code/hello.c[55;208H[K[55;208H195,52[8C77%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.c[55;208H[K[55;208H194,52[8C77%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;45H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj4/prj4-sol/main.c[55;208H[K[55;208H193,45[8C76%[6;45H[?25h[?0c[?25l[?1c[55;198Hk[6;45H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.c[55;208H[K[55;208H192,50[8C76%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;47H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj4/aux-files/fns.c[55;208H[K[55;208H191,47[8C76%[6;47H[?25h[?0c[?25l[?1c[55;198Hk[6;47H[55;198H [6;45H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj2-sol/stack.c[55;208H[K[55;208H190,45[8C75%[6;45H[?25h[?0c[?25l[?1c[55;198Hk[6;45H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj2-sol/main.c[55;208H[K[55;208H189,52[8C75%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;49H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj2-sol/hex-util.c[55;208H[K[55;208H188,49[8C74%[6;49H[?25h[?0c[?25l[?1c[55;198Hk[6;49H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj2-sol/errors.c[55;208H[K[55;208H187,52[8C74%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;49H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj2-sol/big-bits.c[55;208H[K[55;208H186,49[8C74%[6;49H[?25h[?0c[?25l[?1c[55;198Hk[6;49H[55;198H [6;45H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj2-sol/alt-big-bits.c[55;208H[K[55;208H185,45[8C73%[6;45H[?25h[?0c[?25l[?1c[55;198Hk[6;45H[55;198H [6;44H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj2/prj2-sol/stack.c[55;208H[K[55;208H184,44[8C73%[6;44H[?25h[?0c[?25l[?1c[55;198Hk[6;44H[55;198H [6;48H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj2/prj2-sol/main.c[55;208H[K[55;208H183,48[8C72%[6;48H[?25h[?0c[?25l[?1c[55;198Hk[6;48H[55;198H [6;46H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.c[55;208H[K[55;208H182,46[8C72%[6;46H[?25h[?0c[?25l[?1c[55;198Hk[6;46H[55;198H [6;48H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj2/prj2-sol/errors.c[55;208H[K[55;208H181,48[8C72%[6;48H[?25h[?0c[?25l[?1c[55;198Hk[6;48H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.c[55;208H[K[55;208H180,52[8C71%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj1-sol/main.c[55;208H[K[55;208H179,50[8C71%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;49H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj1-sol/errors.c[55;208H[K[55;208H178,49[8C70%[6;49H[?25h[?0c[?25l[?1c[55;198Hk[6;49H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.c[55;208H[K[55;208H177,52[8C70%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;51H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj1/prj1-sol/main.c[55;208H[K[55;208H176,51[8C69%[6;51H[?25h[?0c[?25l[?1c[55;198Hk[6;51H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.c[55;208H[K[55;208H175,52[8C69%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;44H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/projects/prj1/prj1-sol/errors.c[55;208H[K[55;208H174,44[8C69%[6;44H[?25h[?0c[?25l[?1c[55;198Hk[6;44H[55;198H [6;46H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/misc/shapes/cs220b/shapes.c[55;208H[K[55;208H173,46[8C68%[6;46H[?25h[?0c[?25l[?1c[55;198Hk[6;46H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/misc/shapes/cs220a/shapes.c[55;208H[K[55;208H172,52[8C68%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;49H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/misc/bin-num/220b/main.c[55;208H[K[55;208H171,49[8C67%[6;49H[?25h[?0c[?25l[?1c[55;198Hk[6;49H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/misc/bin-num/220b/bin-num.c[55;208H[K[55;208H170,52[8C67%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;51H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/misc/bin-num/220a/main.c[55;208H[K[55;208H169,51[8C67%[6;51H[?25h[?0c[?25l[?1c[55;198Hk[6;51H[55;198H [6;47H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/misc/bin-num/220a/bin-num.c[55;208H[K[55;208H168,47[8C66%[6;47H[?25h[?0c[?25l[?1c[55;198Hk[6;47H[55;198H [6;47H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab11/files/parity/parity-s.c[55;208H[K[55;208H167,47[8C66%[6;47H[?25h[?0c[?25l[?1c[55;198Hk[6;47H[55;198H [6;44H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab11/files/parity/parity-c.c[55;208H[K[55;208H166,44[8C65%[6;44H[?25h[?0c[?25l[?1c[55;198Hk[6;44H[55;198H [6;47H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab11/files/parity/main.c[55;208H[K[55;208H165,47[8C65%[6;47H[?25h[?0c[?25l[?1c[55;198Hk[6;47H[55;198H [6;44H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab11/files/matmul-cache/transpose-matmul.c[55;208H[K[55;208H164,44[8C65%[6;44H[?25h[?0c[?25l[?1c[55;198Hk[6;44H[55;198H [6;47H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab11/files/matmul-cache/simple-matmul.c[55;208H[K[55;208H163,47[8C64%[6;47H[?25h[?0c[?25l[?1c[55;198Hk[6;47H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab11/files/matmul-cache/main.c[55;208H[K[55;208H162,52[8C64%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab11/files/int-search/main.c[55;208H[K[55;208H161,52[8C63%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab11/files/int-search/linear-search.c[55;208H[K[55;208H160,50[8C63%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab11/files/int-search/int_compare.c[55;208H[K[55;208H159,52[8C62%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab11/files/int-search/binary-search.c[55;208H[K[55;208H158,52[8C62%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab11/files/coverage/coverage.c[55;208H[K[55;208H157,52[8C62%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab10/files/rsp/rsp.c[55;208H[K[55;208H156,52[8C61%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab10/files/rotate/rotate.c[55;208H[K[55;208H155,52[8C61%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab10/files/rip/rip.c[55;208H[K[55;208H154,52[8C60%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab10/files/parity/main.c[55;208H[K[55;208H153,52[8C60%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab10/files/cpuid2/main.c[55;208H[K[55;208H152,52[8C60%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;46H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab10/files/cpuid1/main.c[55;208H[K[55;208H151,46[8C59%[6;46H[?25h[?0c[?25l[?1c[55;198Hk[6;46H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab9/files/hello.c[55;208H[K[55;208H150,52[8C59%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;46H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab8/files/hello-one.c[55;208H[K[55;208H149,46[8C58%[6;46H[?25h[?0c[?25l[?1c[55;198Hk[6;46H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab8/files/hello-multi.c[55;208H[K[55;208H148,50[8C58%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/static-dynamic/log10.c[55;208H[K[55;208H147,50[8C58%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/multiple-symbols/main.c[55;208H[K[55;208H146,50[8C57%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;43H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/multiple-symbols/def2.c[55;208H[K[55;208H145,43[8C57%[6;43H[?25h[?0c[?25l[?1c[55;198Hk[6;43H[55;198H [6;47H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/multiple-symbols/def1.c[55;208H[K[55;208H144,47[8C56%[6;47H[?25h[?0c[?25l[?1c[55;198Hk[6;47H[55;198H [6;49H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/multiple-defs/main.c[55;208H[K[55;208H143,49[8C56%[6;49H[?25h[?0c[?25l[?1c[55;198Hk[6;49H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/multiple-defs/f.c[55;208H[K[55;208H142,52[8C55%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/log10/log10.c[55;208H[K[55;208H141,52[8C55%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/libvec/testvec.c[55;208H[K[55;208H140,52[8C55%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/libvec/multvec.c[55;208H[K[55;208H139,52[8C54%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/libvec/addvec.c[55;208H[K[55;208H138,52[8C54%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/libgeom/testgeom.c[55;208H[K[55;208H137,52[8C53%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;49H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/libgeom/rect.c[55;208H[K[55;208H136,49[8C53%[6;49H[?25h[?0c[?25l[?1c[55;198Hk[6;49H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab7/files/libgeom/circ.c[55;208H[K[55;208H135,52[8C53%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab6/files/process-memory/process-memory.c[55;208H[K[55;208H134,52[8C52%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;51H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab6/files/bug-program/bug-program.c[55;208H[K[55;208H133,51[8C52%[6;51H[?25h[?0c[?25l[?1c[55;198Hk[6;51H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab6/files/brk/brk.c[55;208H[K[55;208H132,52[8C51%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab5/files/ex6/in-voids.c[55;208H[K[55;208H131,50[8C51%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab5/files/ex5/void-pointers.c[55;208H[K[55;208H130,50[8C51%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab5/files/ex4/cast-types.c[55;208H[K[55;208H129,52[8C50%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab5/files/ex3/bad-types.c[55;208H[K[55;208H128,52[8C50%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;45H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab5/files/ex2/in-pointers.c[55;208H[K[55;208H127,45[8C49%[6;45H[?25h[?0c[?25l[?1c[55;198Hk[6;45H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab5/files/ex1/pointers.c[55;208H[K[55;208H126,50[8C49%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab4/files/ex9/loop.c[55;208H[K[55;208H125,52[8C48%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab4/files/ex8/ulp.c[55;208H[K[55;208H124,52[8C48%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;51H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab4/files/ex7/nan.c[55;208H[K[55;208H123,51[8C48%[6;51H[?25h[?0c[?25l[?1c[55;198Hk[6;51H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab4/files/ex6/0.1.c[55;208H[K[55;208H122,52[8C47%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab4/files/ex4/negeq.c[55;208H[K[55;208H121,50[8C47%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;46H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab4/files/ex3/identify.c[55;208H[K[55;208H120,46[8C46%[6;46H[?25h[?0c[?25l[?1c[55;198Hk[6;46H[55;198H [6;45H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab4/files/ex2/ints.c[55;208H[K[55;208H119,45[8C46%[6;45H[?25h[?0c[?25l[?1c[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab4/files/ex1/uints.c[55;208H[K[55;208H118,45[8C46%[6;45H[?25h[?0c[?25l[?1c[55;198Hk[6;45H[55;198H [6;45H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab3/files/ex2/hello.c[55;208H[K[55;208H117,45[8C45%[6;45H[?25h[?0c[?25l[?1c[55;198Hk[6;45H[55;198H [6;47H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab3/files/ex1/hello.c[55;208H[K[55;208H116,47[8C45%[6;47H[?25h[?0c[?25l[?1c[55;198Hk[6;47H[55;198H [6;50H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab2/files/ex4/process-file.c[55;208H[K[55;208H115,50[8C44%[6;50H[?25h[?0c[?25l[?1c[55;198Hk[6;50H[55;198H [6;46H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab2/files/ex4/main.c[55;208H[K[55;208H114,46[8C44%[6;46H[?25h[?0c[?25l[?1c[55;198Hk[6;46H[55;198H [6;47H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab2/files/ex4/key-value.c[55;208H[K[55;208H113,47[8C44%[6;47H[?25h[?0c[?25l[?1c[55;198Hk[6;47H[55;198H [6;47H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab2/files/ex3/quadr.c[55;208H[K[55;208H112,47[8C43%[6;47H[?25h[?0c[?25l[?1c[55;198Hk[6;47H[55;198H [6;47H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab2/files/ex3/main.c[55;208H[K[55;208H111,47[8C43%[6;47H[?25h[?0c[?25l[?1c[55;198Hk[6;47H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/labs/lab2/files/ex1/hello.c[55;208H[K[55;208H110,52[8C42%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;46H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/hws/hw3-sol/rec-fn.c[55;208H[K[55;208H109,46[8C42%[6;46H[?25h[?0c[?25l[?1c[55;198Hk[6;46H[55;198H [6;51H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/hws/hw3-sol/mask.c[55;208H[K[55;208H108,51[8C41%[6;51H[?25h[?0c[?25l[?1c[55;198Hk[6;51H[55;198H [6;47H[1;54r[1;1H[L[1;55r[1;1H/home/hsloan1/cs220/hws/hw3-sol/fib.c[55;208H[K[55;208H107,47[8C41%[6;47H[?25h[?0c[?25l[?1c[55;198Hk[6;47H[55;198H [6;46H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find -L ~/cs220 -name '*.c'[55;208H[K[55;208H106,46[8C41%[6;46H[?25h[?0c[?25l[?1c[55;198Hk[6;46H[55;198H [6;47H[1;54r[1;1H[L[1;55r[1;1H0 total[55;208H[K[55;208H105,47[8C40%[6;47H[?25h[?0c[?25l[?1c[55;198Hk[6;47H[55;198H [6;40H[1;54r[1;1H[L[1;55r[1;1H0 a'b[55;208H[K[55;208H104,40[8C40%[6;40H[?25h[?0c[?25l[?1c[55;198Hk[6;40H[55;198H [6;38H[1;54r[1;1H[L[1;55r[1;1H0 a"b[55;208H[K[55;208H103,38[8C39%[6;38H[?25h[?0c[?25l[?1c[55;198Hk[6;38H[55;198H [6;37H[1;54r[1;1H[L[1;55r[1;1H0 \\ab[55;208H[K[55;208H102,37[8C39%[6;37H[?25h[?0c[?25l[?1c[55;198Hk[6;37H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1H0 a$b[55;208H[K[55;208H101,52[8C39%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;7H[1;54r[1;1H[L[1;55r[1;1H0 1"2[55;208H[K[55;208H100,7[9C38%[6;7H[?25h[?0c[?25l[?1c[55;198Hk[6;7H[55;198H [6;5H[1;54r[1;1H[L[1;55r[1;1H0 '12[55;208H[K[55;208H99,5[10C38%[6;5H[?25h[?0c[?25l[?1c[55;198Hk[6;5H[55;198H [6;5H[1;54r[1;1H[L[1;55r[1;1H0 1$2[55;208H[K[55;208H98,5[10C37%[6;5H[?25h[?0c[?25l[?1c[55;198Hk[6;5H[55;198H [6;6H[1;54r[1;1H[L[1;55r[1;1H0 **[55;208H[K[55;208H97,6[10C37%[6;6H[?25h[?0c[?25l[?1c[55;198Hk[6;6H[55;198H [6;5H[1;54r[1;1H[L[1;55r[1;1H'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"   -l[55;208H[K[55;208H96,5[10C37%[6;5H[?25h[?0c[?25l[?1c[55;198Hk[6;5H[55;198H [6;5H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls ; wc *[55;208H[K[55;208H95,5[10C36%[6;5H[?25h[?0c[?25l[?1c[55;198Hk[6;5H[55;198H [6;5H[1;54r[1;1H[L[1;55r[1;1HEX3:[55;208H[K[55;208H94,5[10C36%[6;5H[?25h[?0c[?25l[?1c[55;198Hk[6;5H[55;198H [6;5H[1;54r[1;1H[L[1;55r[55;208H[K[55;208H93,5[10C35%[6;5H[?25h[?0c[?25l[?1c[55;198Hk[6;5H[55;198H [6;4H[1;54r[1;1H[L[1;55r[1;1H'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"   -l[55;208H[K[55;208H92,4[10C35%[6;4H[?25h[?0c[?25l[?1c[55;198Hk[6;4H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls[55;208H[K[55;208H91,52[9C34%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ PATH=$p[55;208H[K[55;208H90,52[9C34%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;4H[1;54r[1;1H[L[1;55r[1;1Hbash: ls: No such file or directory[55;208H[K[55;208H89,4[10C34%[6;4H[?25h[?0c[?25l[?1c[55;198Hk[6;4H[55;198H [6;1H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls[55;208H[K[55;208H88,0-1[8C33%[6;1H[?25h[?0c[?25l[?1c[55;198Hk[6;1H[55;198H [6;52H[1;54r[1;1H[L[1;55r[55;208H[K[55;208H87,52[9C33%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH[55;208H[K[55;208H86,52[9C32%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ PATH=[55;208H[K[55;208H85,52[9C32%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;35H[1;54r[1;1H[L[1;55r[1;1H/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin[55;208H[K[55;208H84,35[9C32%[6;35H[?25h[?0c[?25l[?1c[55;198Hk[6;35H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $p[55;208H[K[55;208H83,52[9C31%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;1H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ p=$PATH[55;208H[K[55;208H82,0-1[8C31%[6;1H[?25h[?0c[?25l[?1c[55;198Hk[6;1H[55;198H [6;52H[1;54r[1;1H[L[1;55r[55;208H[K[55;208H81,52[9C30%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1Hxx=456[55;208H[K[55;208H80,52[9C30%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1Hxxx=123[55;208H[K[55;208H79,52[9C30%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx[55;208H[K[55;208H78,52[9C29%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;52H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xx=456[55;208H[K[55;208H77,52[9C29%[6;52H[?25h[?0c[?25l[?1c[55;198Hk[6;52H[55;198H [6;1H[1;54r[1;1H[L[1;55r[1;1Hxxx=123[55;208H[K[55;208H76,0-1[8C28%[6;1H[?25h[?0c[?25l[?1c[55;198Hk[6;1H[55;198H [6;6H[1;54r[1;1H[L[1;55r[1;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx[55;208H[K[55;208H75,6[10C28%[6;6H[?25h[?0c[?25l[?1c[55;198Hj[6;6H[55;198H [7;1H[55;209H6,0-1[7;1H[?25h[?0c[?25l[?1c[55;198Hj[7;1H[55;198H [8;52H[55;209H7,52 [8;52H[?25h[?0c[?25l[?1c[55;198Hk[8;52H[55;198H [7;1H[55;209H6,0-1[7;1H[?25h[?0c[?25l[?1c[55;198HG[7;1H[55;198H [54;1H[27m[24m[m[H[J[1;1H^C
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find / -name '*.c' 2>/dev/null >c-files.lst &
+[2] 22931
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 192
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 163840 Nov 10 21:15  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 256
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 253952 Nov 10 21:15  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ jobs
+[1]+  Stopped[17Cvim ../../lab12_output.txt
+[2]-  Running[17Cfind / -name '*.c' 2> /dev/null > c-files.lst &
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 704
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 720896 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 1536
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 770048 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l[55;208H297,1[9CBot[54;1H[?25h[?0c[?25l[?1c[55;198H;[54;1H[55;198H [54;1H[?25h[?0c[?25l[?1c[55;198Hw[54;1H[55;198H [54;2H[55;212H2[54;2H[?25h[?0c[?25l[?1c[55;198H^M[54;2H[55;198H  [54;2H[?25h[?0c[?25l[?1c[55;198H:[54;2H[55;198H[K[55;1H:[?25h[?0cw[?25l[?1c[?25h[?0c[?25l[?1c"../../lab12_output.txt" 297L, 15578C written[54;2H[55;208H297,2[9CBot[55;208H[K[55;208H297,2[9CBot[54;2H[?25h[?0c[?25l[?1c[55;198H^Z[54;2H
+
+[?25h[?0c
+[3]+  Stopped                 vim ../../lab12_output.txt
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ca [K[Kd ~
+hsloan1@remote04:~$ pwd
+/home/hsloan1
+hsloan1@remote04:~$ xx [K=123
+hsloan1@remote04:~$ pwd; echo $xx; (xx=abc; cd /; pwd; echo $xx); pwd; echo $xx
+/home/hsloan1
+123
+/
+abc
+/home/hsloan1
+123
+hsloan1@remote04:~$ fg
+vim ../../lab12_output.txt	(wd: ~/i220a/work/lab12/files/quote-files)
+[27m[24m[m[H[J[?25l[?1c[1;1H^C
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ find / -name '*.c' 2>/dev/null >c-files.lst &
+[2] 22931
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 192
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 163840 Nov 10 21:15  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 256
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 253952 Nov 10 21:15  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ jobs
+[1]+  Stopped[17Cvim ../../lab12_output.txt
+[2]-  Running[17Cfind / -name '*.c' 2> /dev/null > c-files.lst &
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 704
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 720896 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 1536
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 770048 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l[55;208H297,2[9CBot[54;2H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[55;198HG[54;2H[55;198H [54;1H[55;212H1[54;1H[?25h[?0c[?25l[?1c[55;198Ho[54;1H[55;198H [54;1H
+[1m-- INSERT --[m[55;208H[K[55;208H298,1[9CBot[1;54r[54;1H
+[1;55r[55;208H[K[55;208H298,1[9CBot[54;1H[?25h[?0c[?25l[?1c[1;54r[54;1H
+[1;55r[55;208H[K[55;208H299,1[9CBot[54;1H[?25h[?0c[?25l[?1cE[55;212H2[54;2H[?25h[?0c[?25l[?1cx[55;212H3[54;3H[?25h[?0c[?25l[?1c4[55;212H4[54;4H[?25h[?0c[?25l[?1c:[55;212H5[54;5H[?25h[?0c[?25l[?1c[1;54r[54;1H
+[1;55r[55;208H[K[55;208H300,1[9CBot[54;1H[?25h[?0c[?25l[?1c[1;54r[1;1H[11M[1;55r[43;1Hhsloan1@remote04:~/i220a/work/lab12/files/quote-files$ cd ~
+hsloan1@remote04:~$ pwd
+/home/hsloan1
+hsloan1@remote04:~$ xx=123
+hsloan1@remote04:~$ pwd; echo $xx; (xx=abc; cd /; pwd; echo $xx); pwd; echo $xx
+/home/hsloan1
+123
+/
+abc
+/home/hsloan1
+123[55;208H[K[55;208H311,1[9CBot[54;1H[?25h[?0c[55;1H[K[54;1H[?25l[?1c[55;198H^[[54;1H[55;198H  [54;1H[55;208H311,0-1[7CBot[54;1H[?25h[?0c[?25l[?1c[55;198H;[54;1H[55;198H [54;1H[?25h[?0c[?25l[?1c[55;198Hw[54;1H[55;198H [54;1H[?25h[?0c[?25l[?1c[55;198H^M[54;1H[55;198H  [54;1H[?25h[?0c[?25l[?1c[55;198H:[54;1H[55;198H[K[55;1H:[?25h[?0cw[?25l[?1c[?25h[?0c[?25l[?1c"../../lab12_output.txt" 311L, 15832C written[54;1H[55;208H311,0-1[7CBot[55;208H[K[55;208H311,0-1[7CBot[54;1H[?25h[?0c[?25l[?1c[55;198H^Z[54;1H
+
+[?25h[?0c
+[3]+  Stopped                 vim ../../lab12_output.txt  (wd: ~/i220a/work/lab12/files/quote-files)
+(wd now: ~)
+hsloan1@remote04:~$ grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`
+/home/hsloan1/cs220/projects/prj1/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/hsloan1/cs220/projects/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/hsloan1/cs220/projects/prj2/prj2-sol/main.c:main()
+/home/hsloan1/cs220/projects/prj2-sol/main.c:main()
+/home/hsloan1/cs220/projects/prj4/aux-files/fns.c:int main() {
+/home/hsloan1/cs220/projects/prj4/prj4-sol/main.c:main(int argc, const char *argv[]) {
+hsloan1@remote04:~$ wc -l ~/cs220/projects/*.[[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgrep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1@w[1@l[1P[1@c[C[1@ [1@-[1@l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+wc: 'MAIN(': No such file or directory
+   47 /home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.h
+   30 /home/hsloan1/cs220/projects/prj1/prj1-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj1/prj1-sol/errors.h
+   54 /home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+   58 /home/hsloan1/cs220/projects/prj1/prj1-sol/main.c
+  178 /home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.c
+   46 /home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.h
+   30 /home/hsloan1/cs220/projects/prj1-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj1-sol/errors.h
+   58 /home/hsloan1/cs220/projects/prj1-sol/main.c
+   87 /home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.c
+   61 /home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.h
+   30 /home/hsloan1/cs220/projects/prj2/prj2-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj2/prj2-sol/errors.h
+   49 /home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.c
+   18 /home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.h
+   52 /home/hsloan1/cs220/projects/prj2/prj2-sol/stack.h
+  302 /home/hsloan1/cs220/projects/prj2/prj2-sol/main.c
+   75 /home/hsloan1/cs220/projects/prj2/prj2-sol/stack.c
+  140 /home/hsloan1/cs220/projects/prj2-sol/alt-big-bits.c
+  184 /home/hsloan1/cs220/projects/prj2-sol/big-bits.c
+   61 /home/hsloan1/cs220/projects/prj2-sol/big-bits.h
+   30 /home/hsloan1/cs220/projects/prj2-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj2-sol/errors.h
+   49 /home/hsloan1/cs220/projects/prj2-sol/hex-util.c
+   18 /home/hsloan1/cs220/projects/prj2-sol/hex-util.h
+  302 /home/hsloan1/cs220/projects/prj2-sol/main.c
+   75 /home/hsloan1/cs220/projects/prj2-sol/stack.c
+   52 /home/hsloan1/cs220/projects/prj2-sol/stack.h
+  330 /home/hsloan1/cs220/projects/prj4/aux-files/fns.c
+   68 /home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.c
+   47 /home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.h
+  116 /home/hsloan1/cs220/projects/prj4/prj4-sol/main.c
+   40 /home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.c
+   15 /home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.h
+ 2758 total
+hsloan1@remote04:~$ wc -l 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`[7P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+   47 /home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.h
+   30 /home/hsloan1/cs220/projects/prj1/prj1-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj1/prj1-sol/errors.h
+   54 /home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+   58 /home/hsloan1/cs220/projects/prj1/prj1-sol/main.c
+  178 /home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.c
+   46 /home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.h
+   30 /home/hsloan1/cs220/projects/prj1-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj1-sol/errors.h
+   58 /home/hsloan1/cs220/projects/prj1-sol/main.c
+   87 /home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.c
+   61 /home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.h
+   30 /home/hsloan1/cs220/projects/prj2/prj2-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj2/prj2-sol/errors.h
+   49 /home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.c
+   18 /home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.h
+   52 /home/hsloan1/cs220/projects/prj2/prj2-sol/stack.h
+  302 /home/hsloan1/cs220/projects/prj2/prj2-sol/main.c
+   75 /home/hsloan1/cs220/projects/prj2/prj2-sol/stack.c
+  140 /home/hsloan1/cs220/projects/prj2-sol/alt-big-bits.c
+  184 /home/hsloan1/cs220/projects/prj2-sol/big-bits.c
+   61 /home/hsloan1/cs220/projects/prj2-sol/big-bits.h
+   30 /home/hsloan1/cs220/projects/prj2-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj2-sol/errors.h
+   49 /home/hsloan1/cs220/projects/prj2-sol/hex-util.c
+   18 /home/hsloan1/cs220/projects/prj2-sol/hex-util.h
+  302 /home/hsloan1/cs220/projects/prj2-sol/main.c
+   75 /home/hsloan1/cs220/projects/prj2-sol/stack.c
+   52 /home/hsloan1/cs220/projects/prj2-sol/stack.h
+  330 /home/hsloan1/cs220/projects/prj4/aux-files/fns.c
+   68 /home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.c
+   47 /home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.h
+  116 /home/hsloan1/cs220/projects/prj4/prj4-sol/main.c
+   40 /home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.c
+   15 /home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.h
+ 2758 total
+hsloan1@remote04:~$ fg
+vim ../../lab12_output.txt	(wd: ~/i220a/work/lab12/files/quote-files)
+[27m[24m[m[H[J[?25l[?1c[1;1H-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 256
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 253952 Nov 10 21:15  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ jobs
+[1]+  Stopped[17Cvim ../../lab12_output.txt
+[2]-  Running[17Cfind / -name '*.c' 2> /dev/null > c-files.lst &
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 704
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 720896 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls -l
+total 1536
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '**'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1$2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "'12"
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '1"2'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a$b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 '\\ab'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 'a"b'
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58 "a'b"
+-rw-r----- 1 hsloan1 hsloan1 770048 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+
+Ex4:
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ cd ~
+hsloan1@remote04:~$ pwd
+/home/hsloan1
+hsloan1@remote04:~$ xx=123
+hsloan1@remote04:~$ pwd; echo $xx; (xx=abc; cd /; pwd; echo $xx); pwd; echo $xx
+/home/hsloan1
+123
+/
+abc
+/home/hsloan1
+123[55;208H311,0-1[7CBot[54;1H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[55;198Ho[54;1H[55;198H [54;1H
+[1m-- INSERT --[m[55;208H[K[55;208H312,1[9CBot[1;54r[54;1H
+[1;55r[55;208H[K[55;208H312,1[9CBot[54;1H[?25h[?0c[?25l[?1cE[55;212H2[54;2H[?25h[?0c[?25l[?1cx[55;212H3[54;3H[?25h[?0c[?25l[?1c[55;212H4[54;4H[?25h[?0c[?25l[?1c[55;212H3[54;3H[?25h[?0c[?25l[?1c5[55;212H4[54;4H[?25h[?0c[?25l[?1c:[55;212H5[54;5H[?25h[?0c[?25l[?1c[1;54r[54;1H
+[1;55r[55;208H[K[55;208H313,1[9CBot[54;1H[?25h[?0c[?25l[?1c[1;54r[1;1H[36M[1;55r[18;1Hhsloan1@remote04:~$ wc -l `find ~/cs220/projects -name '*.[ch]'`
+   47 /home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.h
+   30 /home/hsloan1/cs220/projects/prj1/prj1-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj1/prj1-sol/errors.h
+   54 /home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+   58 /home/hsloan1/cs220/projects/prj1/prj1-sol/main.c
+  178 /home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.c
+   46 /home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.h
+   30 /home/hsloan1/cs220/projects/prj1-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj1-sol/errors.h
+   58 /home/hsloan1/cs220/projects/prj1-sol/main.c
+   87 /home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.c
+   61 /home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.h
+   30 /home/hsloan1/cs220/projects/prj2/prj2-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj2/prj2-sol/errors.h
+   49 /home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.c
+   18 /home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.h
+   52 /home/hsloan1/cs220/projects/prj2/prj2-sol/stack.h
+  302 /home/hsloan1/cs220/projects/prj2/prj2-sol/main.c
+   75 /home/hsloan1/cs220/projects/prj2/prj2-sol/stack.c
+  140 /home/hsloan1/cs220/projects/prj2-sol/alt-big-bits.c
+  184 /home/hsloan1/cs220/projects/prj2-sol/big-bits.c
+   61 /home/hsloan1/cs220/projects/prj2-sol/big-bits.h
+   30 /home/hsloan1/cs220/projects/prj2-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj2-sol/errors.h
+   49 /home/hsloan1/cs220/projects/prj2-sol/hex-util.c
+   18 /home/hsloan1/cs220/projects/prj2-sol/hex-util.h
+  302 /home/hsloan1/cs220/projects/prj2-sol/main.c
+   75 /home/hsloan1/cs220/projects/prj2-sol/stack.c
+   52 /home/hsloan1/cs220/projects/prj2-sol/stack.h
+  330 /home/hsloan1/cs220/projects/prj4/aux-files/fns.c
+   68 /home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.c
+   47 /home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.h
+  116 /home/hsloan1/cs220/projects/prj4/prj4-sol/main.c
+   40 /home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.c
+   15 /home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.h
+ 2758 total[55;208H[K[55;208H349,12[8CBot[54;12H[?25h[?0c[55;1H[K[54;11H[?25l[?1c[55;198H^[[54;11H[55;198H  [54;12H[55;208H349,11[8CBot[54;11H[?25h[?0c[?25l[?1c[55;198H;[54;11H[55;198H [54;11H[?25h[?0c[?25l[?1c[55;198H:[54;11H[55;198H[K[55;1H:[?25h[?0cw[?25l[?1c[?25h[?0c[?25l[?1c"../../lab12_output.txt" 349L, 17911C written[54;11H[55;208H349,11[8CBot[55;208H[K[55;208H349,11[8CBot[54;11H[?25h[?0c[?25l[?1c[55;198H^Z[54;11H
+
+[?25h[?0c
+[3]+  Stopped                 vim ../../lab12_output.txt  (wd: ~/i220a/work/lab12/files/quote-files)
+(wd now: ~)
+hsloan1@remote04:~$ echo $?
+148
+hsloan1@remote04:~$ fg
+vim ../../lab12_output.txt	(wd: ~/i220a/work/lab12/files/quote-files)
+[27m[24m[m[H[J[?25l[?1c[1;1H-rw-r----- 1 hsloan1 hsloan1 770048 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+
+Ex4:
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ cd ~
+hsloan1@remote04:~$ pwd
+/home/hsloan1
+hsloan1@remote04:~$ xx=123
+hsloan1@remote04:~$ pwd; echo $xx; (xx=abc; cd /; pwd; echo $xx); pwd; echo $xx
+/home/hsloan1
+123
+/
+abc
+/home/hsloan1
+123
+
+Ex5:
+hsloan1@remote04:~$ wc -l `find ~/cs220/projects -name '*.[ch]'`
+   47 /home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.h
+   30 /home/hsloan1/cs220/projects/prj1/prj1-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj1/prj1-sol/errors.h
+   54 /home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+   58 /home/hsloan1/cs220/projects/prj1/prj1-sol/main.c
+  178 /home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.c
+   46 /home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.h
+   30 /home/hsloan1/cs220/projects/prj1-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj1-sol/errors.h
+   58 /home/hsloan1/cs220/projects/prj1-sol/main.c
+   87 /home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.c
+   61 /home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.h
+   30 /home/hsloan1/cs220/projects/prj2/prj2-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj2/prj2-sol/errors.h
+   49 /home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.c
+   18 /home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.h
+   52 /home/hsloan1/cs220/projects/prj2/prj2-sol/stack.h
+  302 /home/hsloan1/cs220/projects/prj2/prj2-sol/main.c
+   75 /home/hsloan1/cs220/projects/prj2/prj2-sol/stack.c
+  140 /home/hsloan1/cs220/projects/prj2-sol/alt-big-bits.c
+  184 /home/hsloan1/cs220/projects/prj2-sol/big-bits.c
+   61 /home/hsloan1/cs220/projects/prj2-sol/big-bits.h
+   30 /home/hsloan1/cs220/projects/prj2-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj2-sol/errors.h
+   49 /home/hsloan1/cs220/projects/prj2-sol/hex-util.c
+   18 /home/hsloan1/cs220/projects/prj2-sol/hex-util.h
+  302 /home/hsloan1/cs220/projects/prj2-sol/main.c
+   75 /home/hsloan1/cs220/projects/prj2-sol/stack.c
+   52 /home/hsloan1/cs220/projects/prj2-sol/stack.h
+  330 /home/hsloan1/cs220/projects/prj4/aux-files/fns.c
+   68 /home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.c
+   47 /home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.h
+  116 /home/hsloan1/cs220/projects/prj4/prj4-sol/main.c
+   40 /home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.c
+   15 /home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.h
+ 2758 total[55;208H349,11[8CBot[54;11H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[55;198Hk[54;11H[55;198H [53;11H[55;210H8[53;11H[?25h[?0c[?25l[?1c[55;198Hk[53;11H[55;198H [52;11H[55;210H7[52;11H[?25h[?0c[?25l[?1c[55;198Hk[52;11H[55;198H [51;11H[55;210H6[51;11H[?25h[?0c[?25l[?1c[55;198Hk[51;11H[55;198H [50;11H[55;210H5[50;11H[?25h[?0c[?25l[?1c[55;198Hk[50;11H[55;198H [49;11H[55;210H4[49;11H[?25h[?0c[?25l[?1c[55;198Hk[49;11H[55;198H [48;11H[55;210H3[48;11H[?25h[?0c[?25l[?1c[55;198Hk[48;11H[55;198H [47;11H[55;210H2[47;11H[?25h[?0c[?25l[?1c[55;198Hk[47;11H[55;198H [46;11H[55;210H1[46;11H[?25h[?0c[?25l[?1c[55;198Hk[46;11H[55;198H [45;11H[55;210H0[45;11H[?25h[?0c[?25l[?1c[55;198Hk[45;11H[55;198H [44;11H[55;209H39[44;11H[?25h[?0c[?25l[?1c[55;198Hk[44;11H[55;198H [43;11H[55;210H8[43;11H[?25h[?0c[?25l[?1c[55;198Hk[43;11H[55;198H [42;11H[55;210H7[42;11H[?25h[?0c[?25l[?1c[55;198Hk[42;11H[55;198H [41;11H[55;210H6[41;11H[?25h[?0c[?25l[?1c[55;198Hk[41;11H[55;198H [40;11H[55;210H5[40;11H[?25h[?0c[?25l[?1c[55;198Hk[40;11H[55;198H [39;11H[55;210H4[39;11H[?25h[?0c[?25l[?1c[55;198Hk[39;11H[55;198H [38;11H[55;210H3[38;11H[?25h[?0c[?25l[?1c[55;198Hk[38;11H[55;198H [37;11H[55;210H2[37;11H[?25h[?0c[?25l[?1c[55;198Hk[37;11H[55;198H [36;11H[55;210H1[36;11H[?25h[?0c[?25l[?1c[55;198Hk[36;11H[55;198H [35;11H[55;210H0[35;11H[?25h[?0c[?25l[?1c[55;198Hk[35;11H[55;198H [34;11H[55;209H29[34;11H[?25h[?0c[?25l[?1c[55;198Hk[34;11H[55;198H [33;11H[55;210H8[33;11H[?25h[?0c[?25l[?1c[55;198Hk[33;11H[55;198H [32;11H[55;210H7[32;11H[?25h[?0c[?25l[?1c[55;198Hk[32;11H[55;198H [31;11H[55;210H6[31;11H[?25h[?0c[?25l[?1c[55;198Hk[31;11H[55;198H [30;11H[55;210H5[30;11H[?25h[?0c[?25l[?1c[55;198Hk[30;11H[55;198H [29;11H[55;210H4[29;11H[?25h[?0c[?25l[?1c[55;198Hk[29;11H[55;198H [28;11H[55;210H3[28;11H[?25h[?0c[?25l[?1c[55;198Hk[28;11H[55;198H [27;11H[55;210H2[27;11H[?25h[?0c[?25l[?1c[55;198Hk[27;11H[55;198H [26;11H[55;210H1[26;11H[?25h[?0c[?25l[?1c[55;198Hk[26;11H[55;198H [25;11H[55;210H0[25;11H[?25h[?0c[?25l[?1c[55;198Hk[25;11H[55;198H [24;11H[55;209H19[24;11H[?25h[?0c[?25l[?1c[55;198Hk[24;11H[55;198H [23;11H[55;210H8[23;11H[?25h[?0c[?25l[?1c[55;198Hk[23;11H[55;198H [22;11H[55;210H7[22;11H[?25h[?0c[?25l[?1c[55;198Hk[22;11H[55;198H [21;11H[55;210H6[21;11H[?25h[?0c[?25l[?1c[55;198Hk[21;11H[55;198H [20;11H[55;210H5[20;11H[?25h[?0c[?25l[?1c[55;198Hk[20;11H[55;198H [19;11H[55;210H4[19;11H[?25h[?0c[?25l[?1c[55;198Hk[19;11H[55;198H [18;11H[55;210H3[18;11H[?25h[?0c[?25l[?1c[55;198Hk[18;11H[55;198H [17;4H[55;210H2,4 [17;4H[?25h[?0c[?25l[?1c[55;198Ho[17;4H[55;198H [18;1H[55;1H[1m-- INSERT --[m[55;208H[K[55;208H313,1[9C99%[18;54r[18;1H[L[1;55r[55;208H[K[55;208H313,1[9C99%[18;1H[?25h[?0c[?25l[?1c[19;54r[19;1H[6L[1;55r[18;1Hhsloan1@remote04:~$ grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`
+/home/hsloan1/cs220/projects/prj1/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/hsloan1/cs220/projects/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/hsloan1/cs220/projects/prj2/prj2-sol/main.c:main()
+/home/hsloan1/cs220/projects/prj2-sol/main.c:main()
+/home/hsloan1/cs220/projects/prj4/aux-files/fns.c:int main() {
+/home/hsloan1/cs220/projects/prj4/prj4-sol/main.c:main(int argc, const char *argv[]) {[55;208H[K[55;208H319,87[8C97%[24;87H[?25h[?0c[?25l[?1c[25;54r[25;1H[L[1;55r[55;208H[K[55;208H320,1[9C97%[25;1H[?25h[?0c[55;1H[K[25;1H[?25l[?1c[55;198H^[[25;1H[55;198H  [25;1H[55;208H320,0-1[7C97%[25;1H[?25h[?0c[?25l[?1c[55;198H:[25;1H[55;198H[K[55;1H:[?25h[?0cw[?25l[?1c[?25h[?0c[?25l[?1c"../../lab12_output.txt" 357L, 18411C written[25;1H[55;208H320,0-1[7C97%[55;208H[K[55;208H320,0-1[7C97%[25;1H[?25h[?0c[?25l[?1c[55;198H^Z[25;1H[55;1H
+[?25h[?0c
+[3]+  Stopped                 vim ../../lab12_output.txt  (wd: ~/i220a/work/lab12/files/quote-files)
+(wd now: ~)
+hsloan1@remote04:~$ hsloan1@remote04:~$ grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`
+bash: hsloan1@remote04:~$: command not found
+hsloan1@remote04:~$ /home/hsloan1/cs220/projects/prj1/prj1-sol/main.c:main(int argc, const char *argv[])
+bash: syntax error near unexpected token `int'
+hsloan1@remote04:~$ /home/hsloan1/cs220/projects/prj1-sol/main.c:main(int argc, const char *argv[])
+bash: syntax error near unexpected token `int'
+hsloan1@remote04:~$ /home/hsloan1/cs220/projects/prj2/prj2-sol/main.c:main()
+> /home/hsloan1/cs220/projects/prj2-sol/main.c:main()
+bash: syntax error near unexpected token `/home/hsloan1/cs220/projects/prj2-sol/main.c:main'
+hsloan1@remote04:~$ /home/hsloan1/cs220/projects/prj4/aux-files/fns.c:int main() {
+bash: syntax error near unexpected token `('
+hsloan1@remote04:~$ /home/hsloan1/cs220/projects/prj4/prj4-sol/main.c:main(int argc, const char *argv[]) {
+bash: syntax error near unexpected token `int'
+hsloan1@remote04:~$ echo $?
+2
+hsloan1@remote04:~$ false; echo 123
+123
+hsloan1@remote04:~$ false; echo 123[1P[1P[1P[1P[1P[1@t[1@r[1@u[1@e
+123
+hsloan1@remote04:~$ false && echo 123
+hsloan1@remote04:~$ true && echo 123
+123
+hsloan1@remote04:~$ false || echo 123
+123
+hsloan1@remote04:~$ true || echo 123
+hsloan1@remote04:~$ sleep [K 5 &[K% [K[K& && echo 123
+bash: syntax error near unexpected token `&&'
+hsloan1@remote04:~$ sleep 5 & && echo 123[1P[1P[1P[1@^[1P[1@&[C[C[C[C[C[C[C[C[C[C[C[C[C[1@^[1P[1@%[1P[C[C[1@&[1@ [C[C[C[C[C[C[C[C[C[C[1P[C[1P[C[C[C[C[C[C[C[C[C[C[C &
+[4] 26816
+hsloan1@remote04:~$ 123
+
+[4]   Done                    sleep 5 && echo 123
+hsloan1@remote04:~$ fg
+vim ../../lab12_output.txt	(wd: ~/i220a/work/lab12/files/quote-files)
+[27m[24m[m[H[J[?25l[?1c[1;1H-rw-r----- 1 hsloan1 hsloan1 770048 Nov 10 21:16  c-files.lst
+-rw-r----- 1 hsloan1 hsloan1      0 Nov 10 20:58  -l
+
+Ex4:
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ cd ~
+hsloan1@remote04:~$ pwd
+/home/hsloan1
+hsloan1@remote04:~$ xx=123
+hsloan1@remote04:~$ pwd; echo $xx; (xx=abc; cd /; pwd; echo $xx); pwd; echo $xx
+/home/hsloan1
+123
+/
+abc
+/home/hsloan1
+123
+
+Ex5:
+hsloan1@remote04:~$ grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`
+/home/hsloan1/cs220/projects/prj1/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/hsloan1/cs220/projects/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/hsloan1/cs220/projects/prj2/prj2-sol/main.c:main()
+/home/hsloan1/cs220/projects/prj2-sol/main.c:main()
+/home/hsloan1/cs220/projects/prj4/aux-files/fns.c:int main() {
+/home/hsloan1/cs220/projects/prj4/prj4-sol/main.c:main(int argc, const char *argv[]) {
+
+hsloan1@remote04:~$ wc -l `find ~/cs220/projects -name '*.[ch]'`
+   47 /home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.h
+   30 /home/hsloan1/cs220/projects/prj1/prj1-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj1/prj1-sol/errors.h
+   54 /home/hsloan1/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+   58 /home/hsloan1/cs220/projects/prj1/prj1-sol/main.c
+  178 /home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.c
+   46 /home/hsloan1/cs220/projects/prj1-sol/bits-to-ints.h
+   30 /home/hsloan1/cs220/projects/prj1-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj1-sol/errors.h
+   58 /home/hsloan1/cs220/projects/prj1-sol/main.c
+   87 /home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.c
+   61 /home/hsloan1/cs220/projects/prj2/prj2-sol/big-bits.h
+   30 /home/hsloan1/cs220/projects/prj2/prj2-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj2/prj2-sol/errors.h
+   49 /home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.c
+   18 /home/hsloan1/cs220/projects/prj2/prj2-sol/hex-util.h
+   52 /home/hsloan1/cs220/projects/prj2/prj2-sol/stack.h
+  302 /home/hsloan1/cs220/projects/prj2/prj2-sol/main.c
+   75 /home/hsloan1/cs220/projects/prj2/prj2-sol/stack.c
+  140 /home/hsloan1/cs220/projects/prj2-sol/alt-big-bits.c
+  184 /home/hsloan1/cs220/projects/prj2-sol/big-bits.c
+   61 /home/hsloan1/cs220/projects/prj2-sol/big-bits.h
+   30 /home/hsloan1/cs220/projects/prj2-sol/errors.c
+   14 /home/hsloan1/cs220/projects/prj2-sol/errors.h
+   49 /home/hsloan1/cs220/projects/prj2-sol/hex-util.c
+   18 /home/hsloan1/cs220/projects/prj2-sol/hex-util.h
+  302 /home/hsloan1/cs220/projects/prj2-sol/main.c
+   75 /home/hsloan1/cs220/projects/prj2-sol/stack.c[55;208H320,0-1[7C97%[25;1H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[55;198HG[25;1H[55;198H [54;2H[1;54r[1;1H[8M[1;55r[47;4H52 /home/hsloan1/cs220/projects/prj2-sol/stack.h
+  330 /home/hsloan1/cs220/projects/prj4/aux-files/fns.c
+   68 /home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.c
+   47 /home/hsloan1/cs220/projects/prj4/prj4-sol/fn-trace.h
+  116 /home/hsloan1/cs220/projects/prj4/prj4-sol/main.c
+   40 /home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.c
+   15 /home/hsloan1/cs220/projects/prj4/prj4-sol/x86-64_lde.h
+ 2758 total[55;208H[K[55;208H357,2[9CBot[54;2H[?25h[?0c[?25l[?1c[55;198Ho[54;2H[55;198H [54;1H
+[1m-- INSERT --[m[55;208H[K[55;208H358,1[9CBot[1;54r[54;1H
+[1;55r[55;208H[K[55;208H358,1[9CBot[54;1H[?25h[?0c[?25l[?1c[1;54r[54;1H
+[1;55r[55;208H[K[55;208H359,1[9CBot[54;1H[?25h[?0c[?25l[?1cE[55;212H2[54;2H[?25h[?0c[?25l[?1cx[55;212H3[54;3H[?25h[?0c[?25l[?1c6[55;212H4[54;4H[?25h[?0c[?25l[?1c:[55;212H5[54;5H[?25h[?0c[?25l[?1c[1;54r[54;1H
+[1;55r[55;208H[K[55;208H360,1[9CBot[54;1H[?25h[?0c[?25l[?1c[1;54r[1;1H[6M[1;55r[48;1Hhsloan1@remote04:~$ sleep 5 && echo 123 &
+[4] 26816
+hsloan1@remote04:~$ 123
+
+[4]   Done[20Csleep 5 && echo 123
+hsloan1@remote04:~$[55;208H[K[55;208H366,1[9CBot[54;1H[?25h[?0c[55;1H[K[54;1H[?25l[?1c[55;198H^[[54;1H[55;198H  [54;1H[55;208H366,0-1[7CBot[54;1H[?25h[?0c[?25l[?1c[55;198H:[54;1H[55;198H[K[55;1H:[?25h[?0cw[?25l[?1c[?25h[?0c[?25l[?1c"../../lab12_output.txt" 366L, 18566C written[54;1H[55;208H366,0-1[7CBot[55;208H[K[55;208H366,0-1[7CBot[54;1H[?25h[?0c[?25l[?1c[55;198H:[54;1H[55;1H[K[55;1H:[?25h[?0cx[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[55;1H[K[55;1Hhsloan1@remote04:~$ exit
+There are stopped jobs.
+hsloan1@remote04:~$ exit
+[?25h[?0c[?25h[?0c[1m[7m%[27m[1m[m                                                                                                                                                                                                                                 [27m[24m[m[H[J[?25l[?1c[1;1HXDG_SESSION_CLASS=user
+TERM=linux
+ZSH=/home/hsloan1/.oh-my-zsh
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+USER=hsloan1
+SHLVL=3
+PAGER=less
+XDG_SESSION_ID=126152
+XDG_RUNTIME_DIR=/run/user/14371
+SSH_CLIENT=149.125.153.219 41838 22
+PATH=/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/14371/bus
+MAIL=/var/mail/hsloan1
+SSH_TTY=/dev/pts/9
+DEFAULT_USER=hsloan1
+OLDPWD=/home/hsloan1/i220a/work/lab12
+_=/usr/bin/env
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $HOME
+/home/hsloan1
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ xxx=123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $xxx
+123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xxx
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx
+xxx=123
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ export xx=456
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ env | grep xx
+xxx=123
+xx=456
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ p=$PATH
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $p
+/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ PATH=
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ echo $PATH
+
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls
+bash: ls: No such file or directory
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ PATH=$p
+hsloan1@remote04:~/i220a/work/lab12/files/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"   -l
+[1m[34m~                                                                                                                                                                                                                                [51;1H~                                                                                                                                                                                                                                [52;1H~                                                                                                                                                                                                                                [53;1H~                                                                                                                                                                                                                                [54;1H~                                                                                                                                                                                                                                [m[55;208H87,59[9CBot[49;59H[?25h[?0c[?25l[?1c[55;1H
+[1m[32mW11: Warning: File "../../lab12_output.txt" has changed since editing started[m
+[1m[32mSee ":help W11" for more info.[m
+[1m[32m[O]K, (L)oad File: [?25h[?0c[mVim: Caught deadly signal TERM
+
+Vim: Finished.
+[55;1H[m[27m[24m[J[39m[m[49m[40m[39m hsloan1@remote04 [44m[30m[30m ~/i220a/work/lab12 [43m[34m[30m  master [49m[33m[39m [K[?2004h[?2004l
+
+Script done on 2019-11-10 21:24:19-05:00 [COMMAND_EXIT_CODE="0"]
