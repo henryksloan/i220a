@@ -26,8 +26,8 @@ static inline bool is_ret(unsigned op) {
 const FnsData *fn_trace(void *addr, FnsData *fnsData) {
   int f_index = fnsData->next_i;
   if (fnsData->next_i >= fnsData->length) {
-      fnsData->arr = reallocChk(fnsData->arr, sizeof(FnInfo)*fnsData->length*2);
       fnsData->length = (fnsData->length == 0) ? 1 : fnsData->length*2;
+      fnsData->arr = reallocChk(fnsData->arr, sizeof(FnInfo)*fnsData->length*2);
   }
 
   fnsData->arr[f_index] = mallocChk(sizeof(FnInfo));
